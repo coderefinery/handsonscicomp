@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Hands-on Scientific Computing's documentation!
-=========================================================
+Hands-on Scientific Computing
+=============================
 
 .. toctree::
    :maxdepth: 2
@@ -12,9 +12,4 @@ Welcome to Hands-on Scientific Computing's documentation!
 
 
 
-Indices and tables
-==================
-
 * :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
