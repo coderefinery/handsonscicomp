@@ -1,17 +1,29 @@
 """YAML table and course list table
 """
+try:
+    from StringIO import StringIO
+except ImportError:
+    from io import StringIO
+
 import yaml
 
 from docutils import nodes
 from docutils import statemachine
 from docutils.parsers.rst.directives.tables import CSVTable, ListTable
 
+
+
 class YamlTable(CSVTable):
     def transform_yaml(self, data):
         return data
     def parse_csv_data_into_rows(self, csv_data, _dialect, source):
         csv_data = "\n".join(csv_data)
-        data = yaml.safe_load(csv_data)
+        # Use StringIO so we can set filename, so that that PyYAML errors are
+        # better.
+        f = StringIO(csv_data)
+        if 'file' in self.options:
+            f.name = self.options['file']
+        data = yaml.safe_load(f)
         data = self.transform_yaml(data)
 
         rows = [ ]
