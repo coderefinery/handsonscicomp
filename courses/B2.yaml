@@ -1,0 +1,26 @@
+- id: B30 Makefiles
+  desc: |
+    Makefiles are like smart shell scripts.  We learn some about
+    them and in the process, become ever more efficient.
+  reading: |
+    `Software
+    Carpentry make-novice
+    <http://swcarpentry.github.io/make-novice/>`__.
+
+
+- id: B50 Version control for teams
+  desc: |
+    Previously, you learned only the basics.  Now for the real
+    stuff.
+  reading: |
+    `CodeRefinery collaborative distributed version control
+    lesson <http://coderefinery.org/lessons/>`__
+
+
+- id: B51 Jupyter Notebooks
+  desc: |
+    Notebooks are an efficient way to make self-documenting code
+    and scripts and do data science well.
+  reading: |
+    `CodeRefinery Jupyter
+    course <http://coderefinery.org/lessons/>`__.

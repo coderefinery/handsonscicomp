@@ -39,8 +39,29 @@ class YamlTable(CSVTable):
             max_cols = max(max_cols, len(row))
         return rows, max_cols
 
+
+
+class CourseTable(YamlTable):
+    def transform_yaml(self, data):
+        data.insert(0, ["", "About", "Video Intro", "Reading"])
+
+        for i, row in enumerate(data):
+            if isinstance(row, dict):
+                row = [
+                    row.get('id', ''),
+                    row.get('desc', ''),
+                    row.get('video', ''),
+                    row.get('reading', ''),
+                    #row.get('exercises', ''),
+                    ]
+                data[i] = row
+        return data
+
+
+
 def setup(app):
     app.add_directive("yaml-table", YamlTable)
+    app.add_directive("course-table", CourseTable)
 
     return {
         'version': '0.1',

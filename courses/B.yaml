@@ -1,78 +1,53 @@
-- -
-  -
-  - Video
-  - Reading
-
-- - |
-    B10
-
-    Basic shell
-  - |
+- id: B10 Basic shell
+  desc: |
     Let's face it: the linux command line is the basis of most data
     science if you are doing more than running other people's
     programs.
-  -
-  -
+  reading: |
+    `Software Carpentry shell-novice sections
+    1-4 <http://swcarpentry.github.io/shell-novice/>`__.  Our
+    :doc:`shell course <linux-shell-tutorial>` covers this at the
+    beginning, too.
 
-- - B14
 
-    Data management
-  - If you do the obvious thing, your data will turn into a huge
+- id: B14 Data management
+  desc:
+    If you do the obvious thing, your data will turn into a huge
     mess and you won't be able to work anymore.  This course gives
     some practical hints.
+  reading: |
+    (For now, check out :doc:`the data section <../data/index>`)
 
-  -
 
-  - (For now, check out :doc:`the data section <../data/index>`)
-
-- - B23
-
-    Text editors and IDEs
-  - |
+- id: B23 Text editors and IDEs
+  desc: |
     Your best friend is a good text editor - sometimes you just
     need to edit things quickly on some remote system.
-
-  -
-
-  - |
+  reading: |
     `Software Carpentry
     shell-novice, part of section 3
     <http://swcarpentry.github.io/shell-novice/>`__.
 
-- - B20
 
-    Shell scripting
-  - |
+- id: B20 Shell scripting
+  desc: |
     If you can do it on the Linux shell, you can automate it.
-
-  -
-
-  - Continue with the :doc:`Science-IT Linux shell tutorial
+  reading: |
+    Continue with the :doc:`Science-IT Linux shell tutorial
     <linux-shell-tutorial>`.
 
-- - B21
 
-    Version control for you
-  - |
+- id: B21 Version control for you
+  desc: |
     Version control lets you track changes, go back in time, and
     collaborate on code and papers: an absolute requirement for
     scientific computing.
-
-  -
-
-  - |
+  reading: |
     `CodeRefinery Introduction to version
     control <http://coderefinery.org/lessons/>`__
 
-- - |
-    B22
 
-    SSH and remote access
-
-  - |
+- id: B22 SSH and remote access
+  desc: |
     A short but important course: how to do work remotely.
     Different expert tips for making ssh better, too.
-
-  -
-
-  -

@@ -1,0 +1,22 @@
+- id: C60 Modular code development
+  reading: |
+    `CodeRefinery lesson <http://coderefinery.org/lessons/>`__
+
+- id: C61 Software testing
+  reading: |
+    `CodeRefinery lesson <https://coderefinery.github.io/testing/>`__
+
+- id: C62 Profiling
+  reading: |
+    See :doc:`../triton/usage/profiling` for now.
+
+- - C63 Debugging
+  -
+  -
+  - Aalto course, for example `course by Janne <https://users.aalto.fi/~jblomqvi/scip/2016/scip-slides/debugging.html>`__
+
+- - C02 Software Licensing
+  -
+  -
+  - |
+    `CodeRefinery lesson <http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/>`__

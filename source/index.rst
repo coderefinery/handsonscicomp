@@ -87,70 +87,48 @@ We have material for different learning styles:
 A: Basics
 =========
 
+.. course-table::
+   :header-rows: 1
+   :file: ../courses/A.yaml
+
+
+
 B: Scientific computing
 =======================
 
-.. yaml-table::
+.. course-table::
    :header-rows: 1
    :file: ../courses/B.yaml
 
 
 **Other courses:**
 
-.. list-table::
+.. course-table::
    :header-rows: 1
+   :file: ../courses/B2.yaml
 
-   * *
-
-     *
-
-     * Video
-
-     * Reading
-
-   * * B30
-
-       Makefiles
-     * Makefiles are like smart shell scripts.  We learn some about
-       them and in the process, become ever more efficient.
-
-     *
-
-     * `Software
-       Carpentry make-novice
-       <http://swcarpentry.github.io/make-novice/>`__.
-
-   * * B50
-
-       Version control for teams
-     * Previously, you learned only the basics.  Now for the real
-       stuff.
-
-     *
-
-     * `CodeRefinery collaborative distributed version control
-       lesson <http://coderefinery.org/lessons/>`__
-
-   * * B51
-
-       Jupyter Notebooks
-     * Notebooks are an efficient way to make self-documenting code
-       and scripts and do data science well.
-
-     *
-
-     * `CodeRefinery Jupyter
-       course <http://coderefinery.org/lessons/>`__.
 
 
 C: Scientific programming
 =========================
 
+.. course-table::
+   :header-rows: 1
+   :file: ../courses/C.yaml
+
 D: High performance computing
 =============================
 
+.. course-table::
+   :header-rows: 1
+   :file: ../courses/D.yaml
+
 E: Advanced high performance computing
 ======================================
+
+.. course-table::
+   :header-rows: 1
+   :file: ../courses/E.yaml
 
 
 
