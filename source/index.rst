@@ -90,6 +90,136 @@ A: Basics
 B: Scientific computing
 =======================
 
+.. list-table::
+   :header-rows: 1
+
+   * *
+
+     *
+
+     * Video
+
+     * Reading
+
+
+   * * B10
+
+       Basic shell
+     * Let's face it: the linux command line is the basis of most data
+       science if you are doing more than running other people's
+       programs.
+
+     *
+
+     * `Software Carpentry shell-novice sections
+       1-4 <http://swcarpentry.github.io/shell-novice/>`__.  Our
+       :doc:`shell course <linux-shell-tutorial>` covers this at the
+       beginning, too.
+
+   * * B14
+
+       Data management
+     * If you do the obvious thing, your data will turn into a huge
+       mess and you won't be able to work anymore.  This course gives
+       some practical hints.
+
+     *
+
+     * (For now, check out :doc:`the data section <../data/index>`)
+
+   * * B23
+
+       Text editors and IDEs
+     * Your best friend is a good text editor - sometimes you just
+       need to edit things quickly on some remote system.
+
+     *
+
+     * `Software Carpentry
+       shell-novice, part of section 3
+       <http://swcarpentry.github.io/shell-novice/>`__.
+
+   * * B20
+
+       Shell scripting
+     * If you can do it on the Linux shell, you can automate it.
+
+     *
+
+     * Continue with the :doc:`Science-IT Linux shell tutorial
+       <linux-shell-tutorial>`.
+
+   * * B21
+
+       Version control for you
+     * Version control lets you track changes, go back in time, and
+       collaborate on code and papers: an absolute requirement for
+       scientific computing.
+
+     *
+
+     * `CodeRefinery Introduction to version
+       control <http://coderefinery.org/lessons/>`__
+
+   * * B22
+
+       SSH and remote access
+
+     * A short but important course: how to do work remotely.
+       Different expert tips for making ssh better, too.
+
+     *
+
+     *
+
+**Other courses:**
+
+.. list-table::
+   :header-rows: 1
+
+   * *
+
+     *
+
+     * Video
+
+     * Reading
+
+   * * B30
+
+       Makefiles
+     * Makefiles are like smart shell scripts.  We learn some about
+       them and in the process, become ever more efficient.
+
+     *
+
+     * `Software
+       Carpentry make-novice
+       <http://swcarpentry.github.io/make-novice/>`__.
+
+   * * B50
+
+       Version control for teams
+     * Previously, you learned only the basics.  Now for the real
+       stuff.
+
+     *
+
+     * `CodeRefinery collaborative distributed version control
+       lesson <http://coderefinery.org/lessons/>`__
+
+   * * B51
+
+       Jupyter Notebooks
+     * Notebooks are an efficient way to make self-documenting code
+       and scripts and do data science well.
+
+     *
+
+     * `CodeRefinery Jupyter
+       course <http://coderefinery.org/lessons/>`__.
+
+
 C: Scientific programming
 =========================
 
