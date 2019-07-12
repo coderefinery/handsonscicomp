@@ -1,0 +1,3 @@
+[submodule "ext/sphinx_ext_substitution"]
+	path = ext/sphinx_ext_substitution
+	url = https://github.com/NordicHPC/sphinx_ext_substitution
