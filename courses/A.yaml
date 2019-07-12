@@ -1,20 +1,15 @@
-- - A01 University IT systems
-  - This covers the basics of research facilities at Aalto and how to use them.
-  -
-  - For now see :doc:`../aalto/welcomeresearchers`.
+- id: A01 University IT systems
+  desc: This covers the basics of research facilities at Aalto and how to use them.
+  reading: For now see :doc:`../aalto/welcomeresearchers`.
 
 
-- - A10 Configuring Mac for scientific work
-  - Getting your Mac computer set up for scientific computing
+- id: A10 Configuring Mac for scientific work
+  reading: Getting your Mac computer set up for scientific computing
     tasks.  After this, you can follow most of the other
     instructions below which assume a Linux-like system.
-  -
-  -
 
 
-- - A11 Configuring Windows for scientific work
-  - Like A10, but for Windows.  (Why isn't there a Linux course?
+- id: A11 Configuring Windows for scientific work
+  reading: Like A10, but for Windows.  (Why isn't there a Linux course?
     Because these are to get you close enough to Linux to have the
     power you need for computing.)
-  -
-  -

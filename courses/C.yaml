@@ -10,13 +10,10 @@
   reading: |
     See :doc:`../triton/usage/profiling` for now.
 
-- - C63 Debugging
-  -
-  -
-  - Aalto course, for example `course by Janne <https://users.aalto.fi/~jblomqvi/scip/2016/scip-slides/debugging.html>`__
+- id: C63 Debugging
+  reading: |
+    Aalto course, for example `course by Janne <https://users.aalto.fi/~jblomqvi/scip/2016/scip-slides/debugging.html>`__
 
-- - C02 Software Licensing
-  -
-  -
-  - |
+- id: C02 Software Licensing
+  reading: |
     `CodeRefinery lesson <http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/>`__

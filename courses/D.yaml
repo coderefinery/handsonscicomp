@@ -1,61 +1,54 @@
-- - C01 What is HPC?
-  - Before you can use larger resources, you need to understand the
+- id: C01 What is HPC?
+  desc: Before you can use larger resources, you need to understand the
     difference from your own computers
-  -
-  - |
+  reading: |
     :doc:`training by Science-IT <by-science-it>`,
     :doc:`../triton/tut/intro`
 
 
-- - C20 Modules and software
-
-  - Using and installing software on a cluster is different from
+- id: C20 Modules and software
+  desc: Using and installing software on a cluster is different from
     your own computer, because hundreds of people are sharing it.
     Modules are the solution.
-  -
-  - :doc:`training by Science-IT <by-science-it>` or
+  reading: |
+    :doc:`training by Science-IT <by-science-it>` or
     :doc:`../triton/tut/modules`
 
 
-- - C21 Slurm
-
-  - On a cluster, you have to share resources with others.  Slurm
+- id: C21 Slurm
+  desc: On a cluster, you have to share resources with others.  Slurm
     is one batch queuing system that makes it possible.
-  -
-  - See :doc:`training by Science-IT <by-science-it>` or
+  reading: See :doc:`training by Science-IT <by-science-it>` or
     :doc:`interactive <../triton/tut/interactive>`,
     :doc:`serial <../triton/tut/serial>`,
     :doc:`array <../triton/tut/array>`
 
 
-- - C22 HPC Storage
-
-  - Storage turns out to be just as important as computing power.
+- id: C22 HPC Storage
+  desc: Storage turns out to be just as important as computing power.
     There are different places available, each with different
     advantages.
-  -
-  - See :doc:`training by Science-IT <by-science-it>`  or
+  reading: |
+    See :doc:`training by Science-IT <by-science-it>`  or
     :doc:`storage basics <../triton/tut/storage>`,
     :doc:`lustre <../triton/usage/lustre>`,
     :doc:`local storage <../triton/usage/localstorage>`,
     :doc:`small files <../triton/usage/smallfiles>`
 
 
-- - C23 Parallel computing
-
-  - The point of a cluster is to run things in parallel.  How does
+- id: C23 Parallel computing
+  desc: The point of a cluster is to run things in parallel.  How does
     this work?
-  -
-  - See :doc:`training by Science-IT <by-science-it>`, and
+  reading: |
+    See :doc:`training by Science-IT <by-science-it>`, and
     :doc:`../triton/tut/parallel`.
 
 
-- - C24 Advanced shell scripting and automation
-
-  - Hands-on shell scripting, putting everything together to
+- id: C24 Advanced shell scripting and automation
+  desc: Hands-on shell scripting, putting everything together to
     automate large computations on the cluster.
-  -
-  - Various courses,
+  reading: |
+    Various courses,
     finishing the :doc:`linux shell tutorial
     <linux-shell-tutorial>` is a good start.
 
