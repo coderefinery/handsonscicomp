@@ -16,7 +16,7 @@
     mess and you won't be able to work anymore.  This course gives
     some practical hints.
   reading: |
-    (For now, check out :doc:`the data section <../data/index>`)
+    (For now, check out `Aalto SciComp <https://scicomp.aalto.fi/data/>`__)
 
 
 - id: B23 Text editors and IDEs
@@ -33,8 +33,8 @@
   desc: |
     If you can do it on the Linux shell, you can automate it.
   reading: |
-    Continue with the :doc:`Science-IT Linux shell tutorial
-    <linux-shell-tutorial>`.
+    Continue with the `Science-IT Linux shell tutorial
+    <https://scicomp.aalto.fi/training/linux-shell-tutorial.html>`__.
 
 
 - id: B21 Version control for you
