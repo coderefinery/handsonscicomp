@@ -29,7 +29,8 @@ author = 'The HoSC Team'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'yaml_table'
+    'yaml_table',
+    'sphinx_ext_substitution',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
