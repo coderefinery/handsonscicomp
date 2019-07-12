@@ -58,7 +58,6 @@ class CourseTable(YamlTable):
                 make_sub_rst(id_+'-local', ""),
                 #row.get('exercises', ''),
             ]
-            print(row)
             newrows.append(row)
         return newrows
     def run(self):
@@ -66,7 +65,6 @@ class CourseTable(YamlTable):
         table = table_and_messages[0]
         tgroup = table[0]
         tbody = tgroup[-1]
-        print(tbody)
         for i, row in enumerate(tbody):
             row['ids'].append(self.ids[i])
             row[0]['classes'].append('row-name')
