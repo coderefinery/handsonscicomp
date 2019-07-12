@@ -1,7 +1,3 @@
-.. Hands-on Scientific Computing documentation master file, created by
-   sphinx-quickstart on Thu Jul 11 14:04:10 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
 Hands-on Scientific Computing
 =============================
@@ -25,6 +21,7 @@ right material, and get some credit for it.
 Our material is divided into different levels.  First, check how
 demanding your work is so that you can choose the right courses to
 focus on.
+
 
 .. list-table::
    :header-rows: 1
@@ -83,9 +80,22 @@ We have material for different learning styles:
      * Practice exercises.  In the future, doing these will allow you
        to get study credits.
 
+.. _course:
+
+The course
+==========
+
+..
+ .. toctree::
+
+   about
+   genindex
+
+
+.. _A:
 
 A: Basics
-=========
+~~~~~~~~~
 
 .. course-table::
    :header-rows: 1
@@ -94,7 +104,7 @@ A: Basics
 
 
 B: Scientific computing
-=======================
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. course-table::
    :header-rows: 1
@@ -110,30 +120,31 @@ B: Scientific computing
 
 
 C: Scientific programming
-=========================
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. course-table::
    :header-rows: 1
    :file: ../courses/C.yaml
 
 D: High performance computing
-=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. course-table::
    :header-rows: 1
    :file: ../courses/D.yaml
 
 E: Advanced high performance computing
-======================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. course-table::
    :header-rows: 1
    :file: ../courses/E.yaml
 
 
-
-.. toctree::
-   :maxdepth: 2
+..
+  .. toctree::
+   :titlesonly:
+   :caption: Programming
 
 
 
