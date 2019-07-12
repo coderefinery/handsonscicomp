@@ -1,2 +1,1 @@
 PyYAML
--e git+https://github.com/NordicHPC/sphinx_ext_substitution.git#egg=sphinx_ext_substitution
