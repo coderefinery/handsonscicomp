@@ -12,7 +12,8 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../ext'))
+sys.path.insert(0, os.path.abspath('../_ext/sphinx_ext_substitution/'))
+sys.path.insert(0, os.path.abspath('../_ext'))
 
 
 # -- Project information -----------------------------------------------------
