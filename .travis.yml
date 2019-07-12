@@ -1,0 +1,21 @@
+language: python
+dist: xenial
+python:
+  - "3.7"
+env:
+  - SPHINX_VERSION=dev
+  - SPHINX_VERSION=1.8
+install:
+  - pip install -r requirements.txt
+  - |
+    if [ $SPHINX_VERSION = dev ] ; then
+        pip install https://github.com/sphinx-doc/sphinx/archive/master.zip
+    else
+        pip install Sphinx~=$SPHINX_VERSION
+    fi
+script:
+  # Validate all YAML files in the directory
+  - [ SPHINX_VERSION = dev ] && find . -type f -name '*.yaml' -print0 | xargs -0 -i python -c "import yaml ; yaml.safe_load(open('{}'))"
+  # Build the project
+  - make clean html SPHINXOPTS= SPHINX_EXT_SUBSTITUTION_PATH=sites/aalto/
+  - grep A01 build/html/index.html
