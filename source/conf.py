@@ -15,6 +15,7 @@ import sys
 sys.path.insert(0, os.path.abspath('../_ext/sphinx_ext_substitution/'))
 sys.path.insert(0, os.path.abspath('../_ext'))
 
+os.environ.setdefault('SPHINX_EXT_SUBSTITUTION_PATH', '../sites/aalto/')
 
 # -- Project information -----------------------------------------------------
 
