@@ -1,5 +1,8 @@
 """YAML table and course list table
 """
+from __future__ import print_function
+
+import os
 try:
     from StringIO import StringIO
 except ImportError:
@@ -68,7 +71,16 @@ class CourseTable(YamlTable):
             newrows.append(row)
         return newrows
     def run(self):
+        original_source = self.state.document.current_source
+        if self.options.get('file'):
+            self.state.document.current_source = \
+                os.path.realpath(self.state.document.current_source)
+        # Invoke superclass run method like normal
         table_and_messages = super(CourseTable, self).run()
+        # Restore original source
+        self.state.document.current_source = original_source
+        # Since there is no way to alter row classes/IDs in CSVTable, we alter
+        # it here, after it has been generated in the superclass
         table = table_and_messages[0]
         tgroup = table[0]
         tbody = tgroup[-1]
