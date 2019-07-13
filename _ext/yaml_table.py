@@ -84,6 +84,9 @@ class CourseTable(YamlTable):
         table = table_and_messages[0]
         tgroup = table[0]
         tbody = tgroup[-1]
+        # If this isn't true, our parsing was a failure.
+        if not isinstance(tbody, nodes.tbody):
+            return table_and_messages
         for i, row in enumerate(tbody):
             row['ids'].append(self.ids[i])
             row[0]['classes'].append('row-name')
