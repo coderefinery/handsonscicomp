@@ -12,8 +12,9 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../_ext/sphinx_ext_substitution/'))
-sys.path.insert(0, os.path.abspath('../_ext'))
+DIR = os.path.realpath(os.path.abspath(os.path.dirname(__file__)))
+sys.path.insert(0, os.path.join(DIR, '../_ext/sphinx_ext_substitution/'))
+sys.path.insert(0, os.path.join(DIR, '../_ext'))
 
 os.environ.setdefault('SPHINX_EXT_SUBSTITUTION_PATH', '../sites/aalto/')
 
@@ -58,7 +59,17 @@ html_static_path = ['_static']
 master_doc = 'index'
 html_theme = "sphinx_rtd_theme"
 
+def init_static_path(app):
+    static_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '_static'))
+    app.config.html_static_path.append(static_path)
 
 def setup(app):
     #app.add_javascript("custom.js")
     app.add_stylesheet("handsonscicomp.css")
+    app.connect('builder-inited', init_static_path)
+
+
+def embed(globals_):
+    globals_.setdefault('extensions', []).extend(
+        ['yaml_table',
+         'sphinx_ext_substitution'])
