@@ -5,6 +5,10 @@ python:
 env:
   - SPHINX_VERSION=dev
   - SPHINX_VERSION=1.8
+matrix:
+  include:
+    python: "2.7"
+    env: SPHINX_VERSION=1.8
 install:
   - pip install -r requirements.txt
   - |
@@ -15,7 +19,12 @@ install:
     fi
 script:
   # Validate all YAML files in the directory
-  - [ SPHINX_VERSION = dev ] && find . -type f -name '*.yaml' -print0 | xargs -0 -i python -c "import yaml ; yaml.safe_load(open('{}'))"
+  - |
+    if [ $SPHINX_VERSION = dev ] ; then
+        find . -type f -name '*.yaml' -print0 | xargs -0 -i python -c "import yaml ; yaml.safe_load(open('{}'))" || exit 1
+    else
+        true
+    fi
   # Build the project
   - make clean html SPHINXOPTS= SPHINX_EXT_SUBSTITUTION_PATH=sites/aalto/
   - grep A01 build/html/index.html
