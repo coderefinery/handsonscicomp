@@ -20,7 +20,9 @@ into logical levels so that one can say, for example, "if you are
 doing research X you need to be at level D".  We want enough levels to
 express what is needed, but not too much to overwhelm people.
 
-We initially put scientists into three categories:
+We initially put scientists into three categories.  Our core focus is
+the second two:
+
 * You just run applications (we don't target this in our course)
 * You need to script applications or libraries together ("Linux"-level, C)
 * You need to run stuff using HPC or clusters - ("HPC"-level, D)
@@ -33,17 +35,38 @@ So we got these levels:
   process, so that you don't get a "oh, I didn't know we had a
   cluster" right before someone graduates.
 
+  * After this level, a new researcher is able to know who what
+    resources they may need to use later and how to ask for help when
+    they need it.
+
 * **B**: A "sideshow" of background knowledge but isn't really about
   computation specifically.  Things that are often missed in academic
-  courses like making good figures and LaTeX.
+  courses like making good figures and LaTeX.  This includes data
+  management, Jupyter, "what is open source", and why to give your
+  stuff a license.
+
+  * After this level, a researcher is not lost with things like
+    managing their data, LaTex, making figures, etc. when when
+    computational groups.  Basically, a first step beyond the world of
+    "Word, Excel, Powerpoint".
 
 * **C**: The "Linux user's level", this is focused on shell stuff and
   basic tools (regardless of operating system).  Version control,
   shell scripting, automation, and so on.
 
+  * After this level, a researcher is able to use the benefits of
+    Linux/shell locally.  They can run run programs from the command
+    line, automate things, not be lost when following directions found
+    online, and use version control to keep things tidy.
+
 * **D**: It's a minor step to HPC work.  A lot of this is about batch
   systems and HPC data management.  The "use remote servers without
   batch systems" is a middle case somewhere between C and D.
+
+  * After this level, a researcher is able to use remote computer
+    clusters.  They already have basic shell knowledge, this focuses
+    on automating things, batch systems, more scripting, and
+    parallelism.
 
 * **E**: Scientific programming: advanced version control, testing,
   packages.  This doesn't need to be one of the more advanced topics,
@@ -51,9 +74,18 @@ So we got these levels:
   types of material takes you from an academic programmer to a
   research programmer.
 
+  * After this level, a researcher is able to produce high-quality
+    research code.  They can properly modularize, test, package, and
+    in general run/be part of open source projects.
+
 * **F**: Anything more advanced that is special-use.  For example,
   writing your own MPI applications.  We'd expect that most people
   pick and choose from here as they need to.
+
+  * After this level, a researcher is able to act independently in
+    almost every aspect of scientific computing.  Of course, the
+    learning never ends.
+
 
 
 Course IDs
@@ -68,9 +100,18 @@ e.g. ``A01``.
 * 80-99 are advanced level courses.
 
 Numbering within this is sort of ad-hoc but we'll try to make
-patterns.  For example, ``C30`` -- ``C39`` can be a sequence of
-version control from more basic to more advanced.  The middle digit
-might correspond across levels.  We'll just see how it goes.
+patterns.  For example, ``x30`` -- ``x39`` can be the range of version
+control (which can also connect to ``E`` level), from more basic to
+more advanced.  We'll just see how it goes.
+
+We want the course numbers to make somewhat of sense, but also we
+don't want them to change without good reason.  This probably means
+they will end up being disorganized and we shouldn't worry so much
+about them.
+
+If only we use them, it doesn't matter if they change so much.  But
+they could link across projects, or be used to track progress towards
+earning credits.
 
 
 
