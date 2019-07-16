@@ -23,6 +23,11 @@ Our material is divided into different levels.  First, check how
 demanding your work is so that you can choose the right courses to
 focus on.
 
+.. image:: levels.svg
+   :align: center
+   :alt: Level dependencies
+   :scale: 75%
+
 
 .. list-table::
    :header-rows: 1
@@ -31,38 +36,45 @@ focus on.
      * For who?
      * Covers what?
 
-   * * **A:** Basic background
-     * Everyone who's doing science with your computer or may need to
-       ask for help with their research.
-     * How to set up your computer to do scientific work and how to
-       ask for help.  What you may need to know next.
+   * * **A:** Basics: What computing and how?
+     * Mini-level for everyone who's doing science with your computer
+       or may need to rely on computing resources later.
+     * What types of resources are available, when you'd use them, and
+       how to get help.  How to set up your computer to do scientific
+       work.  What comes next.
 
-   * * **B:** Scientific computing
+   * * **B:** Related science skills
+     * Everyone publishing in a somewhat computational field.
+     * Making figures, papers, posters, and so on they way it's done
+       in computational fields.
+
+   * * **C:** Scientific computing (Linux and shell)
      * Everyone who's doing more than pointing and clicking single
        applications on your own computer or needs more computing power.
      * In this level, you learn how to extend your power beyond your
        own computer or existing applications.
        Includes data management, scripting, Linux, and servers.  Linux
        and the shell are a major point here: this is the defacto (and
-       only) good way to increase power.
+       only) good way to increase power.  Equal to the B level.
 
-
-   * * **C:** Scientific programming
-     * When you start writing your own software to do your research.
-     * Version control, how to manage code, software, and data even
-       more.
-
-   * * **D:** High-performance computing
+   * * **D:** Clusters and high-performance computing
      * Those who need more power than their own computer and need to
        move to a cluster, whether or not it's highly parallelized.
-     * Advanced Linux, more scripting, batch systems, HPC data
-       management.
+     * Computing on clusters and remote servers, more advanced Linux,
+       more scripting, batch systems, HPC data management.
 
-   * * **E:** Advanced high performance computing
+   * * **E:** Scientific coding
+     * When you start writing your own software to do your research.
+     * Version control, how to manage code, software, and data even
+       more.  We don't cover programming itself, just the untaught
+       parts about how to use it as a researcher.  Equal to the D level.
+
+   * * **F:** Advanced high performance computing
      * Those who are programming the most demanding parallel
        scientific applications.
      * MPI (message passing interface, a parallel programming
-       framework), OpenMP (another one), GPU programming, etc.
+       framework), OpenMP (another one), GPU programming, etc.  And
+       anything more advanced.
 
 We have material for different learning styles:
 
