@@ -11,6 +11,8 @@ introductions and motivation.
 Courses
 --------
 
+See `DESIGN.rst <DESIGN.rst>`__ for the philosophy behind choosing the
+courses and levels.
 
 
 
