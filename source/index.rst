@@ -116,42 +116,56 @@ A: Basics
 
 
 
-B: Scientific computing
-~~~~~~~~~~~~~~~~~~~~~~~
+B: Related science skills
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. course-table::
    :header-rows: 1
    :file: ../courses/B.yaml
 
 
-**Other courses:**
 
-.. course-table::
-   :header-rows: 1
-   :file: ../courses/B2.yaml
-
-
-
-C: Scientific programming
-~~~~~~~~~~~~~~~~~~~~~~~~~
+C: Scientific computing
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. course-table::
    :header-rows: 1
    :file: ../courses/C.yaml
 
-D: High performance computing
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Other courses:**
+
+.. course-table::
+   :header-rows: 1
+   :file: ../courses/C2.yaml
+
+
+
+D: Clusters and High performance computing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. course-table::
    :header-rows: 1
    :file: ../courses/D.yaml
 
-E: Advanced high performance computing
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+E: Scientific coding
+~~~~~~~~~~~~~~~~~~~~
 
 .. course-table::
    :header-rows: 1
    :file: ../courses/E.yaml
+
+
+
+F: Advanced high performance computing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. course-table::
+   :header-rows: 1
+   :file: ../courses/F.yaml
+
 
 
 ..

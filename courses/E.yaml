@@ -1,27 +1,19 @@
-- id: Exx Parallel programming computers
-  desc: |
-    This is an academic course taught in the CS department.  It
-    mainly covers OpenMP and CUDA.  Usually taught in 5th period
-    (Apr-May), `search MyCourses/Oodi for CS-E4580
-    <https://oodi.aalto.fi/a/opintjakstied.jsp?html=1&Kieli=6&Tunniste=CS-E4580>`__.
-
-- id: Exx GPU Programming
-  desc: This was an advanced guest course, useful if you want to know
-    how to program GPU applications.
+- id: E60 Modular code development
   reading: |
-    `Materials here
-    <http://science-it.aalto.fi/scip/gpu-computing-fall-2017/>`__.
+    `CodeRefinery lesson <http://coderefinery.org/lessons/>`__
 
-- id: Exx MPI Programming
-  desc: This was an advanced guest course, useful if you want to know
-    internals of MPI or program MPI applications.
+- id: E61 Software testing
   reading: |
-    `Materials here
-    <http://science-it.aalto.fi/scip/mpi-intro-spring-2018/>`__.
+    `CodeRefinery lesson <https://coderefinery.github.io/testing/>`__
 
-- id: Exx HTCondor
-  desc: Condor allows you to use many workstations as a high throughput
-    cluster, ideal for mid-range embarrassingly parallel problems.
+- id: E62 Profiling
   reading: |
-    `Materials here
-    <http://science-it.aalto.fi/scip/condor2017/>`__.
+    See `Triton's profiling guide <https://scicomp.aalto.fi/triton/usage/profiling.html>`__ for now.
+
+- id: E63 Debugging
+  reading: |
+    Aalto course, for example `course by Janne <https://users.aalto.fi/~jblomqvi/scip/2016/scip-slides/debugging.html>`__
+
+- id: E02 Software Licensing
+  reading: |
+    `CodeRefinery lesson <http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/>`__

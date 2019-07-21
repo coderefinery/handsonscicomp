@@ -1,19 +1,53 @@
-- id: C60 Modular code development
+- id: C10 Basic shell
+  desc: |
+    Let's face it: the linux command line is the basis of most data
+    science if you are doing more than running other people's
+    programs.
   reading: |
-    `CodeRefinery lesson <http://coderefinery.org/lessons/>`__
+    `Software Carpentry shell-novice sections
+    1-4 <http://swcarpentry.github.io/shell-novice/>`__.  The first
+    part of our `shell course
+    <https://scicomp.aalto.fi/training/linux-shell-tutorial.html>` is
+    good too.
 
-- id: C61 Software testing
+- id: C14 Data management
+  desc:
+    If you do the obvious thing, your data will turn into a huge
+    mess and you won't be able to work anymore.  This course gives
+    some practical hints.
   reading: |
-    `CodeRefinery lesson <https://coderefinery.github.io/testing/>`__
+    (For now, check out `Aalto SciComp <https://scicomp.aalto.fi/data/>`__)
 
-- id: C62 Profiling
-  reading: |
-    See `Triton's profiling guide <https://scicomp.aalto.fi/triton/usage/profiling.html>`__ for now.
 
-- id: C63 Debugging
+- id: C23 Text editors and IDEs
+  desc: |
+    Your best friend is a good text editor - sometimes you just
+    need to edit things quickly on some remote system.
   reading: |
-    Aalto course, for example `course by Janne <https://users.aalto.fi/~jblomqvi/scip/2016/scip-slides/debugging.html>`__
+    `Software Carpentry
+    shell-novice, part of section 3
+    <http://swcarpentry.github.io/shell-novice/>`__.
 
-- id: C02 Software Licensing
+
+- id: C20 Shell scripting
+  desc: |
+    If you can do it on the Linux shell, you can automate it.
   reading: |
-    `CodeRefinery lesson <http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/>`__
+    Continue with the `Science-IT Linux shell tutorial
+    <https://scicomp.aalto.fi/training/linux-shell-tutorial.html>`__.
+
+
+- id: C21 Version control for you
+  desc: |
+    Version control lets you track changes, go back in time, and
+    collaborate on code and papers: an absolute requirement for
+    scientific computing.
+  reading: |
+    `CodeRefinery Introduction to version
+    control <http://coderefinery.org/lessons/>`__
+
+
+- id: C22 SSH and remote access
+  desc: |
+    A short but important course: how to do work remotely.
+    Different expert tips for making ssh better, too.

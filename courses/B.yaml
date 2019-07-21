@@ -1,53 +1,24 @@
-- id: B10 Basic shell
+- id: B20 Jupyter Notebooks
   desc: |
-    Let's face it: the linux command line is the basis of most data
-    science if you are doing more than running other people's
-    programs.
+    Notebooks are an efficient way to make self-documenting code
+    and scripts and make data science a bit easier.
   reading: |
-    `Software Carpentry shell-novice sections
-    1-4 <http://swcarpentry.github.io/shell-novice/>`__.  The first
-    part of our `shell course
-    <https://scicomp.aalto.fi/training/linux-shell-tutorial.html>` is
-    good too.
-
-- id: B14 Data management
-  desc:
-    If you do the obvious thing, your data will turn into a huge
-    mess and you won't be able to work anymore.  This course gives
-    some practical hints.
-  reading: |
-    (For now, check out `Aalto SciComp <https://scicomp.aalto.fi/data/>`__)
+    `CodeRefinery Jupyter
+    course <http://coderefinery.org/lessons/>`__.
 
 
-- id: B23 Text editors and IDEs
+- id: B30 Making figures
   desc: |
-    Your best friend is a good text editor - sometimes you just
-    need to edit things quickly on some remote system.
-  reading: |
-    `Software Carpentry
-    shell-novice, part of section 3
-    <http://swcarpentry.github.io/shell-novice/>`__.
+    How to make publication-quality figures for your work.
 
 
-- id: B20 Shell scripting
+- id: B31 LaTeX for scientific publications
   desc: |
-    If you can do it on the Linux shell, you can automate it.
-  reading: |
-    Continue with the `Science-IT Linux shell tutorial
-    <https://scicomp.aalto.fi/training/linux-shell-tutorial.html>`__.
+    LaTeX is the standard method for making publications in the
+    computational and physical sciences.
 
 
-- id: B21 Version control for you
+- id: B32 Scientific posters
   desc: |
-    Version control lets you track changes, go back in time, and
-    collaborate on code and papers: an absolute requirement for
-    scientific computing.
-  reading: |
-    `CodeRefinery Introduction to version
-    control <http://coderefinery.org/lessons/>`__
-
-
-- id: B22 SSH and remote access
-  desc: |
-    A short but important course: how to do work remotely.
-    Different expert tips for making ssh better, too.
+    Making a scientific poster is a common task, but not often
+    taught.  There are better tools than PowerPoint.
