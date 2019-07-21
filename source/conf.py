@@ -11,12 +11,13 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
+from os.path import join as pjoin, abspath, dirname
 import sys
-DIR = os.path.realpath(os.path.abspath(os.path.dirname(__file__)))
-sys.path.insert(0, os.path.join(DIR, '../_ext/sphinx_ext_substitution/'))
-sys.path.insert(0, os.path.join(DIR, '../_ext'))
+sys.path.insert(0, abspath(pjoin(dirname(__file__), '../_ext/sphinx_ext_substitution/')))
+sys.path.insert(0, abspath(pjoin(dirname(__file__), '../_ext')))
 
-os.environ.setdefault('SPHINX_EXT_SUBSTITUTION_PATH', '../sites/aalto/')
+if os.environ.get('READTHEDOCS_PROJECT') == 'handsonscicomp':
+    os.environ.setdefault('SPHINX_EXT_SUBSTITUTION_PATH', '../sites/aalto/')
 
 # -- Project information -----------------------------------------------------
 

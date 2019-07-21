@@ -2,8 +2,7 @@
   desc: Before you can use larger resources, you need to understand the
     difference from your own computers
   reading: |
-    :doc:`training by Science-IT <by-science-it>`,
-    :doc:`../triton/tut/intro`
+    `HPC Intro <https://scicomp.aalto.fi/triton/tut/intro.html>`__
 
 
 - id: D20 Modules and software
@@ -11,17 +10,19 @@
     your own computer, because hundreds of people are sharing it.
     Modules are the solution.
   reading: |
-    :doc:`training by Science-IT <by-science-it>` or
-    :doc:`../triton/tut/modules`
+    Triton tutorials:
+    `modules <https://scicomp.aalto.fi/triton/tut/modules.html>`__
+    `applications <https://scicomp.aalto.fi/triton/tut/applications.html>`__
 
 
-- id: D21 Slurm
+- id: D21 Batch systems
   desc: On a cluster, you have to share resources with others.  Slurm
     is one batch queuing system that makes it possible.
-  reading: See :doc:`training by Science-IT <by-science-it>` or
-    :doc:`interactive <../triton/tut/interactive>`,
-    :doc:`serial <../triton/tut/serial>`,
-    :doc:`array <../triton/tut/array>`
+  reading: |
+    Triton tutorials:
+    `interactive <https://scicomp.aalto.fi/triton/tut/interactive.html>`__,
+    `serial <https://scicomp.aalto.fi/triton/tut/serial.html>`__,
+    `array <https://scicomp.aalto.fi/triton/tut/array.html>`__
 
 
 - id: D22 HPC Storage
@@ -29,19 +30,19 @@
     There are different places available, each with different
     advantages.
   reading: |
-    See :doc:`training by Science-IT <by-science-it>`  or
-    :doc:`storage basics <../triton/tut/storage>`,
-    :doc:`lustre <../triton/usage/lustre>`,
-    :doc:`local storage <../triton/usage/localstorage>`,
-    :doc:`small files <../triton/usage/smallfiles>`
+    Triton tutorials:
+    `storage basics <https://scicomp.aalto.fi/triton/tut/storage.html>`__.  More advanced:
+    `lustre <https://scicomp.aalto.fi/triton/usage/lustre.html>`__,
+    `local storage <https://scicomp.aalto.fi/triton/usage/localstorage.html>`__,
+    `small files <https://scicomp.aalto.fi/triton/usage/smallfiles.html>`__
 
 
 - id: D23 Parallel computing
   desc: The point of a cluster is to run things in parallel.  How does
     this work?
   reading: |
-    See :doc:`training by Science-IT <by-science-it>`, and
-    :doc:`../triton/tut/parallel`.
+    Triton tutorials:
+    `parallel <https://scicomp.aalto.fi/triton/tut/parallel.html>`.
 
 
 - id: D24 Advanced shell scripting and automation
@@ -49,6 +50,8 @@
     automate large computations on the cluster.
   reading: |
     Various courses,
-    finishing the :doc:`linux shell tutorial
-    <linux-shell-tutorial>` is a good start.
+    finishing the `linux shell tutorial
+    <https://scicomp.aalto.fi/training/linux-shell-tutorial.html>`__
+    is a good start.  The `Advanced bash scripting guide
+    <https://linux.die.net/abs-guide/>`__ is a classic.
 

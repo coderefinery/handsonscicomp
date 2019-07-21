@@ -8,7 +8,7 @@
 
 - id: C62 Profiling
   reading: |
-    See :doc:`../triton/usage/profiling` for now.
+    See `Triton's profiling guide <https://scicomp.aalto.fi/triton/usage/profiling.html>`__ for now.
 
 - id: C63 Debugging
   reading: |

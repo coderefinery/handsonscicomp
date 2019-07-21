@@ -5,10 +5,10 @@
     programs.
   reading: |
     `Software Carpentry shell-novice sections
-    1-4 <http://swcarpentry.github.io/shell-novice/>`__.  Our
-    :doc:`shell course <linux-shell-tutorial>` covers this at the
-    beginning, too.
-
+    1-4 <http://swcarpentry.github.io/shell-novice/>`__.  The first
+    part of our `shell course
+    <https://scicomp.aalto.fi/training/linux-shell-tutorial.html>` is
+    good too.
 
 - id: B14 Data management
   desc:

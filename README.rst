@@ -1,10 +1,34 @@
 Hands-on Scientific Computing
 =============================
 
-Hands-on SciComp is a practical scientific computing reference and course.
+Hands-on SciComp is a practical scientific computing reference and
+course.  The intention is not to make a new course, but to organize
+all the best material that is already available and provide better
+introductions and motivation.
+
+
 
 Courses
 --------
+
+
+
+
+Local customization
+-------------------
+
+One primary design criteria is *standard material with local
+customizations*.  Thus, we can share the work of finding the overall
+best material and still allow local customization - either as
+standalone or embedding within another Sphinx project.  This is done
+using our custom-developed Sphinx extension `sphinx_ext_substitution
+<https://github.com/NordicHPC/sphinx_ext_substitution/>`__.
+
+To make local customizations, see the ``sites/`` directory for
+examples.  Define a yaml file with the key ``site-name``, and then any
+other substitutions you would like.  Set the path to this file using
+``SPHINX_EXT_SUBSTITUTION_PATH`` and you'll get your local version.
+See ``sites/aalto/aalto.yaml`` for an example.
 
 
 
@@ -41,8 +65,6 @@ If your ``conf.py``::
 Technical development
 ----------------------
 
-
-
 Structure
 ~~~~~~~~~
 * ``source/``: Sphinx project
@@ -62,3 +84,16 @@ Building
 * You can set the environment variable
   ``SPHINX_EXT_SUBSTITUTION_PATH`` to the path of your site-local YAML
   configuration.
+
+
+Maintenance and contributing
+----------------------------
+
+This is currently an alpha-level project.  Until there is enough
+critical mass for code review, minor changes are pushed directly to
+master and more significant changes are pull-requested.
+
+Hands-On Scicomp is currently under the CodeRefinery umbrella, but
+currently led by Aalto University.  However, the intention is that
+this is a cross-university project so contributions from all members
+are considered equally.  Contact: Richard Darst
