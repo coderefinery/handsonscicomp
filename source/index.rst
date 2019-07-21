@@ -86,7 +86,8 @@ We have material for different learning styles:
      * Local info
      * Exercises
 
-   * * A short video introduction and demo to get you started
+   * * A short video introduction and demo to get you started and show
+       you real examples.
      * Reference material to read, which covers anything you may need.
      * If your university has specific local information to supplement
        the general info, it can be found here.
