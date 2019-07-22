@@ -1,4 +1,12 @@
-- id: B20 Jupyter Notebooks
+- id: B20 Handling data
+  desc: |
+    Data needs to be organized and handled well, or else it quickly
+    becomes unusable.  There are good and bad ways to do this.
+  reading: |
+    `Aalto scicomp data docs <https://scicomp.aalto.fi/data/>`__
+
+
+- id: B21 Jupyter Notebooks
   desc: |
     Notebooks are an efficient way to make self-documenting code
     and scripts and make data science a bit easier.
