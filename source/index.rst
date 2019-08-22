@@ -201,4 +201,10 @@ See the :doc:`full list <F>` for more.
 
 
 
+
+.. toctree::
+   :hidden:
+
+   about
+
 * :ref:`genindex`
