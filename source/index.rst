@@ -1,4 +1,4 @@
-
+=============================
 Hands-on Scientific Computing
 =============================
 
@@ -96,83 +96,108 @@ We have material for different learning styles:
 
 .. _course:
 
-The course
-==========
-
-..
- .. toctree::
-
-   about
-   genindex
-
-
 .. _A:
 
 A: Basics
 ~~~~~~~~~
+.. toctree::
+   :hidden:
+
+   A
+
 
 .. course-table::
    :header-rows: 1
    :file: ../courses/A.yaml
 
+See the :doc:`full list <A/index>` for more.
+
+
+
 
 
 B: Related science skills
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+.. toctree::
+   :hidden:
+
+   B
+
 
 .. course-table::
    :header-rows: 1
    :file: ../courses/B.yaml
 
+See the :doc:`full list <B>` for more.
 
 
-C: Scientific computing
-~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+C: Linux and shell
+~~~~~~~~~~~~~~~~~~
+.. toctree::
+   :hidden:
+
+   C
 
 .. course-table::
    :header-rows: 1
    :file: ../courses/C.yaml
 
-
-**Other courses:**
-
-.. course-table::
-   :header-rows: 1
-   :file: ../courses/C2.yaml
+See the :doc:`full list <C>` for more.
 
 
 
-D: Clusters and High performance computing
+
+
+D: Clusters and High Performance Computing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. toctree::
+   :hidden:
+
+   D
 
 .. course-table::
    :header-rows: 1
    :file: ../courses/D.yaml
 
+See the :doc:`full list <D>` for more.
+
+
+
 
 
 E: Scientific coding
 ~~~~~~~~~~~~~~~~~~~~
+.. toctree::
+   :hidden:
+
+   E
 
 .. course-table::
    :header-rows: 1
    :file: ../courses/E.yaml
 
+See the :doc:`full list <E>` for more.
+
+
+
 
 
 F: Advanced high performance computing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. toctree::
+   :hidden:
+
+   F
 
 .. course-table::
    :header-rows: 1
    :file: ../courses/F.yaml
 
+See the :doc:`full list <F>` for more.
 
-
-..
-  .. toctree::
-   :titlesonly:
-   :caption: Programming
 
 
 
