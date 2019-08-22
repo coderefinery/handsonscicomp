@@ -55,6 +55,8 @@ class CourseTable(YamlTable):
         newrows.append(["", "About", "Video Intro", "Reading", ])
         if has_local:
             newrows[-1].append(make_sub_rst('site-name', ""))
+        if data is None:
+            return [ ]
         for i, row in enumerate(data):
             id_ = row['id'].split()[0]
             self.ids.append(id_)
