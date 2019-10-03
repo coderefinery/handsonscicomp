@@ -56,7 +56,10 @@ class CourseTable(YamlTable):
         if has_local:
             newrows[-1].append(make_sub_rst('site-name', ""))
         if data is None:
-            return [ ]
+            # docutils will complain if there are no body rows, adding a null
+            # row allows it to not error at least.
+            newrows.append(['']*len(newrows[0]))
+            return newrows
         for i, row in enumerate(data):
             id_ = row['id'].split()[0]
             self.ids.append(id_)
@@ -90,7 +93,8 @@ class CourseTable(YamlTable):
         if not isinstance(tbody, nodes.tbody):
             return table_and_messages
         for i, row in enumerate(tbody):
-            row['ids'].append(self.ids[i])
+            if i in self.ids:
+                row['ids'].append(self.ids[i])
             row[0]['classes'].append('row-name')
             row[1]['classes'].append('row-desc')
             row[2]['classes'].append('row-video')
