@@ -110,7 +110,7 @@ A: Basics
    :header-rows: 1
    :file: ../courses/A.yaml
 
-See the :doc:`full list <A/index>` for more.
+See the :doc:`full list <A>` for more.
 
 
 
