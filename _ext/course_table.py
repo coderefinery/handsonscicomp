@@ -87,7 +87,7 @@ class CourseTable(YamlTable):
 
 # Load all course data (hack: done at import time, can be improved later)
 COURSES = { }
-for file_ in glob.glob('courses/*.yaml'):
+for file_ in glob.glob(os.path.join(os.path.dirname(os.path.dirname(__file__)), 'courses/*.yaml')):
     data = yaml.safe_load(open(file_))
     if not data: continue
     for row in data:
