@@ -29,10 +29,22 @@ class CourseTable(YamlTable):
             newrows.append(['']*len(newrows[0]))
             return newrows
         for i, row in enumerate(data):
+            course_name = row['id']
             id_ = row['id'].split()[0]
+
+            # First column is either course ID, or course ID plus link to the
+            # specific page.
+            #import ipdb
+            #ipdb.set_trace()
+            page_path = '%s/%s'%(id_[0], id_)
+            if os.path.exists(os.path.join('source', page_path+'.rst')):
+                link = ':doc:`%s <%s>`'%(course_name, page_path)
+            else:
+                link = course_name
+
             self.ids.append(id_)
             row = [
-                row.get('id', ''),
+                link,
                 make_sub_rst(id_+'-desc', row.get('desc', '')),
                 make_sub_rst(id_+'-video', row.get('video', '')),
                 make_sub_rst(id_+'-reading', row.get('reading', '')),
@@ -73,7 +85,7 @@ class CourseTable(YamlTable):
             #    row[4]['style'].append('row-name')
         return table_and_messages
 
-
+# Load all course data (hack: done at import time, can be improved later)
 COURSES = { }
 for file_ in glob.glob('courses/*.yaml'):
     data = yaml.safe_load(open(file_))
@@ -82,13 +94,15 @@ for file_ in glob.glob('courses/*.yaml'):
         id_ = row['id'].split()[0]
         COURSES[id_] = row
 
-print(COURSES.keys())
 
 class Course(Directive):
+    """A course metadata table, on a single course page"""
     def run(self):
         subs = get_substitutions(self.state.document.settings.env.config)
         has_local = 'site-name' in subs
 
+        # Get ID from the argument to the directive, or from the filename if
+        # not given.
         if self.arguments:
             id_ = self.arguments[0]
         else:
@@ -97,48 +111,44 @@ class Course(Directive):
 
         max_cols = 2
 
-        table = nodes.table()
-        tgroup = nodes.tgroup(cols=max_cols)
-        table += tgroup
-
-        #colspec = nodes.colspec(colwidth=colwidth)
-
-        tbody = nodes.tbody()
-        tgroup += tbody
-
         course_data = COURSES[id_]
+        course_name = COURSES[id_]['id']
 
+        # Generate the table data in a list of tuples.
         table_data = [
             ('Description', make_sub_rst(id_+'-desc', course_data.get('desc', ''))),
             ('Video intro', make_sub_rst(id_+'-video', course_data.get('video', ''))),
             ('Reading', make_sub_rst(id_+'-reading', course_data.get('reading', ''))),
             #course_data.get('exercises', ''),
-        #    ]
-        #tbody.extend(rows)
             ]
         if has_local:
             table_data.append(
                 (make_sub_rst('site-name', ""), make_sub_rst(id_+'-local', ""))
                 )
 
+        # Parse all the above text (this is magic to me)
         rows = []
         for row in table_data:
             row_data = []
-            #row_node = nodes.row()
             for cell in row:
                 cell_text = str(cell) if cell else ""
                 cell_data = (0, 0, 0, statemachine.StringList(
                     cell_text.splitlines()))
                 row_data.append(cell_data)
-
             rows.append(row_data)
-
         table_head = []
         table_body = rows
         col_widths = [100 // max_cols] * max_cols
         table = (col_widths, table_head, table_body)
         table_node = self.state.build_table(table, self.content_offset,
                                             stub_columns=0)
+
+        textnodes, messages = self.state.inline_text(course_name,
+                                                     self.lineno)
+
+        # Replace the document title with the full course ID.
+        if isinstance(len(self.state.document) > 0 and self.state.document[0], nodes.section):
+            self.state.document[0][0][0] = nodes.Text(course_name)
 
         return [table_node]
 
