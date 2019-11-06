@@ -1,8 +1,12 @@
 from __future__ import print_function
 
+import glob
 import os
+import yaml
 
 from docutils import nodes
+from docutils import statemachine
+from docutils.parsers.rst import Directive
 
 from sphinx_ext_substitution import make_sub_rst, get_substitutions
 
@@ -70,10 +74,78 @@ class CourseTable(YamlTable):
         return table_and_messages
 
 
+COURSES = { }
+for file_ in glob.glob('courses/*.yaml'):
+    data = yaml.safe_load(open(file_))
+    if not data: continue
+    for row in data:
+        id_ = row['id'].split()[0]
+        COURSES[id_] = row
+
+print(COURSES.keys())
+
+class Course(Directive):
+    def run(self):
+        subs = get_substitutions(self.state.document.settings.env.config)
+        has_local = 'site-name' in subs
+
+        if self.arguments:
+            id_ = self.arguments[0]
+        else:
+            file_basename = os.path.splitext(os.path.basename(self.state.document.current_source))[0]
+            id_ = file_basename
+
+        max_cols = 2
+
+        table = nodes.table()
+        tgroup = nodes.tgroup(cols=max_cols)
+        table += tgroup
+
+        #colspec = nodes.colspec(colwidth=colwidth)
+
+        tbody = nodes.tbody()
+        tgroup += tbody
+
+        course_data = COURSES[id_]
+
+        table_data = [
+            ('Description', make_sub_rst(id_+'-desc', course_data.get('desc', ''))),
+            ('Video intro', make_sub_rst(id_+'-video', course_data.get('video', ''))),
+            ('Reading', make_sub_rst(id_+'-reading', course_data.get('reading', ''))),
+            #course_data.get('exercises', ''),
+        #    ]
+        #tbody.extend(rows)
+            ]
+        if has_local:
+            table_data.append(
+                (make_sub_rst('site-name', ""), make_sub_rst(id_+'-local', ""))
+                )
+
+        rows = []
+        for row in table_data:
+            row_data = []
+            #row_node = nodes.row()
+            for cell in row:
+                cell_text = str(cell) if cell else ""
+                cell_data = (0, 0, 0, statemachine.StringList(
+                    cell_text.splitlines()))
+                row_data.append(cell_data)
+
+            rows.append(row_data)
+
+        table_head = []
+        table_body = rows
+        col_widths = [100 // max_cols] * max_cols
+        table = (col_widths, table_head, table_body)
+        table_node = self.state.build_table(table, self.content_offset,
+                                            stub_columns=0)
+
+        return [table_node]
 
 
 def setup(app):
     app.add_directive("course-table", CourseTable)
+    app.add_directive("course", Course)
 
     return {
         'version': '0.1',
