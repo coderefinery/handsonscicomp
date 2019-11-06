@@ -37,7 +37,7 @@ class CourseTable(YamlTable):
             #import ipdb
             #ipdb.set_trace()
             page_path = '%s/%s'%(id_[0], id_)
-            if os.path.exists(os.path.join('source', page_path+'.rst')):
+            if os.path.exists(os.path.join(BASEDIR, 'source', page_path+'.rst')):
                 link = ':doc:`%s <%s>`'%(course_name, page_path)
             else:
                 link = course_name
@@ -87,7 +87,8 @@ class CourseTable(YamlTable):
 
 # Load all course data (hack: done at import time, can be improved later)
 COURSES = { }
-for file_ in glob.glob(os.path.join(os.path.dirname(os.path.dirname(__file__)), 'courses/*.yaml')):
+BASEDIR = os.path.dirname(os.path.dirname(__file__))
+for file_ in glob.glob(os.path.join(BASEDIR, 'courses/*.yaml')):
     data = yaml.safe_load(open(file_))
     if not data: continue
     for row in data:
