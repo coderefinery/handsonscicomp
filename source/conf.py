@@ -33,6 +33,7 @@ author = 'The HoSC Team'
 # ones.
 extensions = [
     'yaml_table',
+    'course_table',
     'sphinx_ext_substitution',
 ]
 
