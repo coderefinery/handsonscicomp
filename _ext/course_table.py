@@ -7,6 +7,7 @@ import yaml
 from docutils import nodes
 from docutils import statemachine
 from docutils.parsers.rst import Directive
+from docutils.statemachine import ViewList
 
 from sphinx_ext_substitution import make_sub_rst, get_substitutions
 
@@ -147,11 +148,42 @@ class Course(Directive):
         textnodes, messages = self.state.inline_text(course_name,
                                                      self.lineno)
 
+        def parse_sub(sub_id):
+            """General function to get a text block:
+
+            - If there is a local substitution, use that (subsitution
+              name: COURSE_ID-SUB_ID)
+            - Otherwise, us the default from the course YAML. (key: SUB_ID).
+
+            """
+            content = course_data.get(sub_id, '')
+            if id_+'-'+sub_id in subs:
+                content = subs[id_+'-'+sub_id]
+            if not content:
+                return [ ]
+            sub_node = nodes.paragraph(rawsource=content)
+            self.state.nested_parse(ViewList(content.split('\n')), self.content_offset,
+                                    node=sub_node)
+            return [ sub_node ]
+
+        # Get prolog and epilogs
+        prolog_list = parse_sub('prolog')
+        epilog_list = parse_sub('epilog')
+        prolog_local_list = parse_sub('prolog-local')
+        epilog_local_list = parse_sub('epilog-local')
+
+
         # Replace the document title with the full course ID.
         if isinstance(len(self.state.document) > 0 and self.state.document[0], nodes.section):
             self.state.document[0][0][0] = nodes.Text(course_name)
 
-        return [table_node]
+        return [
+            *prolog_local_list,
+            *prolog_list,
+            table_node,
+            *epilog_list,
+            *epilog_local_list,
+            ]
 
 
 def setup(app):
