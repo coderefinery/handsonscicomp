@@ -16,7 +16,7 @@ Levels
 ------
 
 Rather than throw a bunch of stuff at people, we want to classify it
-into logical levels so that one can say, for example, "if you are
+into logical **levels** so that one can say, for example, "if you are
 doing research X you need to be at level D".  We want enough levels to
 express what is needed, but not too much to overwhelm people.
 
@@ -91,7 +91,7 @@ So we got these levels:
 Course IDs
 ----------
 
-Course IDs provide a way to link the data together, and a sense of
+**Course IDs** provide a way to link the data together, and a sense of
 seriousness.  A course ID consists of the level's letter and two numbers,
 e.g. ``A01``.
 
@@ -118,7 +118,7 @@ earning credits.
 Modules
 -------
 
-Each module should ideally be no longer than an hour to get a basic
+Each **module** should ideally be no longer than an hour to get a basic
 understanding.  You should be able to explain the point in one
 sentence.  There can, of course, be advanced follow-up material too.
 
@@ -145,16 +145,16 @@ Material
 
 We try to have different types of video material for each thing we cover:
 
-* Video intro: "An example is worth a thousand pictures".  We start
+* **Video intro:** "An example is worth a thousand pictures".  We start
   with a simple video which motivates and explains the why, not goes
   into the how.  Some real examples of the end state would be good.
   It should make people interested in moving to the reading material
   if they need it - and able to understand it.
-* About: Tell the people why it's important directly and so that they
+* **About:** Tell the people why it's important directly and so that they
   can tell how it applies to them.
-* Reading: bulk reference material.  Can be both tutorials and
+* **Reading:** bulk reference material.  Can be both tutorials and
   reference.  Ideally try to have some of both.
-* Local material: Via the substitution system, you can add another
+* **Local material:**. Via the substitution system, you can add another
   column which has some material specific to your site.
-* Exercises: practice for those who would like to get credit.  Not
+* **Exercises:** practice for those who would like to get credit.  Not
   implemented yet.
