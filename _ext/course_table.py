@@ -177,13 +177,15 @@ class Course(Directive):
         if isinstance(len(self.state.document) > 0 and self.state.document[0], nodes.section):
             self.state.document[0][0][0] = nodes.Text(course_name)
 
-        return [
-            *prolog_local_list,
-            *prolog_list,
-            table_node,
-            *epilog_list,
-            *epilog_local_list,
-            ]
+        # python 2 support, otherwise we'd use [*prolog_local_list,
+        # *prolog_list, ...] sorry.
+        return (
+            prolog_local_list
+            + prolog_list
+            + [table_node]
+            + epilog_list
+            + epilog_local_list
+            )
 
 
 def setup(app):
