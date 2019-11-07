@@ -124,6 +124,22 @@ sentence.  There can, of course, be advanced follow-up material too.
 
 
 
+Types of courses
+----------------
+
+Please think of the following types of courses when adding material:
+
+* **Overview:** 10-15 minute light reading, which explains a) why the
+  topic is interesting b) why and when the topic is useful c) shows a
+  brief example of using it and the outcome.
+* **Introduction:** about an hour, shows how to do the minimum amount
+  needed to do something useful.  Should form a complete mental model,
+  so that students can begin to search for their own information.
+* **Course:** Half day to day of material, goes into depth to make an
+  independent user.
+
+
+
 Material
 --------
 
