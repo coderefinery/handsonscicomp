@@ -27,6 +27,11 @@ generally useful.  For local site customizations, we have a templating
 system using the ``site/`` directory, so that we can have the same
 source but every site can have their local customizations.
 
+The `CONTRIBUTING file
+<https://github.com/coderefinery/handsonscicomp/blob/master/CONTRIBUTING.rst>`__
+explains in easy terms how to contribute specific things.
+
+
 The `DESIGN file
 <https://github.com/coderefinery/handsonscicomp/blob/master/DESIGN.rst>`__
 explains how we structure the levels, modules, and information within
@@ -40,8 +45,8 @@ lists technical information about contributing.
 
 
 
-Partners
---------
+Partners and users
+------------------
 
 * `Aalto University <https://aalto.fi/en/>`__ `Science-IT
   <http://science-it.aalto.fi>`__ - lead
