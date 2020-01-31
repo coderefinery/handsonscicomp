@@ -2,13 +2,17 @@
   desc: This covers the basics of research facilities at Aalto and how to use them.
 
 
-- id: A10 Configuring Mac for scientific work
-  desc: Getting your Mac computer set up for scientific computing
-    tasks.  After this, you can follow most of the other
-    instructions below which assume a Linux-like system.
+- id: A10 Configuring Linux for scientific work
+  desc: Linux is great for scientific work.  This goes over some key
+    things to install to get going.
+  reading: :doc:`A/A10`
 
 
-- id: A11 Configuring Windows for scientific work
-  desc: Like A10, but for Windows.  (Why isn't there a Linux course?
-    Because these are to get you close enough to Linux to have the
-    power you need for computing.)
+- id: A11 Configuring Mac for scientific work
+  desc: Get your Mac computer set up for scientific computing
+    tasks.
+
+
+- id: A12 Configuring Windows for scientific work
+  desc: Get your Windows computer set up for scientific computing
+    tasks.
