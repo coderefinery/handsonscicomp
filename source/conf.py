@@ -35,6 +35,7 @@ extensions = [
     'yaml_table',
     'course_table',
     'sphinx_ext_substitution',
+    'sphinx.ext.todo',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -60,6 +61,7 @@ html_static_path = ['_static']
 
 master_doc = 'index'
 html_theme = "sphinx_rtd_theme"
+todo_include_todos = True
 
 def init_static_path(app):
     static_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '_static'))
