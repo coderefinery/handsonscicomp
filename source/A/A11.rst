@@ -61,6 +61,20 @@ This will get you Jupyter and many other Python things, too.
    Same stuff from Linux page.  How to use it.
 
 
+
+Homebrew
+--------
+
+Homebrew is a package manager for MacOS, which lets you install lots
+of packages easily.  Many of these are essential to having a good
+environment for programming, and taking full advantage of MacOS.
+
+To install, go to `brew.sh and follow instructions
+<https://brew.sh/>`_.  You can then, for example, use ``brew install``
+to install many things you may need.
+
+
+
 Editor
 ------
 
