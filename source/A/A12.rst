@@ -1,0 +1,67 @@
+Title is automatically set
+==========================
+
+.. course::
+
+
+About Windows
+-------------
+
+Windows is perhaps the most common operating system for desktop
+computers, but historically hasn't been that common or good for
+scientific work.  However, this is changing and these days you can do
+a lot of good stuff with Windows if you set it up right.  We'll walk
+through it here.
+
+
+Shell tools
+-----------
+
+
+Version control (git)
+---------------------
+
+* through Anaconda
+* ... or download: https://git-scm.com/download/win ?
+
+
+
+Anaconda (Python)
+-----------------
+
+There are very many programming languages, and you probably won't only
+use Python.  But, it is quite common so we mention it here.  We
+install the Anaconda distribution of Python: it gets you all the basic
+things you need, and can also install R and other programming
+languages, too.  Anaconda is large and has all the most common things
+people need - if you want to save space, install Miniconda instead
+(then you have to decide what extra packages you want).
+
+* `Anaconda <https://docs.continuum.io/anaconda/install>`_
+* `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`_
+
+Copy other information from
+https://coderefinery.github.io/installation/python/
+
+
+.. todo::
+
+   We need to give details about how to use it.
+
+
+
+Editor
+------
+
+
+
+Jupyter
+-------
+
+`Jupyter <https://jupyter.org>`_ is an interactive way to explore
+data.  It's already installed along with Anaconda.
+
+
+
+Other programming tools
+-----------------------
