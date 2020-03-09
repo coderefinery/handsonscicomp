@@ -3,23 +3,22 @@ Hands-on Scientific Computing
 =============================
 
 Hands-on SciComp is an self-study course and reference material for
-the *practical* side of scientific computing - what you need to know
+the *practical* side of data science and scientific computing - what you need to know
 but don't learn in your studies.  It is focused on what is needed as you
-transition from academic studies to real-life computational research.
+transition from academic studies to real projects or
+data-based/computational research - including student projects.
 
 What you find here isn't unique, and you can find similar materials
-from `Software Carpentry`_, CodeRefinery_, and more --- but these all
+from `Software Carpentry`_, CodeRefinery_, and more --- but those all
 are roughly designed as single, guided courses.  Hands-on SciComp
 links to all of these materials and organizes them for self-study and
-determining where you need to start?  Hands-on SciComp is written by
-those supporting researchers and is designed to help you know how deep
-you need to go, direct you to the right material, and get some credit
-for it.
+determining where you need to start and where you need to end up.
 
 .. _Software Carpentry: https://software-carpentry.org
 .. _CodeRefinery: https://coderefinery.org
 
-Our material is divided into different levels.  First, check how
+Our material is divided into different levels, so that you can focus
+on what's relevant to you.  First, check how
 demanding your work is so that you can choose the right courses to
 focus on.
 
