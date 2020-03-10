@@ -7,10 +7,10 @@ env:
   - SPHINX_VERSION=2.0
   - SPHINX_VERSION=2.3
 #  - SPHINX_VERSION=dev
-matrix:
-  include:
-    python: "2.7"
-    env: SPHINX_VERSION=1.8
+#matrix:
+#  include:
+#    python: "2.7"
+#    env: SPHINX_VERSION=1.8
 install:
   - pip install -r requirements.txt
   - |
