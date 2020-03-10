@@ -2,3 +2,4 @@ Sphinx
 sphinx_rtd_theme
 docutils<0.15        # 2019-07-21, upstream breakage with Sphinx #6594
 PyYAML
+sphinx_ext_substitution
