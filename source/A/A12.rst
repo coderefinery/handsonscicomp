@@ -17,6 +17,17 @@ through it here.
 Shell tools
 -----------
 
+Windows comes with CMD (cmd.exe) known as command prompt. You can find CMD by typing "cmd" in your start menu search bar. 
+A slightly better alternative would be a Git bash command line because Windows command prompt does not support many UNIX commands.
+Git Bash emulates a bash environment and lets you use all git features plus most of standard unix commands.
+
+To install Git Bash and *nix environment tools, follow `this <https://www.youtube.com/watch?v=339AEqk9c-8>`_ tutorial made by Software Carpentry.
+Links for installations showing in video:
+
+* `Git Bash <https://gitforwindows.org>`_
+* `Software Carpentry Windows installer <https://github.com/swcarpentry/windows-installer/releases/download/v0.3/SWCarpentryInstaller.exe>`_
+* `Software Carpentry Windows installer documentation <https://github.com/swcarpentry/windows-installer/blob/master/README.md>`_
+
 
 Version control (git)
 ---------------------
