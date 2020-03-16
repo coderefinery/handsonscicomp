@@ -10,9 +10,6 @@ combination.
 
 This page gets you set up for basic scientific work using Python.
 
-You can check out this video by Software Carpentry:
-https://www.youtube.com/watch?v=9LQhwETCdwY
-
 
 Shell tools
 -----------

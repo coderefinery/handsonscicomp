@@ -11,7 +11,8 @@
 - id: A11 Configuring Mac for scientific work
   desc: Get your Mac computer set up for scientific computing
     tasks.
-
+  video: |
+    Software Carpentry `tutorial <https://www.youtube.com/watch?v=9LQhwETCdwY>`__ for Shell, Git and Nano installations on a Mac.
 
 - id: A12 Configuring Windows for scientific work
   desc: Get your Windows computer set up for scientific computing
