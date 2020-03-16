@@ -10,9 +10,6 @@ combination.
 
 This page gets you set up for basic scientific work using Python.
 
-You can check out this video by Software Carpentry:
-https://www.youtube.com/watch?v=9LQhwETCdwY
-
 
 Shell tools
 -----------
@@ -73,10 +70,22 @@ To install, go to `brew.sh and follow instructions
 <https://brew.sh/>`_.  You can then, for example, use ``brew install``
 to install many things you may need.
 
+After installing, you can run ``brew doctor`` to ensure everything was installed correctly.
 
 
 Editor
 ------
+
+FOR IDE (Integrated development environment):
+Visual Studio Code is a free editor available for Windows, macOS and Linux. It is a good alternative for both a beginner and
+a more advanced user as it is simple to use but highly customizable.
+Install and learn more `here <https://code.visualstudio.com/Download>`_.
+Out of principle, we recommend you `disable data collection <https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting>`_.
+
+For command line: You should make sure ``nano`` is installed by typing in the shell for instance, ``nano my_file.txt``. You can also use vi/vim or emacs but
+as those are harder to use, we do not recommend them for your first command line editor.
+Nano is used through keyboard shortcuts and some of them are shown in the editor. See `this <https://www.tutorialspoint.com/how-to-use-nano-text-editor>`_
+tutorial to start editing with nano.
 
 
 Jupyter
