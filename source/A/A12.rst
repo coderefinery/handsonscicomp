@@ -58,7 +58,7 @@ It offers customizable functionalities for a more advanced user but is simple en
 Install and learn more `here <https://code.visualstudio.com/docs/setup/windows>`_.
 
 Other good alternative for Windows is Notepad++ source code and text editor. Notepad++ is not exactly an IDE as it lacks
-features that IDE's have but plugins are available to add functionalities. Download and read more `here <https://notepad-plus-plus.org>`_.
+features that IDEs have but plugins are available to add functionalities. Download and read more `here <https://notepad-plus-plus.org>`_.
 
 
 Jupyter
