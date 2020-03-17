@@ -21,12 +21,22 @@ Windows comes with CMD (cmd.exe) known as command prompt. You can find CMD by ty
 A slightly better alternative would be a Git bash command line because Windows command prompt does not support many UNIX commands.
 Git Bash emulates a bash environment and lets you use all git features plus most of standard unix commands.
 
-To install Git Bash and *nix environment tools, follow `this <https://www.youtube.com/watch?v=339AEqk9c-8>`_ tutorial made by Software Carpentry.
-Links for installations showing in video:
+To install Git Bash, follow `this <https://www.youtube.com/watch?v=339AEqk9c-8>`_ tutorial made by Software Carpentry.
+You only need to follow the video instructions for Git Bash (until 2:50) because the newest versions of Git Bash should install
+the needed *nix environment tools automatically.
+
+Please note that the Git setup window will ask you to choose your default text editor and it will first suggest vi/vim. However,
+we do not recommend vi/vim for your first command line editor but rather to change it to nano text editor, which is more easier
+for a beginner to use.
+
+After you are all set up, open your Git Bash and try it out by typing for example:
+``nano`` and
+``git --version``
+
+Links:
 
 * `Git Bash <https://gitforwindows.org>`_
-* `Software Carpentry Windows installer <https://github.com/swcarpentry/windows-installer/releases/download/v0.3/SWCarpentryInstaller.exe>`_
-* `Software Carpentry Windows installer documentation <https://github.com/swcarpentry/windows-installer/blob/master/README.md>`_
+* `Nano text editor tutorial <https://www.tutorialspoint.com/how-to-use-nano-text-editor>`_
 
 
 Version control (git)
