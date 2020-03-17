@@ -1,0 +1,94 @@
+Title is automatically set
+==========================
+
+.. course::
+
+
+About Windows
+-------------
+
+Windows is perhaps the most common operating system for desktop
+computers, but historically hasn't been that common or good for
+scientific work.  However, this is changing and these days you can do
+a lot of good stuff with Windows if you set it up right.  We'll walk
+through it here.
+
+
+Shell tools
+-----------
+
+Windows comes with CMD (cmd.exe) known as command prompt. You can find CMD by typing "cmd" in your start menu search bar. 
+A slightly better alternative would be a Git bash command line because Windows command prompt does not support many UNIX commands.
+Git Bash emulates a bash environment and lets you use all git features plus most of standard unix commands.
+
+To install Git Bash, follow `this <https://www.youtube.com/watch?v=339AEqk9c-8>`_ tutorial made by Software Carpentry.
+You only need to follow the video instructions for Git Bash (until 2:50) because the newest versions of Git Bash should install
+the needed *nix environment tools automatically.
+
+Please note that the Git setup window will ask you to choose your default text editor and it will first suggest vi/vim. However,
+we do not recommend vi/vim for your first command line editor but rather to change it to nano text editor, which is more easier
+for a beginner to use.
+
+After you are all set up, open your Git Bash and try it out by typing for example:
+``nano`` and
+``git --version``
+
+Links:
+
+* `Git Bash <https://gitforwindows.org>`_
+* `Nano text editor tutorial <https://www.tutorialspoint.com/how-to-use-nano-text-editor>`_
+
+
+Version control (git)
+---------------------
+
+* through Anaconda
+* ... or download: https://git-scm.com/download/win ?
+
+
+
+Anaconda (Python)
+-----------------
+
+There are very many programming languages, and you probably won't only
+use Python.  But, it is quite common so we mention it here.  We
+install the Anaconda distribution of Python: it gets you all the basic
+things you need, and can also install R and other programming
+languages, too.  Anaconda is large and has all the most common things
+people need - if you want to save space, install Miniconda instead
+(then you have to decide what extra packages you want).
+
+* `Anaconda <https://docs.continuum.io/anaconda/install>`_
+* `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`_
+
+Copy other information from
+https://coderefinery.github.io/installation/python/
+
+
+.. todo::
+
+   We need to give details about how to use it.
+
+
+
+Editor
+------
+
+For IDE (Integrated development environment): Visual Studio Code by Microsoft is a free source code editor.
+It offers customizable functionalities for a more advanced user but is simple enough for a beginner to start with. 
+Install and learn more `here <https://code.visualstudio.com/docs/setup/windows>`_.
+
+Other good alternative for Windows is Notepad++ source code and text editor. Notepad++ is not exactly an IDE as it lacks
+features that IDEs have but plugins are available to add functionalities. Download and read more `here <https://notepad-plus-plus.org>`_.
+
+
+Jupyter
+-------
+
+`Jupyter <https://jupyter.org>`_ is an interactive way to explore
+data.  It's already installed along with Anaconda.
+
+
+
+Other programming tools
+-----------------------
