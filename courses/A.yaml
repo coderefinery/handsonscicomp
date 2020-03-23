@@ -13,7 +13,10 @@
     tasks.
   video: |
     Software Carpentry `tutorial <https://www.youtube.com/watch?v=9LQhwETCdwY>`__ for Shell, Git and Nano installations on a Mac.
+    
 
 - id: A12 Configuring Windows for scientific work
   desc: Get your Windows computer set up for scientific computing
     tasks.
+  reading: |
+    Software Carpentry set up `material <https://carpentries.github.io/workshop-template/#git>`_ 
