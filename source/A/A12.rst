@@ -43,6 +43,7 @@ Version control (git)
 ---------------------
 
 * through Anaconda
+* through Git Bash
 * ... or download: https://git-scm.com/download/win ?
 
 
@@ -92,3 +93,5 @@ data.  It's already installed along with Anaconda.
 
 Other programming tools
 -----------------------
+
+For remote network tools: `MobaXterm <https://mobaxterm.mobatek.net>`_
