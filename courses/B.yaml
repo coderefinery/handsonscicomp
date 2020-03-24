@@ -12,7 +12,7 @@
     and scripts and make data science a bit easier.
   reading: |
     `CodeRefinery Jupyter
-    course <http://coderefinery.org/lessons/>`__.
+    course <http://coderefinery.org/lessons/>`__
   video: |
     A quick `introduction <https://www.youtube.com/watch?v=jZ952vChhuI>`_ to Jupyter Notebooks
 
@@ -26,7 +26,11 @@
   desc: |
     LaTeX is the standard method for making publications in the
     computational and physical sciences.
-
+  reading: |
+    Introduction to `LaTeX <https://tobi.oetiker.ch/lshort/lshort.pdf>`_ (online book)
+  video: |
+    `LaTeX tutorial series <https://www.youtube.com/playlist?list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D>`_ covering LaTeX formatting and constructing a report
+    
 
 - id: B32 Scientific posters
   desc: |
