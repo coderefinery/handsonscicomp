@@ -23,6 +23,8 @@
   desc: |
     Your best friend is a good text editor - sometimes you just
     need to edit things quickly on some remote system.
+  video: |
+    Get to know VS Code `tutorial series  <https://www.youtube.com/playlist?list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T>`__
   reading: |
     `Software Carpentry
     shell-novice, "Create a text file" part of section 3
