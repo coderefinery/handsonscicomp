@@ -10,14 +10,6 @@
     <https://scicomp.aalto.fi/training/linux-shell-tutorial.html>`__ is
     good too.
 
-- id: C14 Data management
-  desc:
-    If you do the obvious thing, your data will turn into a huge
-    mess and you won't be able to work anymore.  This course gives
-    some practical hints.
-  reading: |
-    (For now, check out `Aalto SciComp <https://scicomp.aalto.fi/data/>`__)
-
 
 - id: C23 Text editors and IDEs
   desc: |
