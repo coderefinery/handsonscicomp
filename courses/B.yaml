@@ -10,11 +10,11 @@
   desc: |
     Notebooks are an efficient way to make self-documenting code
     and scripts and make data science a bit easier.
+  video: |
+    A quick `introduction <https://www.youtube.com/watch?v=jZ952vChhuI>`_ to Jupyter Notebooks
   reading: |
     `CodeRefinery Jupyter
     course <http://coderefinery.org/lessons/>`__
-  video: |
-    A quick `introduction <https://www.youtube.com/watch?v=jZ952vChhuI>`_ to Jupyter Notebooks
 
 
 - id: B30 Making figures
@@ -26,13 +26,17 @@
   desc: |
     LaTeX is the standard method for making publications in the
     computational and physical sciences.
-  reading: |
-    Introduction to `LaTeX <https://tobi.oetiker.ch/lshort/lshort.pdf>`_ (online book)
   video: |
     `LaTeX tutorial series <https://www.youtube.com/playlist?list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D>`_ covering LaTeX formatting and constructing a report
+  reading: |
+    Introduction to `LaTeX <https://tobi.oetiker.ch/lshort/lshort.pdf>`_ (online book)
     
 
 - id: B32 Scientific posters
   desc: |
     Making a scientific poster is a common task, but not often
     taught.  There are better tools than PowerPoint.
+  reading: |
+    `Basics of creating a Research Poster <https://guides.nyu.edu/posters>`__
+  video: |
+    `The dos and don'ts of making a scientific poster <https://www.youtube.com/watch?v=agtgnJP3KoQ>`__
