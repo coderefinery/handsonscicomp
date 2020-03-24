@@ -1,5 +1,7 @@
-- id: A01 University IT systems
-  desc: This covers the basics of research facilities at Aalto and how to use them.
+- id: A01 Introduction to scientific computing
+  desc: Get started with common scientific computing guidelines.
+  reading: |
+    `Good computing practices for everyone regardless of skills <https://doi.org/10.1371/journal.pcbi.1005510>`__
 
 
 - id: A10 Configuring Linux for scientific work
