@@ -23,10 +23,13 @@
   desc: |
     Your best friend is a good text editor - sometimes you just
     need to edit things quickly on some remote system.
+  video: |
+    Get to know VS Code `tutorial series  <https://www.youtube.com/playlist?list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T>`__
   reading: |
     `Software Carpentry
-    shell-novice, part of section 3
-    <http://swcarpentry.github.io/shell-novice/>`__.
+    shell-novice, "Create a text file" part of section 3
+    <http://swcarpentry.github.io/shell-novice/>`__ and `IDE tutorial <https://coderefinery.github.io/IDEs/>`__
+    by CodeRefinery.
 
 
 - id: C20 Shell scripting
