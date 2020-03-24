@@ -2,8 +2,8 @@
   desc: |
     Data needs to be organized and handled well, or else it quickly
     becomes unusable.  There are good and bad ways to do this.
-  reading: |
-    `Aalto scicomp data docs <https://scicomp.aalto.fi/data/>`__
+  video: |
+    `What is not data management, in 5 minutes <https://www.youtube.com/watch?v=N2zK3sAtr-4>`_
 
 
 - id: B21 Jupyter Notebooks
