@@ -27,9 +27,9 @@
     LaTeX is the standard method for making publications in the
     computational and physical sciences.
   reading: |
-    Short LaTeX `tutorial <http://andre-geldenhuis.github.io/Latex-Short/>`_ based on Software Carpentry 
+    Introduction to `LaTeX <https://tobi.oetiker.ch/lshort/lshort.pdf>`_ (online book)
   video: |
-    `LaTeX tutorial series <https://www.youtube.com/watch?v=FXujG7c9p8g>`_ covering LaTeX formatting and constructing a report
+    `LaTeX tutorial series <https://www.youtube.com/playlist?list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D>`_ covering LaTeX formatting and constructing a report
     
 
 - id: B32 Scientific posters
