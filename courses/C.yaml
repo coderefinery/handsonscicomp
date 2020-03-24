@@ -25,8 +25,9 @@
     need to edit things quickly on some remote system.
   reading: |
     `Software Carpentry
-    shell-novice, part of section 3
-    <http://swcarpentry.github.io/shell-novice/>`__.
+    shell-novice, "Create a text file" part of section 3
+    <http://swcarpentry.github.io/shell-novice/>`__ and `IDE tutorial <https://coderefinery.github.io/IDEs/>`__
+    by CodeRefinery.
 
 
 - id: C20 Shell scripting
