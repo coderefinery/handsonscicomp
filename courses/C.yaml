@@ -49,3 +49,10 @@
   desc: |
     A short but important course: how to do work remotely.
     Different expert tips for making ssh better, too.
+
+
+- id: C23 Make
+  desc: |
+    Automate the repetitive stuff with Make.
+  video: |
+    `Episodes <https://www.youtube.com/playlist?list=PLF47AC7312BE0799A>`__ on Make by Software Carpentry
