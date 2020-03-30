@@ -46,3 +46,7 @@
   desc: |
     A short but important course: how to do work remotely.
     Different expert tips for making ssh better, too.
+  reading: |
+    SSH `command <https://www.ssh.com/ssh/command>`__ for working on a remote machine.
+  video: |
+    `Introduction to secure shell <https://www.youtube.com/watch?v=UHWR3Nj3bhE&list=PLA86D04D6E0BFD2E0&index=9>`__ by Software Carpentry
