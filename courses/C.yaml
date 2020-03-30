@@ -37,9 +37,12 @@
     Version control lets you track changes, go back in time, and
     collaborate on code and papers: an absolute requirement for
     scientific computing.
+  video: |
+    Why bother with `version control <https://www.youtube.com/watch?v=zbKdDsNNOhg>`__ and an
+    `introduction <https://www.youtube.com/watch?v=PWqS4NBhEY8>`__ for beginners to managing code on remote GitHub repositories
   reading: |
     `CodeRefinery Introduction to version
-    control <http://coderefinery.org/lessons/>`__
+    control <https://coderefinery.github.io/git-intro/>`__
 
 
 - id: C22 SSH and remote access
