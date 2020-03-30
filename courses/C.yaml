@@ -27,9 +27,11 @@
 - id: C20 Shell scripting
   desc: |
     If you can do it on the Linux shell, you can automate it.
+  video: |
+    From `shell scripting tutorials <https://www.youtube.com/playlist?list=PL6-upCK7hyBqIHYy-Ot6ootNUT1PDEho8>`__ see for example: 3-4, 7-10, 21, 23-25, 27 and 35-40 (these topics introduced also in reading material).
   reading: |
     Continue with the `Science-IT Linux shell tutorial
-    <https://scicomp.aalto.fi/training/linux-shell-tutorial.html>`__.
+    <https://scicomp.aalto.fi/training/linux-shell-tutorial.html#part-2-linux-shell-scripting>`__ part 2.
 
 
 - id: C21 Version control for you
