@@ -58,3 +58,6 @@
     Automate the repetitive stuff with Make.
   video: |
     `Episodes <https://www.youtube.com/playlist?list=PLF47AC7312BE0799A>`__ on Make by Software Carpentry
+  reading: |
+    Short `introduction <https://opensource.com/article/18/8/what-how-makefile>`__ on what is a Makefile and basic operations.
+    For more information on Makefiles see `GNU Make Manual <https://www.gnu.org/software/make/manual/make.html>`__ 
