@@ -3,6 +3,8 @@
     Let's face it: the linux command line is the basis of most data
     science if you are doing more than running other people's
     programs.
+  video: |
+    Get started with `basic shell commands <https://youtu.be/56p6xX0aToI>`__
   reading: |
     `Software Carpentry shell-novice sections
     1-4 <http://swcarpentry.github.io/shell-novice/>`__.  The first
