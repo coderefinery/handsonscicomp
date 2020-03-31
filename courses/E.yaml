@@ -11,8 +11,12 @@
     See `Triton's profiling guide <https://scicomp.aalto.fi/triton/usage/profiling.html>`__ for now.
 
 - id: E63 Debugging
+  desc: 
+    Detect, investigate and resolve bugs.
+  video: |
+    `Debugging <https://www.youtube.com/watch?v=jlBgMf_atSo>`__ strategies
   reading: |
-    Aalto course, for example `course by Janne <https://users.aalto.fi/~jblomqvi/scip/2016/scip-slides/debugging.html>`__
+    For now see `Triton's debugging guide <https://scicomp.aalto.fi/triton/usage/debugging.html>`__
 
 - id: E02 Software Licensing
   reading: |
