@@ -27,9 +27,11 @@
 - id: C20 Shell scripting
   desc: |
     If you can do it on the Linux shell, you can automate it.
+  video: |
+    From `shell scripting tutorials <https://www.youtube.com/playlist?list=PL6-upCK7hyBqIHYy-Ot6ootNUT1PDEho8>`__ see for example: 3-4, 7-10, 21, 23-25, 27 and 35-40 (these topics introduced also in reading material).
   reading: |
     Continue with the `Science-IT Linux shell tutorial
-    <https://scicomp.aalto.fi/training/linux-shell-tutorial.html>`__.
+    <https://scicomp.aalto.fi/training/linux-shell-tutorial.html#part-2-linux-shell-scripting>`__ part 2.
 
 
 - id: C21 Version control for you
@@ -37,9 +39,12 @@
     Version control lets you track changes, go back in time, and
     collaborate on code and papers: an absolute requirement for
     scientific computing.
+  video: |
+    Why bother with `version control <https://www.youtube.com/watch?v=zbKdDsNNOhg>`__ and an
+    `introduction <https://www.youtube.com/watch?v=PWqS4NBhEY8>`__ for beginners to managing code on remote GitHub repositories
   reading: |
     `CodeRefinery Introduction to version
-    control <http://coderefinery.org/lessons/>`__
+    control <https://coderefinery.github.io/git-intro/>`__
 
 
 - id: C22 SSH and remote access
@@ -50,3 +55,10 @@
     SSH `command <https://www.ssh.com/ssh/command>`__ for working on a remote machine.
   video: |
     `Introduction to secure shell <https://www.youtube.com/watch?v=UHWR3Nj3bhE&list=PLA86D04D6E0BFD2E0&index=9>`__ by Software Carpentry
+
+
+- id: C23 Make
+  desc: |
+    Automate the repetitive stuff with Make.
+  video: |
+    `Episodes <https://www.youtube.com/playlist?list=PLF47AC7312BE0799A>`__ on Make by Software Carpentry
