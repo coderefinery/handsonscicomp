@@ -3,6 +3,11 @@
     `CodeRefinery lesson <http://coderefinery.org/lessons/>`__
 
 - id: E61 Software testing
+  desc: |
+    It is important to ensure that your program performs effectively and without failures. 
+    Adding tests for your software can save a lot of your time later.
+  video: |
+    Software testing `fundamentals <https://www.youtube.com/playlist?list=PLB384772FCCE1414E>`__ by Software Carpentry
   reading: |
     `CodeRefinery lesson <https://coderefinery.github.io/testing/>`__
 
