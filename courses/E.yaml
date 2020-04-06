@@ -7,6 +7,7 @@
   video: |
     `Python example <https://www.youtube.com/watch?v=mz_T554Qe6A>`__ of breaking code into small components
 
+
 - id: E61 Software testing
   desc: |
     It is important to ensure that your program performs effectively and without failures. 
@@ -15,6 +16,7 @@
     Software testing `fundamentals <https://www.youtube.com/playlist?list=PLB384772FCCE1414E>`__ by Software Carpentry
   reading: |
     `CodeRefinery lesson <https://coderefinery.github.io/testing/>`__
+
 
 - id: E62 Profiling
   desc: Code efficiency is critical especially in HPC. Learn to measure the performance of your programs.
@@ -33,6 +35,7 @@
   reading: |
     For now see `Triton's debugging guide <https://scicomp.aalto.fi/triton/usage/debugging.html>`__
 
+
 - id: E02 Software Licensing
   desc: 
     Sharing your work can be very beneficial. Take a look at social coding and software licensing.
@@ -47,3 +50,10 @@
     Document your project so other people can easily use the code and even contribute to it. 
   reading: |
     CodeRefinery lesson on `documentation <https://coderefinery.github.io/documentation/>`__
+
+
+- id: E03 Reproducible research
+  desc: 
+    How different tools can improve reproducibility. 
+  reading: |
+    `Lesson <https://coderefinery.github.io/reproducible-research/>`__ by CodeRefinery
