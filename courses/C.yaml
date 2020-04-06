@@ -3,6 +3,8 @@
     Let's face it: the linux command line is the basis of most data
     science if you are doing more than running other people's
     programs.
+  video: |
+    Get started with `basic shell commands <https://youtu.be/56p6xX0aToI>`__
   reading: |
     `Software Carpentry shell-novice sections
     1-4 <http://swcarpentry.github.io/shell-novice/>`__.  The first
@@ -51,6 +53,10 @@
   desc: |
     A short but important course: how to do work remotely.
     Different expert tips for making ssh better, too.
+  reading: |
+    SSH `<https://www.mn.uio.no/geo/english/services/it/help/using-linux/ssh-tips-and-tricks.html>`__ for working on a remote machine.
+  video: |
+    `Introduction to secure shell <https://www.youtube.com/watch?v=UHWR3Nj3bhE&list=PLA86D04D6E0BFD2E0&index=9>`__ by Software Carpentry
 
 
 - id: C23 Make
