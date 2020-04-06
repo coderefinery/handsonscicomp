@@ -40,3 +40,10 @@
     Brief `introduction <https://www.youtube.com/watch?v=f2NkKTn-mw8>`__ to differences between open and closed source software 
   reading: |
     `CodeRefinery lesson <http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/>`__
+
+
+- id: E04 Documentation
+  desc: 
+    Document your project so other people can easily use the code and even contribute to it. 
+  reading: |
+    CodeRefinery lesson on `documentation <https://coderefinery.github.io/documentation/>`__
