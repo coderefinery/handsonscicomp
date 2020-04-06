@@ -45,6 +45,13 @@
     `CodeRefinery lesson <http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/>`__
 
 
+- id: E04 Documentation
+  desc: 
+    Document your project so other people can easily use the code and even contribute to it. 
+  reading: |
+    CodeRefinery lesson on `documentation <https://coderefinery.github.io/documentation/>`__
+
+
 - id: E03 Reproducible research
   desc: 
     How different tools can improve reproducibility. 
