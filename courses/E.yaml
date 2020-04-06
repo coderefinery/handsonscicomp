@@ -34,5 +34,9 @@
     For now see `Triton's debugging guide <https://scicomp.aalto.fi/triton/usage/debugging.html>`__
 
 - id: E02 Software Licensing
+  desc: 
+    Sharing your work can be very beneficial. Take a look at social coding and software licensing.
+  video: |
+    Brief `introduction <https://www.youtube.com/watch?v=f2NkKTn-mw8>`__ to differences between open and closed source software 
   reading: |
     `CodeRefinery lesson <http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/>`__
