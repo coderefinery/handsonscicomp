@@ -8,3 +8,6 @@ B20-local: |
 
 C22-local: |
   How to make ssh work better by `Aalto Scicomp <https://scicomp.aalto.fi/scicomp/ssh.html>`__
+
+E62-local: |
+  Triton profiling `guide <https://scicomp.aalto.fi/triton/usage/profiling.html>`__

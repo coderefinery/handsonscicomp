@@ -17,8 +17,13 @@
     `CodeRefinery lesson <https://coderefinery.github.io/testing/>`__
 
 - id: E62 Profiling
+  desc: Code efficiency is critical especially in HPC. Learn to measure the performance of your programs.
+  video: |
+    `Profiling Python code <https://www.youtube.com/watch?v=8qEnExGLZfY>`__ with cProfile
   reading: |
-    See `Triton's profiling guide <https://scicomp.aalto.fi/triton/usage/profiling.html>`__ for now.
+    Profiling tools for `Linux <http://www.brendangregg.com/linuxperf.html>`__ and 
+    profiling for `C and Python <http://rkd.zgib.net/scicomp/profiling/profiling.html>`__
+
 
 - id: E63 Debugging
   desc: 
