@@ -25,5 +25,9 @@
     Aalto course, for example `course by Janne <https://users.aalto.fi/~jblomqvi/scip/2016/scip-slides/debugging.html>`__
 
 - id: E02 Software Licensing
+  desc: 
+    Sharing your work can be very beneficial. Take a look at social coding and software licensing.
+  video: |
+    Brief `introduction <https://www.youtube.com/watch?v=f2NkKTn-mw8>`__ to differences between open and closed source software 
   reading: |
     `CodeRefinery lesson <http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/>`__
