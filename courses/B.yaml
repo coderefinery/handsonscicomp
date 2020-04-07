@@ -5,7 +5,7 @@
     `What is not data management, in 5 minutes <https://www.youtube.com/watch?v=N2zK3sAtr-4>`__ and
     `Data structuring <https://www.youtube.com/watch?v=3MEJ38BO6Mo&t=>`__
   questions: |
-    >Why is it important to pay attention to file formats?
+    >Why is it important to pay attention to file format?
     >What should version control be used for in data management?
     >What kind of ordering makes the best structure?
 
@@ -19,7 +19,6 @@
   questions: |
     >How is a Jupyter kernel launched?
     >Which shortcut can be used to run the cell? 
-    >What is the syntax like for running shell commands in notebook and why do you need to be careful with those? 
 
 
 - id: B30 Making figures
@@ -44,3 +43,5 @@
     `Basics of creating a Research Poster <https://guides.nyu.edu/posters>`__
   video: |
     `The dos and don'ts of making a scientific poster <https://www.youtube.com/watch?v=agtgnJP3KoQ>`__
+  questions: |
+    >Which tools are the best for creating a poster?
