@@ -21,7 +21,7 @@ class CourseTable(YamlTable):
 
         newrows = [ ]
         self.ids = [ ]
-        newrows.append(["", "About", "Video Intro", "Reading", ])
+        newrows.append(["", "About", "Video Intro", "Reading", "Questions", ])
         if has_local:
             newrows[-1].append(make_sub_rst('site-name', ""))
         if data is None:
@@ -49,6 +49,7 @@ class CourseTable(YamlTable):
                 make_sub_rst(id_+'-desc', row.get('desc', '')),
                 make_sub_rst(id_+'-video', row.get('video', '')),
                 make_sub_rst(id_+'-reading', row.get('reading', '')),
+                make_sub_rst(id_+'-questions', row.get('questions', '')),
                 #row.get('exercises', ''),
             ]
             if has_local:
@@ -80,6 +81,7 @@ class CourseTable(YamlTable):
             row[1]['classes'].append('row-desc')
             row[2]['classes'].append('row-video')
             row[3]['classes'].append('row-reading')
+            row[4]['classes'].append('row-questions')
             if len(row) > 4:
                 row[4]['classes'].append('row-local')
             #if len(row) > 5:
@@ -121,6 +123,7 @@ class Course(Directive):
             ('Description', make_sub_rst(id_+'-desc', course_data.get('desc', ''))),
             ('Video intro', make_sub_rst(id_+'-video', course_data.get('video', ''))),
             ('Reading', make_sub_rst(id_+'-reading', course_data.get('reading', ''))),
+            ('Questions', make_sub_rst(id_+'-questions', course_data.get('questions', ''))),
             #course_data.get('exercises', ''),
             ]
         if has_local:
