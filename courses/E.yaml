@@ -48,6 +48,8 @@
 - id: E04 Documentation
   desc: 
     Document your project so other people can easily use the code and even contribute to it. 
+  video:
+    Documentation with `Sphinx  <https://www.youtube.com/watch?v=b4iFyrLQQh4>`__
   reading: |
     CodeRefinery lesson on `documentation <https://coderefinery.github.io/documentation/>`__
 
