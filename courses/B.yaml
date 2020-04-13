@@ -17,8 +17,8 @@
     to Jupyter Notebooks
   reading: CodeRefinery `Jupyter course <http://coderefinery.org/lessons/>`__
   questions: |
+    >For what kind of work Jupyter suits the best?
     >How is a Jupyter kernel launched?
-    >Which shortcut can be used to run the cell? 
 
 
 - id: B30 Making figures
