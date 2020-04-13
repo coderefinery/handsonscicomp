@@ -1,42 +1,47 @@
 - id: B20 Data Management
   desc: Data needs to be organized and handled well, or else it quickly
     becomes unusable.  There are good and bad ways to do this.
-  video: | 
+  video: |
     `What is not data management, in 5 minutes <https://www.youtube.com/watch?v=N2zK3sAtr-4>`__ and
     `Data structuring <https://www.youtube.com/watch?v=3MEJ38BO6Mo&t=>`__
+  questions: |
+    >Why is it important to pay attention to file format?
+    >What should version control be used for in data management?
+    >What kind of ordering makes the best structure?
 
 
 - id: B21 Jupyter Notebooks
-  desc: |
-    Notebooks are an efficient way to make self-documenting code
+  desc: Notebooks are an efficient way to make self-documenting code
     and scripts and make data science a bit easier.
-  video: |
-    A quick `introduction <https://www.youtube.com/watch?v=jZ952vChhuI>`_ to Jupyter Notebooks
-  reading: |
-    `CodeRefinery Jupyter
-    course <http://coderefinery.org/lessons/>`__
+  video: A quick `introduction <https://www.youtube.com/watch?v=jZ952vChhuI>`_ 
+    to Jupyter Notebooks
+  reading: CodeRefinery `Jupyter course <http://coderefinery.org/lessons/>`__
+  questions: |
+    >For what kind of work Jupyter suits the best?
+    >How is a Jupyter kernel launched?
 
 
 - id: B30 Making figures
-  desc: |
-    How to make publication-quality figures for your work.
+  desc: How to make publication-quality figures for your work.
 
 
 - id: B31 LaTeX for scientific publications
-  desc: |
-    LaTeX is the standard method for making publications in the
+  desc: LaTeX is the standard method for making publications in the
     computational and physical sciences.
   video: |
     `LaTeX tutorial series <https://www.youtube.com/playlist?list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D>`_ covering LaTeX formatting and constructing a report
   reading: |
     Introduction to `LaTeX <https://tobi.oetiker.ch/lshort/lshort.pdf>`_ (online book)
+  questions: |
+    >What kind of syntax do LaTeX commands follow?
     
 
 - id: B32 Scientific posters
-  desc: |
-    Making a scientific poster is a common task, but not often
+  desc: Making a scientific poster is a common task, but not often
     taught.  There are better tools than PowerPoint.
   reading: |
     `Basics of creating a Research Poster <https://guides.nyu.edu/posters>`__
   video: |
     `The dos and don'ts of making a scientific poster <https://www.youtube.com/watch?v=agtgnJP3KoQ>`__
+  questions: |
+    >Which tools are the best for creating a poster?
