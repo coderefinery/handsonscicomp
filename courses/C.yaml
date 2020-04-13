@@ -11,6 +11,9 @@
     part of our `shell course
     <https://scicomp.aalto.fi/training/linux-shell-tutorial.html>`__ is
     good too.
+  questions: |
+    >How does the shell work?
+    >When to use a CLI instead of a GUI?
 
 
 - id: C23 Text editors and IDEs
@@ -24,6 +27,8 @@
     shell-novice, "Create a text file" part of section 3
     <http://swcarpentry.github.io/shell-novice/>`__ and `IDE tutorial <https://coderefinery.github.io/IDEs/>`__
     by CodeRefinery.
+  questions: |
+    >Which tools to use for code development and editing?
 
 
 - id: C20 Shell scripting
@@ -34,6 +39,8 @@
   reading: |
     Continue with the `Science-IT Linux shell tutorial
     <https://scicomp.aalto.fi/training/linux-shell-tutorial.html#part-2-linux-shell-scripting>`__ part 2.
+  questions: |
+    >How to make use of shell scripting tools in repetitive task automation?
 
 
 - id: C21 Version control for you
@@ -47,6 +54,9 @@
   reading: |
     `CodeRefinery Introduction to version
     control <https://coderefinery.github.io/git-intro/>`__
+  questions: |
+    >What is Git?
+    >How to initialize a Git repository?
 
 
 - id: C22 SSH and remote access
@@ -57,6 +67,8 @@
     `SSH <https://www.mn.uio.no/geo/english/services/it/help/using-linux/ssh-tips-and-tricks.html>`__ for working on a remote machine.
   video: |
     `Introduction to secure shell <https://www.youtube.com/watch?v=UHWR3Nj3bhE&list=PLA86D04D6E0BFD2E0&index=9>`__ by Software Carpentry
+  questions: |
+    >What does SSH mean and when to use it?
 
 
 - id: C23 Make
@@ -67,3 +79,5 @@
   reading: |
     Short `introduction <https://opensource.com/article/18/8/what-how-makefile>`__ on what is a Makefile and basic operations.
     For more information on Makefiles see `GNU Make Manual <https://www.gnu.org/software/make/manual/make.html>`__ 
+  questions: |
+    >How can a Makefile be useful in your large project?
