@@ -6,6 +6,9 @@
     `CodeRefinery lesson <http://coderefinery.org/lessons/>`__ on Modular code development
   video: |
     `Python example <https://www.youtube.com/watch?v=mz_T554Qe6A>`__ of breaking code into small components
+  questions: |
+    >How to divide code into independent modules?
+    >What are pure functions like?
 
 
 - id: E61 Software testing
@@ -16,6 +19,9 @@
     Software testing `fundamentals <https://www.youtube.com/playlist?list=PLB384772FCCE1414E>`__ by Software Carpentry
   reading: |
     `CodeRefinery lesson <https://coderefinery.github.io/testing/>`__
+  questions: |
+    >How to test code on different levels?
+    >What kind of testing tools are there?
 
 
 - id: E62 Profiling
@@ -25,6 +31,8 @@
   reading: |
     Profiling tools for `Linux <http://www.brendangregg.com/linuxperf.html>`__ and 
     profiling for `C and Python <http://rkd.zgib.net/scicomp/profiling/profiling.html>`__
+  questions: |
+    >What is profiling used for?
 
 
 - id: E63 Debugging
@@ -34,6 +42,8 @@
     `Debugging <https://www.youtube.com/watch?v=jlBgMf_atSo>`__ strategies
   reading: |
     For now see `Triton's debugging guide <https://scicomp.aalto.fi/triton/usage/debugging.html>`__
+  questions: |
+    >How to debug different types of errors?
 
 
 - id: E02 Software Licensing
@@ -43,6 +53,9 @@
     Brief `introduction <https://www.youtube.com/watch?v=f2NkKTn-mw8>`__ to differences between open and closed source software 
   reading: |
     `CodeRefinery lesson <http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/>`__
+  questions: |
+    >What is free software?
+    >Why should you share your code?
 
 
 - id: E04 Documentation
@@ -52,6 +65,8 @@
     Documentation with `Sphinx  <https://www.youtube.com/watch?v=b4iFyrLQQh4>`__
   reading: |
     CodeRefinery lesson on `documentation <https://coderefinery.github.io/documentation/>`__
+  questions: |
+    >What should be included in a documentation?
 
 
 - id: E03 Reproducible research
@@ -59,3 +74,5 @@
     How different tools can improve reproducibility. 
   reading: |
     `Lesson <https://coderefinery.github.io/reproducible-research/>`__ by CodeRefinery
+  questions: |
+    >Which tools can help with reproducibility?
