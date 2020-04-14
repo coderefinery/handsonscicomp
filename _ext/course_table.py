@@ -21,7 +21,7 @@ class CourseTable(YamlTable):
 
         newrows = [ ]
         self.ids = [ ]
-        newrows.append(["", "About", "Video Intro", "Reading", "Questions", ])
+        newrows.append(["", "About", "Questions", "Video Intro", "Reading", ])
         if has_local:
             newrows[-1].append(make_sub_rst('site-name', ""))
         if data is None:
@@ -47,9 +47,9 @@ class CourseTable(YamlTable):
             row = [
                 link,
                 make_sub_rst(id_+'-desc', row.get('desc', '')),
+                make_sub_rst(id_+'-questions', row.get('questions', '')),
                 make_sub_rst(id_+'-video', row.get('video', '')),
                 make_sub_rst(id_+'-reading', row.get('reading', '')),
-                make_sub_rst(id_+'-questions', row.get('questions', '')),
                 #row.get('exercises', ''),
             ]
             if has_local:
