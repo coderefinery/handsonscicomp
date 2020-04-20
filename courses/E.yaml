@@ -72,6 +72,8 @@
 - id: E03 Reproducible research
   desc: 
     How different tools can improve reproducibility. 
+  video:
+    What is `reproducible research <https://www.youtube.com/watch?v=4rBX6r5emgQ>`__
   reading: |
     `Lesson <https://coderefinery.github.io/reproducible-research/>`__ by CodeRefinery
   questions: |
