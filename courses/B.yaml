@@ -4,6 +4,8 @@
   video: |
     `What is not data management, in 5 minutes <https://www.youtube.com/watch?v=N2zK3sAtr-4>`__ and
     `Data structuring <https://www.youtube.com/watch?v=3MEJ38BO6Mo&t=>`__
+  reading: |
+    Data management `plan <https://www.fsd.tuni.fi/aineistonhallinta/en/data-management-planning.html>`__
   questions: |
     >What should version control be used for in data management?
     >What kind of ordering makes the best structure?
