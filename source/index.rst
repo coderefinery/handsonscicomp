@@ -22,6 +22,9 @@ on what's relevant to you.  First, check how
 demanding your work is so that you can choose the right courses to
 focus on.
 
+To earn credits or a certificate from completing this course, you can
+visit the course exercise page `here <https://plus.cs.aalto.fi/hoscic/2020/>`_.
+
 .. image:: levels.svg
    :align: center
    :alt: Level dependencies
