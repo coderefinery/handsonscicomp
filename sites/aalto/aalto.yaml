@@ -1,7 +1,8 @@
 site-name: Aalto
 
 A01-local: |
-  `Welcome, Researchers <https://scicomp.aalto.fi/aalto/welcomeresearchers.html>`__
+  > `Welcome, Researchers <https://scicomp.aalto.fi/aalto/welcomeresearchers.html>`__
+  > `Getting help <https://scicomp.aalto.fi/help/>`__
 
 B20-local: |
   `Research data management <https://www.aalto.fi/en/services/research-data-management-rdm-and-open-science>`_ at Aalto University 
