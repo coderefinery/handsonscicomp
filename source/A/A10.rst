@@ -40,10 +40,10 @@ the "Terminal" or "Shell" to see it.  To verify, try running this::
 
 The convention is the ``$`` represents lines you type (without the
 ``$`` - notice most shell prompts have it there already), the other
-lines are what comes out.
+lines are what comes out.  ``#`` represents comments.
 
 If you want a crash course on using the shell, see `the Aalto shell
-crash course <https://scicomp.aalto.fi/scicomp/shell.html>`_.  You
+crash course <https://scicomp.aalto.fi/scicomp/shell/>`_.  You
 don't need this right now.
 
 
@@ -55,7 +55,7 @@ This comes included in all operating systems, but needs to be
 installed.  Here, we install git and some other useful frontends for
 it::
 
-  sudo apt install git gitk gitg
+  $ sudo apt install git gitk gitg
 
 Verify from the shell (see above to start the shell)::
 
@@ -71,7 +71,7 @@ There are very many programming languages, and you probably won't only
 use Python.  But, it is quite common so we mention it here.  We
 install the Anaconda distribution of Python: it gets you all the basic
 things you need, and can also install R and other programming
-languages, too.  Anaconda is large and has all the most common things
+languages, too.  Anaconda is large and has all the most common tools
 people need - if you want to save space, install Miniconda instead
 (then you have to decide what extra packages you want).
 
@@ -82,8 +82,8 @@ This will get you Jupyter and many other Python things, too.
 
 .. todo::
 
-   Configuring it in the shell.  How to start/use it.  Easier install
-   instructions.  SWC video.
+   How to install it in the shell.  How to start/use it.  Easier install
+   instructions.  Link the SWC video.
 
 To verify from the shell (see above to start the shell)::
 
@@ -100,37 +100,58 @@ To verify from the shell (see above to start the shell)::
 Editor
 ------
 
-It's good to have one command-line editor.  Make sure that ``nano`` is
-installed.  If you want, you can check out `vim <>`_ or `emacs <>`_,
-but they certainly harder to use so we don't recommend them to start off::
+It's good to have one command-line editor and one graphical Integrated
+Development Environment.
 
-  sudo apt-get install nano
+Command line editor
+~~~~~~~~~~~~~~~~~~~
+
+For fast things, you want to be able to edit files quickly from a
+the command line.  ``Nano`` is the simplest to use.  If you want, you can check out `vim
+<https://en.wikipedia.org/wiki/Vim_(text_editor)>`_ or `emacs
+<https://www.gnu.org/software/emacs/>`_,
+but they certainly harder to use so we don't recommend them to start
+off.
+
+To install ``nano``::
+
+  $ sudo apt-get install nano
 
 .. todo::
 
    Is this the most useful verification?
 
-To verify nano from the shell (see above to start the shell)::
+See `this nano tutorial
+<https://www.tutorialspoint.com/how-to-use-nano-text-editor>`_ to
+learn more. To verify nano from the shell (see above to start the
+shell)::
 
   $ nano my_file.txt
 
-You should install one good **Integrated Development Environment
+
+Integrated Development Environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+** You should install one good **Integrated Development Environment
 (IDE)**.  This has coding, version control, and many more things build
 in to one interface.  These days, **VSCode** is the most popular.
 Install from `the vscode website <https://code.visualstudio.com/>`_.
 Out of principle, we recommend you `disable data collection
-<https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting>`_
+<https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting>`_.
 
+Emacs can also serve as an IDE once you learn enough about it.
 
 
 Jupyter
 -------
 
-`Jupyter <https://jupyter.org>`_ is an interactive way to explore
-data.  It's already installed along with Anaconda.  To start it in a
-certain directory, go to that directory in the shell and run::
+`Jupyter <https://jupyter.org>`_ is an interactive way to explore data
+and do programming.  It's already installed along with Anaconda.  To
+start it in a certain directory, go to that directory in the shell and
+run::
 
-  $ jupyter notebook
+  $ jupyter notebook       # older notebook interface
+  $ jupyter lab            # newer JupyterLab interface
 
 
 
@@ -139,7 +160,7 @@ Other programming tools
 
 Install::
 
-  sudo apt install build-essential meld
+  $ sudo apt install build-essential meld
 
 * ``build-essential`` installs some basic compilers and so on.
 * ``meld``: A graphical diff program
