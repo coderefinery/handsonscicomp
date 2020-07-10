@@ -1,6 +1,8 @@
 Title is automatically set
 ==========================
 
+.. highlight:: console
+
 .. course::
 
 
@@ -17,13 +19,20 @@ through it here.
 Shell tools
 -----------
 
-Windows comes with CMD (cmd.exe) known as command prompt. You can find CMD by typing "cmd" in your start menu search bar. 
+Windows comes with CMD (``cmd.exe``) known as command prompt. You can find CMD by typing ``cmd`` in your start menu search bar.
 A slightly better alternative would be a Git bash command line because Windows command prompt does not support many UNIX commands.
-Git Bash emulates a bash environment and lets you use all git features plus most of standard unix commands.
+Git Bash emulates a bash environment and lets you use all git features plus most of standard unix commands - so you are immediately
+compatible with Mac and Linux.
+
+See the next section for installation instructions.
+
+
+Version control (git)
+---------------------
 
 To install Git Bash, follow `this <https://www.youtube.com/watch?v=339AEqk9c-8>`_ tutorial made by Software Carpentry.
 You only need to follow the video instructions for Git Bash (until 2:50) because the newest versions of Git Bash should install
-the needed *nix environment tools automatically.
+the needed \*nix environment tools automatically.
 
 Please note that the Git setup window will ask you to choose your default text editor and it will first suggest vi/vim. However,
 we do not recommend vi/vim for your first command line editor but rather to change it to nano text editor, which is more easier
@@ -35,16 +44,9 @@ After you are all set up, open your Git Bash and try it out by typing for exampl
 
 Links:
 
-* `Git Bash <https://gitforwindows.org>`_
+* `Git Bash <https://git-scm.com/download/win>`_
 * `Nano text editor tutorial <https://www.tutorialspoint.com/how-to-use-nano-text-editor>`_
-
-
-Version control (git)
----------------------
-
-* through Anaconda
-* through Git Bash
-* ... or download: https://git-scm.com/download/win ?
+* Git can also be installed through Anaconda
 
 
 
@@ -55,7 +57,7 @@ There are very many programming languages, and you probably won't only
 use Python.  But, it is quite common so we mention it here.  We
 install the Anaconda distribution of Python: it gets you all the basic
 things you need, and can also install R and other programming
-languages, too.  Anaconda is large and has all the most common things
+languages, too.  Anaconda is large and has all the most common tools
 people need - if you want to save space, install Miniconda instead
 (then you have to decide what extra packages you want).
 
@@ -87,7 +89,12 @@ Jupyter
 -------
 
 `Jupyter <https://jupyter.org>`_ is an interactive way to explore
-data.  It's already installed along with Anaconda.
+data.  It's already installed along with Anaconda.  To
+start it in a certain directory, go to that directory in the shell and
+run::
+
+  $ jupyter notebook       # older notebook interface
+  $ jupyter lab            # newer JupyterLab interface
 
 
 
