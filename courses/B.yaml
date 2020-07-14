@@ -17,7 +17,7 @@
     and scripts and make data science a bit easier.
   video: A quick `introduction <https://www.youtube.com/watch?v=jZ952vChhuI>`_ 
     to Jupyter Notebooks
-  reading: CodeRefinery `Jupyter course <http://coderefinery.org/lessons/>`__
+  reading: CodeRefinery `Jupyter course <https://coderefinery.github.io/jupyter/>`__
   questions: |
     >For what kind of work Jupyter suits the best?
     >How is a Jupyter kernel launched?

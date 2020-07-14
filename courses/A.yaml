@@ -2,14 +2,17 @@
   desc: Get started with common scientific computing guidelines.
   reading: |
     `Good computing practices <https://doi.org/10.1371/journal.pcbi.1005510>`__ for everyone regardless of skills
-
+  questions: |
+    >What kind of a workflow to follow?
+    >Where to get help?
 
 - id: A10 Configuring Linux for scientific work
   desc: Linux is great for scientific work.  This goes over some key
     things to install to get going.
   reading: |
     Software Carpentry set up `material <https://carpentries.github.io/workshop-template/#git>`__
-
+  questions: |
+    >What kind of tools do I need?
 
 - id: A11 Configuring Mac for scientific work
   desc: Get your Mac computer set up for scientific computing
