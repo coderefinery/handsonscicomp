@@ -15,8 +15,8 @@
 - id: B21 Jupyter Notebooks
   desc: Notebooks are an efficient way to make self-documenting code
     and scripts and make data science a bit easier.
-  video: A quick `introduction <https://www.youtube.com/watch?v=jZ952vChhuI>`_ 
-    to Jupyter Notebooks
+  video: Data analysis with `Jupyter <https://www.youtube.com/watch?v=_ZEWDGpM-vM&list=PLYCpMb24GpOC704uO9svUrihl-HY1tTJJ>`__
+    video series.
   reading: CodeRefinery `Jupyter course <https://coderefinery.github.io/jupyter/>`__
   questions: |
     >For what kind of work Jupyter suits the best?
