@@ -33,7 +33,8 @@
   video: |
     `LaTeX tutorial series <https://www.youtube.com/playlist?list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D>`_ covering LaTeX formatting and constructing a report
   reading: |
-    Introduction to `LaTeX <https://tobi.oetiker.ch/lshort/lshort.pdf>`_ (online book)
+    Introduction to `LaTeX <https://tobi.oetiker.ch/lshort/lshort.pdf>`_ (online book) and a shorter summary of
+    `LaTex features <https://www.latex-tutorial.com/quick-start/>`__
   questions: |
     >What kind of syntax do LaTeX commands follow?
     
