@@ -20,10 +20,14 @@ determining where you need to start and where you need to end up.
 Our material is divided into different levels, so that you can focus
 on what's relevant to you.  First, check how
 demanding your work is so that you can choose the right courses to
-focus on.
+focus on. Notice, that level E is not appropriate to take if you have not
+completed a programming course yet and are not about to start using programming 
+in practice. 
 
-To earn credits or a certificate from completing this course, you can
-visit the course exercise page `here <https://plus.cs.aalto.fi/hoscic/2020/>`_.
+You can earn credits or a certificate from completing this course by
+doing exercises `here <https://plus.cs.aalto.fi/hoscic/2020/>`_. One 
+credit comes from completing levels A, B and C. Second credit can be 
+earned by completing D, E and F.
 
 .. image:: levels.svg
    :align: center

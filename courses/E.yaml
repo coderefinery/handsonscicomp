@@ -41,7 +41,8 @@
   video: |
     `Debugging <https://www.youtube.com/watch?v=jlBgMf_atSo>`__ strategies
   reading: |
-    For now see `Triton's debugging guide <https://scicomp.aalto.fi/triton/usage/debugging.html>`__
+    `Debugging <http://rkd.zgib.net/scicomp/debugging/debugging.html>`__ in a nutshell.
+    See `Triton's debugging guide <https://scicomp.aalto.fi/triton/usage/debugging.html>`__
   questions: |
     >How to debug different types of errors?
 
@@ -52,7 +53,8 @@
   video: |
     Brief `introduction <https://www.youtube.com/watch?v=f2NkKTn-mw8>`__ to differences between open and closed source software 
   reading: |
-    `CodeRefinery lesson <http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/>`__
+    `CodeRefinery lesson <https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md/#1>`__
+    
   questions: |
     >What is free software?
     >Why should you share your code?
