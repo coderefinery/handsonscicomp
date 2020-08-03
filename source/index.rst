@@ -102,6 +102,10 @@ We have material for different learning styles:
 
 A: Basics
 ~~~~~~~~~
+
+What's available?  How can it be found?  What basic things do you need
+to install?
+
 .. toctree::
    :hidden:
 
@@ -120,6 +124,10 @@ See the :doc:`full list <A>` for more.
 
 B: Related science skills
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Assorted things that help you with your work, but not directly related
+to doing computations.
+
 .. toctree::
    :hidden:
 
@@ -138,6 +146,9 @@ See the :doc:`full list <B>` for more.
 
 C: Linux and shell
 ~~~~~~~~~~~~~~~~~~
+
+The basics which everything else is built on.
+
 .. toctree::
    :hidden:
 
@@ -155,6 +166,11 @@ See the :doc:`full list <C>` for more.
 
 D: Clusters and High Performance Computing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Using advanced computational resources.  This will be highly
+site-specific.  We include some basic information here, but you will
+always have to refer to specific site's instructions.
+
 .. toctree::
    :hidden:
 
@@ -172,6 +188,10 @@ See the :doc:`full list <D>` for more.
 
 E: Scientific coding
 ~~~~~~~~~~~~~~~~~~~~
+
+This isn't about doing the programming itself, but managing it in
+research projects.
+
 .. toctree::
    :hidden:
 
@@ -189,6 +209,10 @@ See the :doc:`full list <E>` for more.
 
 F: Advanced high performance computing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Assorted advanced topics which we can't go into details of, but might
+be interesting to you.
+
 .. toctree::
    :hidden:
 
