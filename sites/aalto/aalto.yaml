@@ -14,5 +14,35 @@ B21-local: |
 C22-local: |
   How to make ssh work better by `Aalto Scicomp <https://scicomp.aalto.fi/scicomp/ssh.html>`__
 
+# What is HPC?
+D01-local: |
+  `Triton cluster intro <https://scicomp.aalto.fi/triton/tut/intro.html>`__
+
+
+# Modules and software
+D20-local: |
+  > `Software and applications <https://scicomp.aalto.fi/triton/tut/applications.html>`__,
+  > `modules <https://scicomp.aalto.fi/triton/tut/modules.html>`__
+
+# Batch systems
+D21-local: |
+  Triton tutorials:
+  `interactive <https://scicomp.aalto.fi/triton/tut/interactive.html>`__,
+  `serial <https://scicomp.aalto.fi/triton/tut/serial.html>`__,
+  `array <https://scicomp.aalto.fi/triton/tut/array.html>`__
+
+# Storage
+D22-local: |
+    Triton tutorials:
+    `storage basics <https://scicomp.aalto.fi/triton/tut/storage.html>`__.  More advanced:
+    `lustre <https://scicomp.aalto.fi/triton/usage/lustre.html>`__,
+    `local storage <https://scicomp.aalto.fi/triton/usage/localstorage.html>`__,
+    `small files <https://scicomp.aalto.fi/triton/usage/smallfiles.html>`__
+
+# Parallel
+D23-local: |
+    Triton tutorials:
+    `parallel <https://scicomp.aalto.fi/triton/tut/parallel.html>`__.
+
 E62-local: |
   Triton profiling `guide <https://scicomp.aalto.fi/triton/usage/profiling.html>`__
