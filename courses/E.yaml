@@ -63,10 +63,12 @@
 - id: E04 Documentation
   desc: 
     Document your project so other people can easily use the code and even contribute to it. 
-  video:
-    Documentation with `Sphinx  <https://www.youtube.com/watch?v=b4iFyrLQQh4>`__
+  video: |
+    >Why is `documentation <https://www.youtube.com/watch?v=lWEOx6r_eEk>`__ necessary in your project
+    >Documentation with `Sphinx  <https://www.youtube.com/watch?v=b4iFyrLQQh4>`__
   reading: |
-    CodeRefinery lesson on `documentation <https://coderefinery.github.io/documentation/>`__
+    > `Tools <https://guides.lib.berkeley.edu/how-to-write-good-documentation>`__ for documentation
+    >CodeRefinery lesson on `documentation <https://coderefinery.github.io/documentation/>`__
   questions: |
     >What should be included in a documentation?
 
