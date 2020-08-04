@@ -1,23 +1,41 @@
 - id: D01 What is HPC?
-  desc: Before you can use larger resources, you need to understand the
+  questions: |
+    > What are the scales of computing?
+  desc: |
+    Before you can use larger resources, you need to understand the
     difference from your own computers
   reading: |
     > `HPC Intro <https://scicomp.aalto.fi/triton/tut/intro.html>`__
 
 
 - id: D20 Modules and software
-  desc: Using and installing software on a cluster is different from
+  questions: |
+    > How do you use ``module``?
+    > How do you find software?
+  desc: |
+    Using and installing software on a cluster is different from
     your own computer, because hundreds of people are sharing it.
     Modules are the solution.
+  video: |
+    `Lmod introduction <https://youtu.be/Et5bXBOKHoc>`__
   reading: |
-    Triton tutorials:
+    > Triton tutorials for intro:
     `modules <https://scicomp.aalto.fi/triton/tut/modules.html>`__,
-    `applications <https://scicomp.aalto.fi/triton/tut/applications.html>`__
+    `applications <https://scicomp.aalto.fi/triton/tut/applications.html>`__,
+    > `Lmod user guide <https://lmod.readthedocs.io/en/latest/010_user.html>`__
 
 
 - id: D21 Batch systems
-  desc: On a cluster, you have to share resources with others.  Slurm
+  questions: |
+    > What role does the batch system fill?
+    > How does one submit to the batch system?
+  desc: |
+    On a cluster, you have to share resources with others.  Slurm
     is one batch queuing system that makes it possible.
+  video: |
+    > `Slurm basics <https://youtu.be/49DzPT9HFJM>`__
+    > `interactive jobs <https://youtu.be/U2Bpg4sZ8Xg>`__
+    > `batch jobs <https://youtu.be/U2Bpg4sZ8Xg>`__
   reading: |
     Triton tutorials:
     `interactive <https://scicomp.aalto.fi/triton/tut/interactive.html>`__,
@@ -26,32 +44,40 @@
 
 
 - id: D22 HPC Storage
-  desc: Storage turns out to be just as important as computing power.
+  questions: |
+    > Why is storage so important?
+    > How can you monitor input/output (I/O) performance?
+    > How to best handle your data?
+  desc: |
+    Storage turns out to be just as important as computing power.
     There are different places available, each with different
     advantages.
+  video: |
+    > `HPC I/O principles <https://youtu.be/V_vWh0kWPBs>`__
   reading: |
-    Triton tutorials:
-    `storage basics <https://scicomp.aalto.fi/triton/tut/storage.html>`__.  More advanced:
-    `lustre <https://scicomp.aalto.fi/triton/usage/lustre.html>`__,
-    `local storage <https://scicomp.aalto.fi/triton/usage/localstorage.html>`__,
-    `small files <https://scicomp.aalto.fi/triton/usage/smallfiles.html>`__
-
+    `Storage basics <https://scicomp.aalto.fi/triton/tut/storage.html>`__.
 
 - id: D23 Parallel computing
-  desc: The point of a cluster is to run things in parallel.  How does
-    this work?
+  questions: |
+    > What are the main models of parallel code?
+    > How are they run on clusters?
+    > How do you figure out what your code uses?
+  desc: |
+    The point of a cluster is to run things in parallel.  Shared
+    memory (OpenMP) and message passing (MPI) are the most common models.
+    Learn how to run them, not write them.
   reading: |
-    Triton tutorials:
-    `parallel <https://scicomp.aalto.fi/triton/tut/parallel.html>`__.
+    `Parallel jobs <https://scicomp.aalto.fi/triton/tut/parallel.html>`__.
 
 
 - id: D24 Advanced shell scripting and automation
-  desc: Hands-on shell scripting, putting everything together to
+  desc: |
+    Hands-on shell scripting, putting everything together to
     automate large computations on the cluster.
   reading: |
     Various courses,
     finishing the `linux shell tutorial
-    <https://scicomp.aalto.fi/training/linux-shell-tutorial.html>`__
+    <https://scicomp.aalto.fi/training/linux-shell-tutorial/>`__
     is a good start.  The `Advanced bash scripting guide
     <https://linux.die.net/abs-guide/>`__ is a classic.
 
