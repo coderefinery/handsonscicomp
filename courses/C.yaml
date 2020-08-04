@@ -3,10 +3,10 @@
     Let's face it: the command line is the basis of most data
     science and programming.
   video: |
-    `Shell crash course <https://youtu.be/56p6xX0aToI>`__
+    > `Shell crash course <https://youtu.be/56p6xX0aToI>`__
   reading: |
     > `Shell crash course <https://scicomp.aalto.fi/scicomp/shell/>`__
-    > `Software Carpentry shell-novice <http://swcarpentry.github.io/shell-novice/>`__.
+    >Software carpentry `Shell-novice <http://swcarpentry.github.io/shell-novice/>`__ 
     >The first part of our `shell course
     <https://scicomp.aalto.fi/training/linux-shell-tutorial.html>`__ is
     good too.
@@ -20,12 +20,12 @@
     Your best friend is a good text editor - sometimes you just
     need to edit things quickly on some remote system.
   video: |
-    Get to know VS Code `tutorial series  <https://www.youtube.com/playlist?list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T>`__
+    >Get to know VS Code `tutorial series  <https://www.youtube.com/playlist?list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T>`__
   reading: |
     > `Software Carpentry
     shell-novice, "Create a text file" part of section 3
     <http://swcarpentry.github.io/shell-novice/>`__
-    > `IDE tutorial <https://coderefinery.github.io/IDEs/>`__
+    >Tutorial on `IDEs <https://coderefinery.github.io/IDEs/>`__
     by CodeRefinery.
   questions: |
     >Which tools to use for code development and editing?
@@ -49,11 +49,11 @@
     collaborate on code and papers: an absolute requirement for
     scientific computing.
   video: |
-    >Why bother with `version control <https://www.youtube.com/watch?v=zbKdDsNNOhg>`__
-    >An `introduction <https://www.youtube.com/watch?v=PWqS4NBhEY8>`__ for beginners to managing code on remote GitHub repositories
+    >Why use `version control <https://www.youtube.com/watch?v=zbKdDsNNOhg>`__
+    > `Git for beginners <https://www.youtube.com/watch?v=PWqS4NBhEY8>`__
   reading: |
-    > `CodeRefinery Introduction to version
-    control <https://coderefinery.github.io/git-intro/>`__
+    > `Introduction to version
+    control <https://coderefinery.github.io/git-intro/>`__ by CodeRefinery
   questions: |
     >What is Git?
     >How to initialize a Git repository?
