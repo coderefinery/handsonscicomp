@@ -2,7 +2,7 @@
 Hands-on Scientific Computing
 =============================
 
-Hands-on SciComp is an self-study course and reference material for
+Hands-on SciComp is a self-study course and reference material for
 the *practical* side of data science and scientific computing - what you need to know
 but don't learn in your studies.  It is focused on what is needed as you
 transition from academic studies to real projects or
@@ -97,7 +97,7 @@ We have material for different learning styles:
      * Reference material to read, which covers anything you may need.
      * If your university has specific local information to supplement
        the general info, it can be found here.
-     * Practice exercises.  In the future, doing these will allow you
+     * Practice exercises.  Doing these will allow you
        to get study credits.
 
 .. _course:

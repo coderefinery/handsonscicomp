@@ -2,7 +2,7 @@
   desc: Before you can use larger resources, you need to understand the
     difference from your own computers
   reading: |
-    `HPC Intro <https://scicomp.aalto.fi/triton/tut/intro.html>`__
+    > `HPC Intro <https://scicomp.aalto.fi/triton/tut/intro.html>`__
 
 
 - id: D20 Modules and software
@@ -11,7 +11,7 @@
     Modules are the solution.
   reading: |
     Triton tutorials:
-    `modules <https://scicomp.aalto.fi/triton/tut/modules.html>`__
+    `modules <https://scicomp.aalto.fi/triton/tut/modules.html>`__,
     `applications <https://scicomp.aalto.fi/triton/tut/applications.html>`__
 
 
