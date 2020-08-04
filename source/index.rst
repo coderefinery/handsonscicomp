@@ -2,7 +2,7 @@
 Hands-on Scientific Computing
 =============================
 
-Hands-on SciComp is an self-study course and reference material for
+Hands-on SciComp is a self-study course and reference material for
 the *practical* side of data science and scientific computing - what you need to know
 but don't learn in your studies.  It is focused on what is needed as you
 transition from academic studies to real projects or
@@ -20,10 +20,14 @@ determining where you need to start and where you need to end up.
 Our material is divided into different levels, so that you can focus
 on what's relevant to you.  First, check how
 demanding your work is so that you can choose the right courses to
-focus on.
+focus on. Notice, that level E is not appropriate to take if you have not
+completed a programming course yet and are not about to start using programming 
+in practice. 
 
-To earn credits or a certificate from completing this course, you can
-visit the course exercise page `here <https://plus.cs.aalto.fi/hoscic/2020/>`_.
+You can earn credits or a certificate from completing this course by
+doing exercises `here <https://plus.cs.aalto.fi/hoscic/2020/>`_. One 
+credit comes from completing levels A, B and C. Second credit can be 
+earned by completing D, E and F.
 
 .. image:: levels.svg
    :align: center
@@ -93,7 +97,7 @@ We have material for different learning styles:
      * Reference material to read, which covers anything you may need.
      * If your university has specific local information to supplement
        the general info, it can be found here.
-     * Practice exercises.  In the future, doing these will allow you
+     * Practice exercises.  Doing these will allow you
        to get study credits.
 
 .. _course:
@@ -102,6 +106,10 @@ We have material for different learning styles:
 
 A: Basics
 ~~~~~~~~~
+
+What's available?  How can it be found?  What basic things do you need
+to install?
+
 .. toctree::
    :hidden:
 
@@ -120,6 +128,10 @@ See the :doc:`full list <A>` for more.
 
 B: Related science skills
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Assorted things that help you with your work, but not directly related
+to doing computations.
+
 .. toctree::
    :hidden:
 
@@ -138,6 +150,9 @@ See the :doc:`full list <B>` for more.
 
 C: Linux and shell
 ~~~~~~~~~~~~~~~~~~
+
+The basics which everything else is built on.
+
 .. toctree::
    :hidden:
 
@@ -155,6 +170,11 @@ See the :doc:`full list <C>` for more.
 
 D: Clusters and High Performance Computing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Using advanced computational resources.  This will be highly
+site-specific.  We include some basic information here, but you will
+always have to refer to specific site's instructions.
+
 .. toctree::
    :hidden:
 
@@ -172,6 +192,10 @@ See the :doc:`full list <D>` for more.
 
 E: Scientific coding
 ~~~~~~~~~~~~~~~~~~~~
+
+This isn't about doing the programming itself, but managing it in
+research projects.
+
 .. toctree::
    :hidden:
 
@@ -189,6 +213,10 @@ See the :doc:`full list <E>` for more.
 
 F: Advanced high performance computing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Assorted advanced topics which we can't go into details of, but might
+be interesting to you.
+
 .. toctree::
    :hidden:
 

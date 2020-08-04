@@ -1,7 +1,7 @@
 About
 =====
 
-Hands-on Scientific Computing is guide for researchers and students
+Hands-on Scientific Computing is a guide for researchers and students
 who have demanding computing needs.
 
 * It can be browsed as needed or as a reference for people working independently
