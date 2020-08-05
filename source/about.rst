@@ -9,7 +9,7 @@ who have demanding computing needs.
 * It can (in the future) be used as a self-study course to bridge the
   gap between academic study and independent research.
 
-* You do not have to enroll on this course unless you wish to be graded. 
+* You do not have to enroll in this course unless you wish to be graded. 
 
 Hands-on Scientific Computing is a course born out of Aalto University
 Science-IT, `CodeRefinery <https://coderefinery.org>`__, and many
