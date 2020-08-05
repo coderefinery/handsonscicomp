@@ -109,6 +109,11 @@ We have material for different learning styles:
 
 .. _course:
 
+.. toctree::
+   :hidden:
+
+   Home <https://handsonscicomp.readthedocs.io/en/latest/>
+
 .. _A:
 
 A: Basics
