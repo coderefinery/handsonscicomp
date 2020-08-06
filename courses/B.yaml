@@ -26,7 +26,16 @@
 
 - id: B30 Making figures
   desc: How to make publication-quality figures for your work.
-
+  video: |
+    > `Inkscape tutorials <https://inkscape.org/learn/tutorials/>`_ covering Inkscape basics for making figures, flowcharts, etc.
+    >A series of `Matplotlib tutorials <https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_>`_ for plotting in
+    Python.
+    > `ggplot2 tutorials <https://www.youtube.com/playlist?list=PLjgj6kdf_snaBCTJEi53DvRVgOuVbzyku>`_ in R.
+  reading: |
+    >PLOS `guidelines for better figures <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833>`_  
+  questions: |
+    >What kinds of tools exist for making figures and plots?
+    >What are some dos and don'ts for plots and figures?
 
 - id: B31 LaTeX for scientific publications
   desc: LaTeX is the standard method for making publications in the
