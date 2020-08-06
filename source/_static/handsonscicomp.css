@@ -16,3 +16,10 @@
 .rst-content .section ul p {
     margin-bottom: 0px;
 }
+
+/* Changes content width to display text more widely */
+@media screen and (min-width: 1100px) {
+  .wy-nav-content {
+    max-width: 900px !important;
+  }
+}
