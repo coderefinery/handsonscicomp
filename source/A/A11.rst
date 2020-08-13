@@ -94,6 +94,8 @@ Jupyter
 `Jupyter <https://jupyter.org>`_ is an interactive way to explore
 data.  It's already installed along with Anaconda.
 
+Follow `this <https://coderefinery.github.io/installation/jupyter/>`_ to install useful extensions to your
+environment. Especially ipywidgets are needed if you continue to do exercises. 
 
 
 Other programming tools

@@ -154,6 +154,9 @@ run::
   $ jupyter lab            # newer JupyterLab interface
 
 
+Follow `this <https://coderefinery.github.io/installation/jupyter/>`_ to install useful extensions to your
+environment. Especially ipywidgets are needed if you continue to do exercises. 
+
 
 Other programming tools
 -----------------------
