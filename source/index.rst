@@ -34,7 +34,7 @@ in practice.
 
 You can earn credits or a certificate from completing this course by doing exercises. 
 One credit comes from completing levels A, B and C. Second credit can be earned by 
-completing D, E and F. Our exercise page and more info is found `here <https://plus.cs.aalto.fi/hoscic/2020/>`_.
+completing D, E and F. Our exercise page and more info is found `here <https://plus.cs.aalto.fi/CS-E4004/2020/>`_.
 
 .. image:: levels.svg
    :align: center
