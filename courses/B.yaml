@@ -2,8 +2,8 @@
   desc: Data needs to be organized and handled well, or else it quickly
     becomes unusable.  There are good and bad ways to do this.
   video: |
-    > `What is not data management, in 5 minutes <https://www.youtube.com/watch?v=N2zK3sAtr-4>`__ and
-    > `Data structuring <https://www.youtube.com/watch?v=3MEJ38BO6Mo&t=>`__
+    >\ `What is not data management, in 5 minutes <https://www.youtube.com/watch?v=N2zK3sAtr-4>`__ and
+    >\ `Data structuring <https://www.youtube.com/watch?v=3MEJ38BO6Mo&t=>`__
   reading: |
     >The Turing Way `data management chapter <https://the-turing-way.netlify.app/reproducible-research/rdm.html>`__
     >Information for research at `FSD <https://www.fsd.tuni.fi/aineistonhallinta/en/>`__
@@ -28,12 +28,12 @@
 - id: B30 Making figures
   desc: How to make publication-quality figures for your work.
   video: |
-    > `Inkscape tutorials <https://inkscape.org/learn/tutorials/>`_ covering Inkscape basics for making figures, flowcharts, etc.
+    >\ `Inkscape tutorials <https://inkscape.org/learn/tutorials/>`_ covering Inkscape basics for making figures, flowcharts, etc.
     >A series of `Matplotlib tutorials <https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_>`_ for plotting in
     Python.
-    > `ggplot2 tutorials <https://www.youtube.com/playlist?list=PLjgj6kdf_snaBCTJEi53DvRVgOuVbzyku>`_ in R.
+    >\ `ggplot2 tutorials <https://www.youtube.com/playlist?list=PLjgj6kdf_snaBCTJEi53DvRVgOuVbzyku>`_ in R.
   reading: |
-    >PLOS `guidelines for better figures <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833>`_  
+    >PLOS `guidelines for better figures <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833>`_
   questions: |
     >What kinds of tools exist for making figures and plots?
     >What are some dos and don'ts for plots and figures?
@@ -42,20 +42,20 @@
   desc: LaTeX is the standard method for making publications in the
     computational and physical sciences.
   video: |
-    > `LaTeX tutorial series <https://www.youtube.com/playlist?list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D>`_ covering LaTeX formatting and constructing a report
+    >\ `LaTeX tutorial series <https://www.youtube.com/playlist?list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D>`_ covering LaTeX formatting and constructing a report
   reading: |
     >Introduction to `LaTeX <https://tobi.oetiker.ch/lshort/lshort.pdf>`_ (online book)
     >Short summary of `LaTex features <https://www.latex-tutorial.com/quick-start/>`__
   questions: |
     >How to build a LaTeX document?
-    
+
 
 - id: B32 Scientific posters
   desc: Making a scientific poster is a common task, but not often
     taught.  There are better tools than PowerPoint.
   reading: |
-    > `Basics of creating a Research Poster <https://guides.nyu.edu/posters>`__
+    >\ `Basics of creating a Research Poster <https://guides.nyu.edu/posters>`__
   video: |
-    > `The dos and don'ts of making a scientific poster <https://www.youtube.com/watch?v=agtgnJP3KoQ>`__
+    >\ `The dos and don'ts of making a scientific poster <https://www.youtube.com/watch?v=agtgnJP3KoQ>`__
   questions: |
     >What makes a clear and concise poster?

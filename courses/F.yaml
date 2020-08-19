@@ -9,19 +9,19 @@
   desc: This was an advanced guest course, useful if you want to know
     how to program GPU applications.
   reading: |
-    `Materials here
-    <http://science-it.aalto.fi/scip/gpu-computing-fall-2017/>`__.
+    >\ `Materials here
+    <http://science-it.aalto.fi/scip/gpu-computing-fall-2017/>`__
 
 - id: Fxx MPI Programming
   desc: This was an advanced guest course, useful if you want to know
     internals of MPI or program MPI applications.
   reading: |
-    `Materials here
-    <http://science-it.aalto.fi/scip/mpi-intro-spring-2018/>`__.
+    >\ `Materials here
+    <http://science-it.aalto.fi/scip/mpi-intro-spring-2018/>`__
 
 - id: Fxx HTCondor
   desc: Condor allows you to use many workstations as a high throughput
     cluster, ideal for mid-range embarrassingly parallel problems.
   reading: |
-    `Materials here
-    <http://science-it.aalto.fi/scip/condor2017/>`__.
+    >\ `Materials here
+    <http://science-it.aalto.fi/scip/condor2017/>`__

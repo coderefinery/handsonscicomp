@@ -1,7 +1,7 @@
 - id: A01 Introduction to scientific computing
   desc: Get started with common scientific computing guidelines.
   reading: |
-    > `Good computing practices <https://doi.org/10.1371/journal.pcbi.1005510>`__ for everyone regardless of skills
+    >\ `Good computing practices <https://doi.org/10.1371/journal.pcbi.1005510>`__ for everyone regardless of skills
   questions: |
     >What kind of a workflow to follow?
     >Where to get help?
