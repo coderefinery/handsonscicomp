@@ -79,10 +79,10 @@ Editor
 
 For IDE (Integrated development environment): Visual Studio Code by Microsoft is a free source code editor.
 It offers customizable functionalities for a more advanced user but is simple enough for a beginner to start with. 
-Install and learn more `here <https://code.visualstudio.com/docs/setup/windows>`_.
+Install and learn more `here <https://code.visualstudio.com/docs/setup/windows>`__.
 
 Other good alternative for Windows is Notepad++ source code and text editor. Notepad++ is not exactly an IDE as it lacks
-features that IDEs have but plugins are available to add functionalities. Download and read more `here <https://notepad-plus-plus.org>`_.
+features that IDEs have but plugins are available to add functionalities. Download and read more `here <https://notepad-plus-plus.org>`__.
 
 
 Jupyter
