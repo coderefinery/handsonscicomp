@@ -13,7 +13,7 @@ automated testing become harder.
 
 
 Installation
------------
+------------
 
 If you have installed Anaconda, Jupyter should already be installed on your machine. 
 See that your Jupyter installation is working by typing ``jupyter-notebook`` in the shell. JupyterLab can be launched by typing ``jupyter-lab``. 

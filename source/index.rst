@@ -1,15 +1,19 @@
-=============================
-Hands-on Scientific Computing
-=============================
+====================================================
+Welcome to the Hands-on Scientific Computing course!
+====================================================
 
-Hands-on SciComp is an self-study course and reference material for
+
+What is the course about?
+-------------------------
+
+Hands-on SciComp is a self-study course and reference material for
 the *practical* side of data science and scientific computing - what you need to know
-but don't learn in your studies.  It is focused on what is needed as you
+but do not learn in your studies.  It is focused on what is needed as you
 transition from academic studies to real projects or
 data-based/computational research - including student projects.
 
-What you find here isn't unique, and you can find similar materials
-from `Software Carpentry`_, CodeRefinery_, and more --- but those all
+What you find here is not unique, and you can find similar materials
+from `Software Carpentry`_, CodeRefinery_, and more --- but all those
 are roughly designed as single, guided courses.  Hands-on SciComp
 links to all of these materials and organizes them for self-study and
 determining where you need to start and where you need to end up.
@@ -17,13 +21,20 @@ determining where you need to start and where you need to end up.
 .. _Software Carpentry: https://software-carpentry.org
 .. _CodeRefinery: https://coderefinery.org
 
-Our material is divided into different levels, so that you can focus
-on what's relevant to you.  First, check how
-demanding your work is so that you can choose the right courses to
-focus on.
 
-To earn credits or a certificate from completing this course, you can
-visit the course exercise page `here <https://plus.cs.aalto.fi/hoscic/2020/>`_.
+How to go through the material?
+-------------------------------
+
+Our material is divided into different levels, so that you can focus
+on what is relevant to you.  First, check how
+demanding your work is so that you can choose the right courses to
+focus on. Notice, that level E is not appropriate to take if you have not
+completed a programming course yet and are not about to start using programming 
+in practice. 
+
+You can earn credits or a certificate from completing this course by doing exercises. 
+One credit comes from completing levels A, B and C. Second credit can be earned by 
+completing D, E and F. Our exercise page and more info is found `here <https://plus.cs.aalto.fi/CS-E4004/2020/>`_.
 
 .. image:: levels.svg
    :align: center
@@ -93,15 +104,24 @@ We have material for different learning styles:
      * Reference material to read, which covers anything you may need.
      * If your university has specific local information to supplement
        the general info, it can be found here.
-     * Practice exercises.  In the future, doing these will allow you
+     * Practice exercises.  Doing these will allow you
        to get study credits.
 
 .. _course:
+
+.. toctree::
+   :hidden:
+
+   Home <https://handsonscicomp.readthedocs.io/en/latest/>
 
 .. _A:
 
 A: Basics
 ~~~~~~~~~
+
+What's available?  How can it be found?  What basic things do you need
+to install?
+
 .. toctree::
    :hidden:
 
@@ -120,6 +140,10 @@ See the :doc:`full list <A>` for more.
 
 B: Related science skills
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Assorted things that help you with your work, but not directly related
+to doing computations.
+
 .. toctree::
    :hidden:
 
@@ -138,6 +162,9 @@ See the :doc:`full list <B>` for more.
 
 C: Linux and shell
 ~~~~~~~~~~~~~~~~~~
+
+The basics which everything else is built on.
+
 .. toctree::
    :hidden:
 
@@ -155,6 +182,11 @@ See the :doc:`full list <C>` for more.
 
 D: Clusters and High Performance Computing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Using advanced computational resources.  This will be highly
+site-specific.  We include some basic information here, but you will
+always have to refer to specific site's instructions.
+
 .. toctree::
    :hidden:
 
@@ -172,6 +204,10 @@ See the :doc:`full list <D>` for more.
 
 E: Scientific coding
 ~~~~~~~~~~~~~~~~~~~~
+
+This isn't about doing the programming itself, but managing it in
+research projects.
+
 .. toctree::
    :hidden:
 
@@ -189,6 +225,10 @@ See the :doc:`full list <E>` for more.
 
 F: Advanced high performance computing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Assorted advanced topics which we can't go into details of, but might
+be interesting to you.
+
 .. toctree::
    :hidden:
 

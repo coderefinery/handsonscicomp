@@ -1,21 +1,26 @@
 About
 =====
 
-Hands-on Scientific Computing is guide for researchers and students
+Hands-on Scientific Computing is a guide for all researchers and students
 who have demanding computing needs.
 
-* It can be browsed as needed or as a reference for people working independently
+* It can be browsed as needed or as a reference for people working independently.
 
 * It can (in the future) be used as a self-study course to bridge the
   gap between academic study and independent research.
 
+* You do not have to enroll in this course unless you wish to be graded. 
+
 Hands-on Scientific Computing is a course born out of Aalto University
-Science-IT, `uCodeRefinery <https://coderefinery.org>`__, and many
+Science-IT, `CodeRefinery <https://coderefinery.org>`__, and many
 other inspirations.  Initial funding is provided by an Aalto Online
 Learning grant.
 
 
+Support
+-------
 
+For now, contact Aalto Science IT for feedback and questions.
 
 
 Design and development

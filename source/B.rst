@@ -2,6 +2,7 @@ B: Related science skills
 =========================
 
 .. toctree::
+   :maxdepth: 1
    :glob:
 
    B/*
