@@ -16,7 +16,8 @@
   desc: Notebooks are an efficient way to make self-documenting code
     and scripts and make data science a bit easier.
   video: |
-    >A quick `introduction <https://www.youtube.com/watch?v=jZ952vChhuI>`_ to Jupyter Notebooks
+    >Data analysis with `Jupyter <https://www.youtube.com/playlist?list=PLYCpMb24GpOC704uO9svUrihl-HY1tTJJ>`__
+    video series.
   reading: |
     >CodeRefinery `Jupyter course <https://coderefinery.github.io/jupyter/>`__
   questions: |
