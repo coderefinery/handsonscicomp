@@ -6,9 +6,11 @@ Welcome to the Hands-on Scientific Computing course!
 What is the course about?
 -------------------------
 
-Hands-on SciComp is a self-study course and reference material for
-the *practical* side of data science and scientific computing - what you need to know
-but do not learn in your studies.  It is focused on what is needed as you
+Hands-on SciComp is a "map" of diverse skills that you need for
+scientific computing, which are often not directly taught in classes
+these days.  It is primarily a self-study course and reference
+material, which you can browse at your own pace as it becomes relevant
+to you.  It is focused on what is needed as you
 transition from academic studies to real projects or
 data-based/computational research - including student projects.
 
@@ -28,9 +30,10 @@ How to go through the material?
 Our material is divided into different levels, so that you can focus
 on what is relevant to you.  First, check how
 demanding your work is so that you can choose the right courses to
-focus on. Notice, that level E is not appropriate to take if you have not
-completed a programming course yet and are not about to start using programming 
-in practice. 
+focus on.
+
+Credits?
+--------
 
 You can earn credits or a certificate from completing this course by doing exercises. 
 One credit comes from completing levels A, B and C. Second credit can be earned by 
@@ -89,23 +92,11 @@ completing D, E and F. Our exercise page and more info is found `here <https://p
        framework), OpenMP (another one), GPU programming, etc.  And
        anything more advanced.
 
-We have material for different learning styles:
+We have material for different learning styles: you might prefer to
+watch a video to see quick live examples, or read something for more
+detail.  All of these aspects compliment each other, and you can do
+what suits you the best.
 
-.. list-table::
-   :header-rows: 1
-
-   * * Video intro
-     * Material
-     * Local info
-     * Exercises
-
-   * * A short video introduction and demo to get you started and show
-       you real examples.
-     * Reference material to read, which covers anything you may need.
-     * If your university has specific local information to supplement
-       the general info, it can be found here.
-     * Practice exercises.  Doing these will allow you
-       to get study credits.
 
 .. _course:
 
@@ -206,7 +197,8 @@ E: Scientific coding
 ~~~~~~~~~~~~~~~~~~~~
 
 This isn't about doing the programming itself, but managing it in
-research projects.
+research projects.  A prerequisite is knowing some programming
+language already.
 
 .. toctree::
    :hidden:
