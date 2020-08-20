@@ -123,7 +123,8 @@ to install?
    :header-rows: 1
    :file: ../courses/A.yaml
 
-See the :doc:`full list <A>` for more.
+..
+   See the :doc:`full list <A>` for more.
 
 
 
@@ -145,7 +146,8 @@ to doing computations.
    :header-rows: 1
    :file: ../courses/B.yaml
 
-See the :doc:`full list <B>` for more.
+..
+   See the :doc:`full list <B>` for more.
 
 
 
@@ -165,7 +167,8 @@ The basics which everything else is built on.
    :header-rows: 1
    :file: ../courses/C.yaml
 
-See the :doc:`full list <C>` for more.
+..
+   See the :doc:`full list <C>` for more.
 
 
 
@@ -187,7 +190,8 @@ always have to refer to specific site's instructions.
    :header-rows: 1
    :file: ../courses/D.yaml
 
-See the :doc:`full list <D>` for more.
+..
+   See the :doc:`full list <D>` for more.
 
 
 
@@ -209,7 +213,8 @@ language already.
    :header-rows: 1
    :file: ../courses/E.yaml
 
-See the :doc:`full list <E>` for more.
+..
+   See the :doc:`full list <E>` for more.
 
 
 
@@ -230,7 +235,8 @@ be interesting to you.
    :header-rows: 1
    :file: ../courses/F.yaml
 
-See the :doc:`full list <F>` for more.
+..
+   See the :doc:`full list <F>` for more.
 
 
 

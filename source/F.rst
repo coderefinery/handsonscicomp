@@ -5,7 +5,7 @@ F: Advanced high performance computing
    :header-rows: 1
    :file: ../courses/F.yaml
 
-
-.. course-table::
-   :header-rows: 1
-   :file: ../courses/F-extra.yaml
+..
+   .. course-table::
+      :header-rows: 1
+      :file: ../courses/F-extra.yaml
