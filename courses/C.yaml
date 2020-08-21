@@ -3,9 +3,9 @@
     Let's face it: the command line is the basis of most data
     science and programming.
   video: |
-    > `Shell crash course <https://youtu.be/56p6xX0aToI>`__
+    >\ `Shell crash course <https://youtu.be/56p6xX0aToI>`__
   reading: |
-    > `Shell crash course <https://scicomp.aalto.fi/scicomp/shell/>`__
+    >\ `Shell crash course <https://scicomp.aalto.fi/scicomp/shell/>`__
     >Software carpentry `Shell-novice <http://swcarpentry.github.io/shell-novice/>`__ 
     >The first part of our `shell course
     <https://scicomp.aalto.fi/training/linux-shell-tutorial.html>`__ is
@@ -22,7 +22,7 @@
   video: |
     >Get to know VS Code `tutorial series  <https://www.youtube.com/playlist?list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T>`__
   reading: |
-    > `Software Carpentry
+    >\ `Software Carpentry
     shell-novice, "Create a text file" part of section 3
     <http://swcarpentry.github.io/shell-novice/>`__
     >Tutorial on `IDEs <https://coderefinery.github.io/IDEs/>`__
@@ -35,7 +35,7 @@
   desc: |
     If you can do it on the Linux shell, you can automate it.
   video: |
-    > `Shell scripting <https://www.youtube.com/playlist?list=PLUQy4zfrctjH-FsjpIZDZ0NBznvF4FdNP>`__ tutorials.
+    >\ `Shell scripting <https://www.youtube.com/playlist?list=PLUQy4zfrctjH-FsjpIZDZ0NBznvF4FdNP>`__ tutorials.
   reading: |
     >Continue with the `Science-IT Linux shell tutorial
     <https://scicomp.aalto.fi/training/linux-shell-tutorial.html#part-2-linux-shell-scripting>`__ part 2.
@@ -50,9 +50,9 @@
     scientific computing.
   video: |
     >Why use `version control <https://www.youtube.com/watch?v=zbKdDsNNOhg>`__
-    > `Git for beginners <https://www.youtube.com/watch?v=PWqS4NBhEY8>`__
+    >\ `Git for beginners <https://www.youtube.com/watch?v=PWqS4NBhEY8>`__
   reading: |
-    > `Introduction to version
+    >\ `Introduction to version
     control <https://coderefinery.github.io/git-intro/>`__ by CodeRefinery
   questions: |
     >What is Git?
@@ -64,9 +64,9 @@
     A short but important course: how to do work remotely.
     Different expert tips for making ssh better, too.
   reading: |
-    > `SSH <https://www.mn.uio.no/geo/english/services/it/help/using-linux/ssh-tips-and-tricks.html>`__ for working on a remote machine.
+    >\ `SSH <https://www.mn.uio.no/geo/english/services/it/help/using-linux/ssh-tips-and-tricks.html>`__ for working on a remote machine.
   video: |
-    > `Introduction to secure shell <https://www.youtube.com/watch?v=UHWR3Nj3bhE&list=PLA86D04D6E0BFD2E0&index=9>`__ by Software Carpentry
+    >\ `Introduction to secure shell <https://www.youtube.com/watch?v=UHWR3Nj3bhE&list=PLA86D04D6E0BFD2E0&index=9>`__ by Software Carpentry
   questions: |
     >What does SSH mean and when to use it?
 
@@ -75,7 +75,7 @@
   desc: |
     Automate the repetitive stuff with Make.
   video: |
-    > `Episodes <https://www.youtube.com/playlist?list=PLF47AC7312BE0799A>`__ on Make by Software Carpentry
+    >\ `Episodes <https://www.youtube.com/playlist?list=PLF47AC7312BE0799A>`__ on Make by Software Carpentry
   reading: |
     >Short `introduction <https://opensource.com/article/18/8/what-how-makefile>`__ on what is a Makefile and basic operations.
     >For more information on Makefiles see `GNU Make Manual <https://www.gnu.org/software/make/manual/make.html>`__

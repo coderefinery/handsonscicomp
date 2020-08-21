@@ -3,9 +3,9 @@
     Break your large programs into small problems by separating aspects of desired functionality
     to different sub-modules.
   reading: |
-    > `Lesson <http://coderefinery.org/lessons/>`__ on Modular code development by CodeRefinery
+    >\ `Lesson <http://coderefinery.org/lessons/>`__ on Modular code development by CodeRefinery
   video: |
-    > `Python example <https://www.youtube.com/watch?v=mz_T554Qe6A>`__ of breaking code into small components
+    >\ `Python example <https://www.youtube.com/watch?v=mz_T554Qe6A>`__ of breaking code into small components
   questions: |
     >How to divide code into independent modules?
     >What are pure functions like?
@@ -13,12 +13,12 @@
 
 - id: E61 Software testing
   desc: |
-    It is important to ensure that your program performs effectively and without failures. 
+    It is important to ensure that your program performs effectively and without failures.
     Adding tests for your software can save a lot of your time later.
   video: |
     >Software testing `fundamentals <https://www.youtube.com/playlist?list=PLB384772FCCE1414E>`__ by Software Carpentry
   reading: |
-    > `Lesson <https://coderefinery.github.io/testing/>`__ on testing by CodeRefinery
+    >\ `Lesson <https://coderefinery.github.io/testing/>`__ on testing by CodeRefinery
   questions: |
     >How to test code on different levels?
     >What kind of testing tools are there?
@@ -27,7 +27,7 @@
 - id: E62 Profiling
   desc: Code efficiency is critical especially in HPC. Learn to measure the performance of your programs.
   video: |
-    > `Profiling Python code <https://www.youtube.com/watch?v=8qEnExGLZfY>`__ with cProfile
+    >\ `Profiling Python code <https://www.youtube.com/watch?v=8qEnExGLZfY>`__ with cProfile
   reading: |
     >Profiling tools for `Linux <http://www.brendangregg.com/linuxperf.html>`__
     >Profiling for `C and Python <http://rkd.zgib.net/scicomp/profiling/profiling.html>`__
@@ -36,50 +36,50 @@
 
 
 - id: E63 Debugging
-  desc: 
+  desc:
     Detect, investigate and resolve bugs.
   video: |
-    > `Debugging <https://www.youtube.com/watch?v=jlBgMf_atSo>`__ strategies
+    >\ `Debugging <https://www.youtube.com/watch?v=jlBgMf_atSo>`__ strategies
   reading: |
-    > `Debugging <http://rkd.zgib.net/scicomp/debugging/debugging.html>`__ in a nutshell.
+    >\ `Debugging <http://rkd.zgib.net/scicomp/debugging/debugging.html>`__ in a nutshell.
     >See `Triton's debugging guide <https://scicomp.aalto.fi/triton/usage/debugging.html>`__
   questions: |
     >How to debug different types of errors?
 
 
 - id: E02 Software Licensing
-  desc: 
+  desc:
     Sharing your work can be very beneficial. Take a look at social coding and software licensing.
   video: |
-    >Brief `introduction <https://www.youtube.com/watch?v=f2NkKTn-mw8>`__ to differences between open and closed source software 
+    >Brief `introduction <https://www.youtube.com/watch?v=f2NkKTn-mw8>`__ to differences between open and closed source software
   reading: |
-    > `Lesson <https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md/#1>`__ on social coding by CodeRefinery
+    >\ `Lesson <https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md/#1>`__ on social coding by CodeRefinery
   questions: |
     >What is free software?
     >Why should you share your code?
 
 
 - id: E04 Documentation
-  desc: 
-    Document your project so other people can easily use the code and even contribute to it. 
+  desc:
+    Document your project so other people can easily use the code and even contribute to it.
   video: |
     >Documentation with `Sphinx  <https://www.youtube.com/watch?v=b4iFyrLQQh4>`__
   reading: |
     >Why is `documentation <https://www.youtube.com/watch?v=lWEOx6r_eEk>`__ necessary in your project
     >Documentation with `Sphinx  <https://www.youtube.com/watch?v=b4iFyrLQQh4>`__
   reading: |
-    > `Tools <https://guides.lib.berkeley.edu/how-to-write-good-documentation>`__ for documentation
+    >\ `Tools <https://guides.lib.berkeley.edu/how-to-write-good-documentation>`__ for documentation
     >CodeRefinery lesson on `documentation <https://coderefinery.github.io/documentation/>`__
   questions: |
     >What should be included in a documentation?
 
 
 - id: E03 Reproducible research
-  desc: 
-    How different tools can improve reproducibility. 
+  desc:
+    How different tools can improve reproducibility.
   video: |
     >What is `reproducible research <https://www.youtube.com/watch?v=4rBX6r5emgQ>`__
   reading: |
-    > `Lesson <https://coderefinery.github.io/reproducible-research/>`__ by CodeRefinery
+    >\ `Lesson <https://coderefinery.github.io/reproducible-research/>`__ by CodeRefinery
   questions: |
     >Which tools can help with reproducibility?
