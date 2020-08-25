@@ -20,7 +20,10 @@ Learning grant.
 Support
 -------
 
-For now, contact Aalto Science IT for feedback and questions.
+For questions and feedback regarding the course, you may join our workspace `AaltoSciComp courses <https://aaltoscicompcourses.slack.com>`__
+on Slack.
+
+You can also contact Aalto Science IT.
 
 
 Design and development
