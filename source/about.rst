@@ -20,7 +20,9 @@ Learning grant.
 Support
 -------
 
-For now, contact Aalto Science IT for feedback and questions.
+If you have questions about Hands-on SciComp in general, see `CodeRefinery zulipchat <https://coderefinery.github.io/manuals/chat/>`__.
+
+If you are taking the course for credits and have questions, join `AaltoSciComp courses <https://aaltoscicompcourses.slack.com>`__ workspace.
 
 
 Design and development
