@@ -23,26 +23,30 @@ determining where you need to start and where you need to end up.
 .. _Software Carpentry: https://software-carpentry.org
 .. _CodeRefinery: https://coderefinery.org
 
+.. image:: levels.svg
+   :align: center
+   :alt: Level dependencies
+   :scale: 75%
+
 
 How to go through the material?
 -------------------------------
 
 Our material is divided into different levels, so that you can focus
-on what is relevant to you.  First, check how
-demanding your work is so that you can choose the right courses to
-focus on.
+on what is relevant to you.  First, check what you need to know in
+your work (your course instructor or supervisor may have some
+thoughts).  Then, focus on those levels at your own pace.
 
 Credits?
 --------
 
-You can earn credits or a certificate from completing this course by doing exercises. 
-One credit comes from completing levels A, B and C. Second credit can be earned by 
-completing D, E and F. Our exercise page and more info is found `here <https://plus.cs.aalto.fi/CS-E4004/2020/>`_.
+You can earn credits or a certificate from completing this course by doing exercises.
+One credit comes from completing levels A, B and C. A second credit can be earned by
+completing D, E and F.  The course material is here, but see `our
+exercise page <https://plus.cs.aalto.fi/CS-E4004/2020/>`__ for
+information on credits.
 
-.. image:: levels.svg
-   :align: center
-   :alt: Level dependencies
-   :scale: 75%
+
 
 
 .. list-table::
