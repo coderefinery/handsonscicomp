@@ -46,6 +46,8 @@ completing D, E and F.  The course material is here, but see `our
 exercise page <https://plus.cs.aalto.fi/CS-E4004/2020/>`__ for
 information on credits.
 
+Attention! If your home university is not Aalto university, you must have flexible study 
+rights to get credits. Contact your home university for more information.
 
 
 
