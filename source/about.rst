@@ -24,6 +24,8 @@ If you have questions about Hands-on SciComp in general, see `CodeRefinery zulip
 
 If you are taking the course for credits and have questions, join `AaltoSciComp courses <https://aaltoscicompcourses.slack.com>`__ workspace.
 
+You can also contact us via **scip@aalto.fi**
+
 
 Design and development
 ----------------------
