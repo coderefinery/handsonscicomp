@@ -3,7 +3,7 @@
     Break your large programs into small problems by separating aspects of desired functionality
     to different sub-modules.
   reading: |
-    >\ `Lesson <http://coderefinery.org/lessons/>`__ on Modular code development by CodeRefinery
+    >\ `Lesson <https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1>`__ on Modular code development by CodeRefinery
   video: |
     >\ `Python example <https://www.youtube.com/watch?v=mz_T554Qe6A>`__ of breaking code into small components
   questions: |
