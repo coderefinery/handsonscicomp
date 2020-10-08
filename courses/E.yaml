@@ -31,6 +31,7 @@
   reading: |
     >Profiling tools for `Linux <http://www.brendangregg.com/linuxperf.html>`__
     >Profiling for `C and Python <http://rkd.zgib.net/scicomp/profiling/profiling.html>`__
+    >An intro article on `Ruby and Python's profilers <https://jvns.ca/blog/2017/12/17/how-do-ruby---python-profilers-work-/>`__
   questions: |
     >What is profiling used for?
 
