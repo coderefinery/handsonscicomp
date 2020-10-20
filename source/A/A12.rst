@@ -104,3 +104,12 @@ Other programming tools
 -----------------------
 
 For remote network tools: `MobaXterm <https://mobaxterm.mobatek.net>`_
+
+If you wish to obtain credits from the course, you might need
+
+* NumPy
+* Matplotlib
+
+to complete exercises. These libraries are pre-installed with Anaconda installation.
+Further information about installations can be found here: `NumPy <https://numpy.org/install/>`_ 
+and `Matplotlib <https://matplotlib.org/3.3.2/users/installing.html>`_
