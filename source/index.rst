@@ -41,8 +41,8 @@ Credits?
 --------
 
 You can earn credits or a certificate from completing this course by doing exercises.
-One credit comes from completing levels A, B and C. A second credit can be earned by
-completing D, E and F.  The course material is here, but see `our
+One credit comes from completing exercises for levels A, B and C. Second credit can be earned by
+completing exercises for D and E.  The course material is here, but see `our
 exercise page <https://plus.cs.aalto.fi/CS-E4004/2020/>`__ for
 information on credits.
 
