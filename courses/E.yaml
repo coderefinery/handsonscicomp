@@ -44,6 +44,7 @@
   reading: |
     >\ `Debugging <http://rkd.zgib.net/scicomp/debugging/debugging.html>`__ in a nutshell.
     >See `Triton's debugging guide <https://scicomp.aalto.fi/triton/usage/debugging.html>`__
+    >A hands-on tutorial on `pdb debugger <https://github.com/spiside/pdb-tutorial>`__
   questions: |
     >How to debug different types of errors?
 
