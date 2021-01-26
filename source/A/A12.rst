@@ -19,6 +19,9 @@ through it here.
 Shell tools
 -----------
 
+The shell provides an interface to efficiently access the true power of a computer. Now we use it to install tools 
+but it can be used for many other tasks too. 
+
 Windows comes with CMD (``cmd.exe``) known as command prompt. You can find CMD by typing ``cmd`` in your start menu search bar.
 A slightly better alternative would be a Git bash command line because Windows command prompt does not support many UNIX commands.
 Git Bash emulates a bash environment and lets you use all git features plus most of standard unix commands - so you are immediately
@@ -29,6 +32,9 @@ See the next section for installation instructions.
 
 Version control (git)
 ---------------------
+
+Using version control is like an insurance for your projects. It is not only about tracking changes but also to improve your
+project visibility and make it easier to collaborate.
 
 To install Git Bash, follow `this <https://www.youtube.com/watch?v=339AEqk9c-8>`_ tutorial made by Software Carpentry.
 You only need to follow the video instructions for Git Bash (until 2:50) because the newest versions of Git Bash should install
@@ -48,6 +54,9 @@ Links:
 * `Nano text editor tutorial <https://www.tutorialspoint.com/how-to-use-nano-text-editor>`_
 * Git can also be installed through Anaconda
 
+Your organization might provide you access to some other repository manager than GitHub
+but since GitHub is a higher availablity solution, it does not hurt to create an account there.
+You can sign up for Github `here <https://github.com>`_
 
 
 Anaconda (Python)
@@ -89,8 +98,9 @@ Jupyter
 -------
 
 `Jupyter <https://jupyter.org>`_ is an interactive way to explore
-data.  It's already installed along with Anaconda.  To
-start it in a certain directory, go to that directory in the shell and
+data. It can be used to add code, output, titles, text and visualisations into one document.  
+It's already installed along with Anaconda. To start it in a certain directory, go to that directory 
+in the shell and
 run::
 
   $ jupyter notebook       # older notebook interface

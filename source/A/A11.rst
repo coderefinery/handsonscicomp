@@ -14,6 +14,10 @@ This page gets you set up for basic scientific work using Python.
 Shell tools
 -----------
 
+The shell provides an interface to efficiently access 
+the true power of a computer. Now we use it to install tools 
+but it can be used for many other tasks too. 
+
 Mac comes with the bash (or zsh for 10.15 and later), so you don't
 need to do anything.  Just start it by TODO.  To verify, try running
 this::
@@ -24,9 +28,20 @@ this::
 Version control (git)
 ---------------------
 
+Using version control is like an insurance for your projects.
+It is not only about tracking changes but also to improve your
+project visibility and make it easier to collaborate. 
+
+Git is the most popular system for version control and GitHub is one of
+the services that provide online storing for projects.
+
 You install Git for MacOS by downloading the most recent "mavricks"
 installer from
 http://sourceforge.net/projects/git-osx-installer/files/
+
+If you have Homebrew (a package manager) you can do::
+
+  brew install git
 
 Nothing appears in Applications, since it's a command line program.
 From
@@ -35,6 +50,10 @@ Verify it from the shell terminal::
 
   git --version
 
+
+Your organization might provide you access to some other repository manager than GitHub
+but since GitHub is a higher availablity solution, it does not hurt to create an account there.
+You can sign up for Github `here <https://github.com>`_
 
 
 Anaconda (Python)
@@ -92,7 +111,8 @@ Jupyter
 -------
 
 `Jupyter <https://jupyter.org>`_ is an interactive way to explore
-data.  It's already installed along with Anaconda.
+data. It can be used to add code, output, titles, text and visualisations into one document.   
+It's already installed along with Anaconda.
 
 Follow `this <https://coderefinery.github.io/installation/jupyter/>`_ to install useful extensions to your
 environment. Especially ipywidgets are needed if you continue to do exercises. 
