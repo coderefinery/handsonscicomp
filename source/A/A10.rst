@@ -82,6 +82,10 @@ You can sign up for Github `here <https://github.com>`_
 Anaconda (Python)
 -----------------
 
+In software development there are some standard packages that are
+useful to have without the trouble of installing them separately with 
+their dependencies. 
+
 There are very many programming languages, and you probably won't only
 use Python.  But, it is quite common so we mention it here.  We
 install the Anaconda distribution of Python: it gets you all the basic
@@ -94,6 +98,9 @@ people need - if you want to save space, install Miniconda instead
 * `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`_
 
 This will get you Jupyter and many other Python things, too.
+
+Anaconda allows you to manage your development environment which is good
+since you can have different environments dedicated to their designated purposes.
 
 .. todo::
 
