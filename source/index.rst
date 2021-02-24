@@ -20,11 +20,12 @@ are roughly designed as single, guided courses.  Hands-on SciComp
 links to all of these materials and organizes them for self-study and
 determining where you need to start and where you need to end up.
 
-This course is coordinated by `Aalto University Science-IT`_ 
+This course is coordinated by `Aalto University Science-IT`_  (See `About`_ for contact info)
 
 .. _Software Carpentry: https://software-carpentry.org
 .. _CodeRefinery: https://coderefinery.org
 .. _Aalto University Science-IT: https://scicomp.aalto.fi/about/
+.. _About: https://handsonscicomp.readthedocs.io/en/latest/about/
 
 .. image:: levels.svg
    :align: center
@@ -255,6 +256,6 @@ be interesting to you.
    :hidden:
 
    about
-   fitech_info
+   fitech-info
 
 * :ref:`genindex`
