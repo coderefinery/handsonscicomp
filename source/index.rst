@@ -25,7 +25,6 @@ This course is coordinated by `Aalto University Science-IT`_  (See :doc:`about` 
 .. _Software Carpentry: https://software-carpentry.org
 .. _CodeRefinery: https://coderefinery.org
 .. _Aalto University Science-IT: https://scicomp.aalto.fi/about/
-.. _About: https://handsonscicomp.readthedocs.io/en/latest/about/
 
 .. image:: levels.svg
    :align: center
