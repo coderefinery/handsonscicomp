@@ -50,7 +50,7 @@ exercise page <https://plus.cs.aalto.fi/CS-E4004/2020/>`__ for
 information on credits.
 
 Attention! If your home university is some other Finnish university or you are an adult learner in Finland, please refer to 
-`For FITech users page <https://handsonscicomp.readthedocs.io/en/latest/fitech-info/`__ to find out how to acquire credits 
+`For FITech users page <https://handsonscicomp.readthedocs.io/en/latest/fitech-info/>`__ to find out how to acquire credits 
 from completing this course.
 
 
