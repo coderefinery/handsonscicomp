@@ -106,6 +106,11 @@ watch a video to see quick live examples, or read something for more
 detail.  All of these aspects compliment each other, and you can do
 what suits you the best.
 
+Course video introduction
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+See course video introduction series `here <https://www.youtube.com/playlist?list=PLZLVmS9rf3nOkAFz63oKNSOKk7N47PoSJ>`__
+
 
 .. _course:
 
