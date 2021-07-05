@@ -43,15 +43,15 @@ thoughts).  Then, focus on those levels at your own pace.
 Credits?
 --------
 
-You can earn credits or a certificate from completing this course by doing exercises.
+You can earn credits from completing this course by doing exercises.
 One credit comes from completing exercises for levels A, B and C. Second credit can be earned by
 completing exercises for D and E.  The course material is here, but see `our
 exercise page <https://plus.cs.aalto.fi/CS-E4004/2020/>`__ for
 information on credits.
 
-Attention! If your home university is not Aalto University, but you are in a university in Finland, you have flexible study 
-rights to get credits directly from Aalto. Contact your home university for more information: search "JOO", "joustava opinto-oikeus".
-
+Attention! If your home university is some other Finnish university or you are an adult learner in Finland, please refer to 
+`For FITech users page <https://handsonscicomp.readthedocs.io/en/latest/fitech-info/>`__ to find out how to acquire credits 
+from completing this course.
 
 
 .. list-table::
@@ -105,6 +105,11 @@ We have material for different learning styles: you might prefer to
 watch a video to see quick live examples, or read something for more
 detail.  All of these aspects compliment each other, and you can do
 what suits you the best.
+
+Course video introduction
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+See course video introduction series `here <https://www.youtube.com/playlist?list=PLZLVmS9rf3nOkAFz63oKNSOKk7N47PoSJ>`__
 
 
 .. _course:
