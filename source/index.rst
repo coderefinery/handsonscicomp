@@ -262,4 +262,10 @@ be interesting to you.
    about
    fitech-info
 
+.. toctree::
+   :hidden:
+   :caption: Other virtual courses
+
+   coderefinery
+
 * :ref:`genindex`
