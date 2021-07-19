@@ -1,25 +1,28 @@
 HPC Kickstart (Aalto)
 =====================
 
-This page contains a virtual HPC (or more precisely, cluster
-computing) kickstart course.  It is not part of the main Hands-on
-Scientific Computing flow, but is an expanded version of the "D"
-level.
+This page contains a virtual high performance computing (HPC, or more
+precisely, cluster computing) kickstart course.  It is not part of the
+main Hands-on Scientific Computing flow, but is an expanded version of
+the "D" level material.
 
 This page currently contains an online course from Aalto University
 (Aalto Scientific Computing), so the exact examples may not work on
-your other clusters, but the theory and concepts *will* (and you need
-to also use your own examples along with it).
+other clusters, but the theory and concepts *will* - you need to
+combine this outline with documentation from your own site.
 
 In the future, this page will be adjusted to the best topics in the
 best order from all courses combined, which means various material may
-be mixed-and-matched so that the flow is not perfect, but it will
-still be a better effect overall.
+be mixed-and-matched so that the transitions are not perfect, but it
+will still have the best effect overall.
 
 
 
 Introductory material
 ---------------------
+
+These can be used in whatever order suits you, or you can watch the
+intro and then go on.
 
 * Day 1 introduction (`Video
   <https://www.youtube.com/watch?v=N3UcSgS-SAw&list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&index=2>`__,
@@ -62,7 +65,8 @@ Main tutorials
   `Reading <https://scicomp.aalto.fi/triton/tut/modules/>`__,
   `Q&A <>`__)
 
-"How to actually run stuff" track:
+"How to actually run stuff" track.  This goes into detail about the
+batch system and accessing resources:
 
 * Interactive jobs
   (`Video <https://www.youtube.com/watch?v=9fh5Gh-fkJI&list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&index=14>`__,
@@ -94,15 +98,20 @@ Main tutorials
 Special topics
 --------------
 
+These special topics can be used in whatever order suits you, if they
+are relevant to your interests.
+
 * Scientific computing workflows: different ways of actually using
-  computing resources
+  computing resources.  Recommended to put the cluster into
+  perspective with other types of needs.
   (`Video <https://www.youtube.com/watch?v=ExFbc5EikU0>`__,
   `Reading <https://scicomp.aalto.fi/training/scip/intro-linux-aalto-computing/>`__,
   `Q&A <>`__)
-* Currently available resources at CSC: The above material is mostly
-  abut what you can find at one university on a cluster (though even
-  bigger clusters use the same interface).  This talks about other
-  resources available at a national computing center.
+* Currently available resources at CSC, Finland: The above material is
+  mostly abut what you can find at one university on a cluster (though
+  even bigger clusters use the same interface).  This talks about
+  other resources available at a national computing center (other
+  countries will be somewhat similar).
   (`Video <https://www.youtube.com/watch?v=BGcKD3oEoyw&list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&index=5>`__,
   `Reading <https://kannu.csc.fi/s/3K8q93XSwtSgHEa>`__,
   `Q&A <>`__)
