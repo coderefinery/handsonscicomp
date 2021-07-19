@@ -2,8 +2,8 @@ CodeRefinery
 ============
 
 `CodeRefinery <https://coderefinery.org>`__ is a course on tools
-needed to do efficient programming/software development, with a focus
-on researchers.  In-person and online courses are occasionally
+needed to do efficient research software development.
+In-person and online courses are occasionally
 offered, however, all material + videos are available online.  This
 page collects this material for self-study purposes.
 
