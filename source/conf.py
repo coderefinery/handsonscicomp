@@ -69,7 +69,7 @@ def init_static_path(app):
 
 def setup(app):
     #app.add_javascript("custom.js")
-    app.add_stylesheet("handsonscicomp.css")
+    app.add_css_file("handsonscicomp.css")
     app.connect('builder-inited', init_static_path)
 
 
