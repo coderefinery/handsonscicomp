@@ -267,5 +267,6 @@ be interesting to you.
    :caption: Other virtual courses
 
    coderefinery
+   hpc-kickstart
 
 * :ref:`genindex`
