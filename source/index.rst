@@ -2,29 +2,27 @@
 Welcome to the Hands-on Scientific Computing course!
 ====================================================
 
-
-What is the course about?
--------------------------
+The transition between courses and exercise and computational research
+can be difficult - there are so many important things to know that
+aren't academic, thus they aren't taught in courses.  This guide is
+your starting point - we guide you through the practical tools and
+tricks that you would otherwise have to figure out on your own or
+learn from friends.
 
 Hands-on SciComp is a "map" of diverse skills that you need for
 scientific computing, which are often not directly taught in classes
-these days.  It is primarily a self-study course and reference
-material, which you can browse at your own pace as it becomes relevant
-to you.  It is focused on what is needed as you
-transition from academic studies to real projects or
-data-based/computational research - including student projects.
+these days.  It is the practice
 
-What you find here is not unique, and you can find similar materials
-from `Software Carpentry`_, CodeRefinery_, and more --- but all those
-are roughly designed as single, guided courses.  Hands-on SciComp
-links to all of these materials and organizes them for self-study and
-determining where you need to start and where you need to end up.
+Using the material
+------------------
 
-This course is coordinated by `Aalto University Science-IT`_  (See :doc:`about` for contact info)
+This is primarily a self-study course and reference material, which
+you can browse at your own pace as it becomes relevant to you.  A
+coordinated set of levels (~1 day) and modules (~ 1 hour) splits
+skills into levels depending on your needs.  A course instructor or
+research supervisor might point you at what is most important for your
+current work.  Then, focus on those levels at your own pace.
 
-.. _Software Carpentry: https://software-carpentry.org
-.. _CodeRefinery: https://coderefinery.org
-.. _Aalto University Science-IT: https://scicomp.aalto.fi/about/
 
 .. image:: levels.svg
    :align: center
@@ -32,27 +30,41 @@ This course is coordinated by `Aalto University Science-IT`_  (See :doc:`about` 
    :scale: 75%
 
 
-How to go through the material?
--------------------------------
+This course is coordinated by `Aalto University Science-IT`_ (See
+:doc:`about` for contact info)
 
-Our material is divided into different levels, so that you can focus
-on what is relevant to you.  First, check what you need to know in
-your work (your course instructor or supervisor may have some
-thoughts).  Then, focus on those levels at your own pace.
+.. _Aalto University Science-IT: https://scicomp.aalto.fi/about/
 
-Credits?
---------
 
-You can earn credits from completing this course by doing exercises.
-One credit comes from completing exercises for levels A, B and C. Second credit can be earned by
-completing exercises for D and E.  The course material is here, but see `our
-exercise page <https://plus.cs.aalto.fi/CS-E4004/2020/>`__ for
-information on credits.
+Study credits
+-------------
 
-Attention! If your home university is some other Finnish university or you are an adult learner in Finland, please refer to 
-`For FITech users page <https://handsonscicomp.readthedocs.io/en/latest/fitech-info/>`__ to find out how to acquire credits 
-from completing this course.
+You can earn credits from completing this course by doing exercises
+(if you are in Finland at least).
+One credit comes from completing exercises for levels A, B and C. A second credit can be earned by
+completing exercises for D and E.  To do this:
 
+If you are at Aalto University:
+
+* The course material is on this page, and can be browsed at your own pace.
+* `Log in to the exercise system kept separately
+  <https://plus.cs.aalto.fi/CS-E4004/2020/>`__.  You need to attempt at least 90% of
+  the exercises and pass at least 50%.
+* Request grading and by the `instructions in section 1.1
+  <https://plus.cs.aalto.fi/CS-E4004/2020/01_introduction/01_instructions/>`__.
+
+If you are in Finland but not Aalto, :doc:`you can get credits via the
+free FiTech program <fitech-info>`.
+
+
+Course video introduction
+-------------------------
+
+See course video introduction series `here <https://www.youtube.com/playlist?list=PLZLVmS9rf3nOkAFz63oKNSOKk7N47PoSJ>`__
+
+
+Outline
+-------
 
 .. list-table::
    :header-rows: 1
@@ -106,10 +118,6 @@ watch a video to see quick live examples, or read something for more
 detail.  All of these aspects compliment each other, and you can do
 what suits you the best.
 
-Course video introduction
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-See course video introduction series `here <https://www.youtube.com/playlist?list=PLZLVmS9rf3nOkAFz63oKNSOKk7N47PoSJ>`__
 
 
 .. _course:
@@ -128,6 +136,7 @@ What's available?  How can it be found?  What basic things do you need
 to install?
 
 .. toctree::
+   :caption: The material
    :hidden:
 
    A
@@ -257,6 +266,7 @@ be interesting to you.
 
 
 .. toctree::
+   :caption: About
    :hidden:
 
    about
@@ -269,4 +279,11 @@ be interesting to you.
    coderefinery
    hpc-kickstart
 
-* :ref:`genindex`
+.. toctree::
+   :caption: See also
+   :hidden:
+
+   similar
+
+..
+   * :ref:`genindex`
