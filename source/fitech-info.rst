@@ -11,10 +11,17 @@ in a way that the difficultness level rises gradually.
 If you only wish to browse the materials, you can freely do so. 
 If you wish to acquire credits or a certificate, you should read on.
 
+.. note::
+
+   If you are at Aalto University, these steps are not needed: you can
+   log in to the exercise system with your existing Aalto account and
+   request credits from scip@aalto.fi directly.
+
 Exercises
 ---------
 
-You should have your Aalto account ready (provided by FITech). 
+You should have your Aalto account ready (provided by FITech after you
+register there).
 
 Our exercise page can be found here: `A+ Hands-on scientific computing`_.
 
@@ -37,14 +44,14 @@ Applying for credits
 
 Please fill in the FITech application at Studyinfo.fi:
 
-   a. `Application for degree students from other Finnish Universities <https://opintopolku.fi/hakemus/haku/1.2.246.562.29.67230992629?lang=fi>`__ (Bachelor's or Master's students)
-   b. `Application for FITech adult learners <https://opintopolku.fi/hakemus/haku/1.2.246.562.29.78412085207?lang=fi>`__ (PhD students and adult learners)
+a. `Application for degree students from other Finnish Universities <https://opintopolku.fi/hakemus/haku/1.2.246.562.29.67230992629?lang=fi>`__ (Bachelor's or Master's students)
+b. `Application for FITech adult learners <https://opintopolku.fi/hakemus/haku/1.2.246.562.29.78412085207?lang=fi>`__ (PhD students and adult learners)
 
-   Make sure you are using the same personal information during the course and in the application. 
-   You need to have Finnish personal identity code to apply for the credits and online banking access code for strong authentication to confirm your identity. 
-   You will receive automatic messages from the application system. After the application has been handled, you need to confirm your identity. 
-   When everything is in order and grade registered, we will send you the electronic transcript of records. 
-   Questions? Please contact fitech-sci@aalto.fi.
+Make sure you are using the same personal information during the course and in the application. 
+You need to have Finnish personal identity code to apply for the credits and online banking access code for strong authentication to confirm your identity. 
+You will receive automatic messages from the application system. After the application has been handled, you need to confirm your identity. 
+When everything is in order and grade registered, we will send you the electronic transcript of records. 
+Questions? Please contact fitech-sci@aalto.fi.
 
 After completing the exercises, you should notify **fitech-sci@aalto.fi** that your performance
 is ready for evaluation. If you have successfully met the grading criteria (90% of exercises completed and
