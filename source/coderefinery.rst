@@ -38,7 +38,9 @@ Git introduction
 ----------------
 
 The git version control system, from the very basics.  How to use it
-well for your own projects.
+well for your own projects.  Topics include: why version control, git,
+terminology, branches, merging, conflict resolution, inspecting
+history, undoing things, staging area, practical advice.
 
 * `Overall workshop intro <https://www.youtube.com/watch?v=q_DFH1SgTvc&list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&index=1>`__
 * `Lesson <https://coderefinery.github.io/git-intro/>`__
@@ -50,7 +52,10 @@ well for your own projects.
 Git collaborative
 -----------------
 
-How to use Git with multiple people.
+How to use Git with multiple people. Topics include: collaboration
+workflows (centralized and distributed), remotes, pushing/pulling,
+pull requests (merge requests), Github, more on branching and merging,
+conventions when contributing to other projects.
 
 * `Lesson <https://coderefinery.github.io/git-collaborative/>`__
 * `Video <https://www.youtube.com/watch?v=BS7tlcEKrYA&list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&index=6>`__
@@ -60,7 +65,10 @@ Reproducible research and FAIR data
 -----------------------------------
 
 It is easy to do things once, but it's important to be able to do
-them many times, or for others to be able to do them.
+them many times, or for others to be able to do them.  Topics include:
+motivation, organization of files in projects, environments
+(virtualenv, conda) and recording dependencies, automating
+computational steps, sharing code and data.
 
 * `Lesson <https://coderefinery.github.io/reproducible-research/>`__
 * `Video <https://www.youtube.com/watch?v=MxZF1gEJoWw&list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&index=8>`__
@@ -70,7 +78,9 @@ Social coding and open software
 -------------------------------
 
 Eventually, you need to use the code or results that someone else has
-made - or need for others to be able to use your creations!
+made - or need for others to be able to use your creations!  Topics
+include: why we share, benefits to you, barriers to sharing,
+encouraging reuse, licenses, citation of software.
 
 * `Lesson <https://coderefinery.github.io/social-coding/>`__
 * `Video <https://www.youtube.com/watch?v=XkT8wMRcJok&list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&index=9>`__
@@ -79,7 +89,9 @@ made - or need for others to be able to use your creations!
 Jupyter
 -------
 
-Jupyter is a system for interactive computing.
+Jupyter is a system for interactive computing.  Topics include: why
+notebooks, best practices, tips and tricks, the Jupyter ecosystem,
+basics of Jupyter, notebooks and version control, sharing notebooks.
 
 * `Lesson <https://coderefinery.github.io/jupyter/>`__
 * `Video <https://www.youtube.com/watch?v=Vv2eGDiE3IU&list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&index=11>`__
@@ -90,7 +102,10 @@ Documentation
 
 Documentation is often the difference between reusable (or usable by
 yourself in six months) and not.  We go over various ways to make
-documentation much more enjoyable.
+documentation much more enjoyable.  Topics include: types of
+documentation, popular tools, in-code documentation, readme files, the
+Sphinx documentation generator, hosting docs on ReadTheDocs or Github
+Pages.
 
 * `Lesson <https://coderefinery.github.io/documentation/>`__
 * `Video <https://www.youtube.com/watch?v=0IZeQlXmtd4&list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&index=12>`__
@@ -102,7 +117,9 @@ Software testing
 Automatic testing is one of the cornerstones of modern software
 development and without it, you often end up sending more and more
 time fixing old bugs rather than doing new things.  Here, we the
-concepts and simple strategies for getting started.
+concepts and simple strategies for getting started.  Topics include:
+motivation, relevance to scientific accuracy, pytest, local testing,
+automated testing (Github Actions), test design.
 
 * `Lesson <https://coderefinery.github.io/testing/>`__
 * `Video <https://www.youtube.com/watch?v=s72AqTTi_Y8&list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&index=14>`__
@@ -113,7 +130,9 @@ Modular code development
 
 When you can mix-and-match and reuse code, your productivity goes way
 up, and that is enabled by modularity.  Here, we give a basic intro to
-the concept and how to do so.
+the concept and how to do so.  Topics include: what is modularity,
+why, functions, modules, state and pure functions, unit test, command
+line interface.
 
 * `Lesson <https://coderefinery.github.io/modular-type-along/>`__
 * `Video <https://www.youtube.com/watch?v=BlomsX5Xm-Q&list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&index=15>`__
@@ -129,7 +148,7 @@ Concluding remarks and where to go from here
 
 Other
 -----
-* `Expanded Q&A from the May 2021 workshop <https://www.youtube.com/watch?v=p03ebpjuRgA&list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&index=17>`__
+* `Expanded video Q&A from the May 2021 workshop <https://www.youtube.com/watch?v=p03ebpjuRgA&list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&index=17>`__
 
 
 
