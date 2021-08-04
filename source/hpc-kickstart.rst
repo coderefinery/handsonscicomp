@@ -1,5 +1,5 @@
-HPC Kickstart (Aalto)
-=====================
+HPC Kickstart
+=============
 
 This page contains a virtual high performance computing (HPC, or more
 precisely, cluster computing) kickstart course.  It is not part of the
@@ -47,23 +47,38 @@ Main tutorials
 "How to connect and use software/data" track:
 
 * Connecting to the cluster
-  (`Video <https://www.youtube.com/watch?v=A3LafWWxaj4&list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&index=10>`__
+  ( `Video <https://www.youtube.com/watch?v=A3LafWWxaj4&list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&index=10>`__
   `Reading <https://scicomp.aalto.fi/triton/tut/connecting/>`__
   `Q&A <>`__
   )
+
+  * Accounts, ssh, ssh keys, different operating systems, Jupyter,
+    remote desktop environments
+
 * Data storage
-  (`Video <https://www.youtube.com/watch?v=qcaPA44gXM0&list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&index=13>`__,
+  * `Video <https://www.youtube.com/watch?v=qcaPA44gXM0&list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&index=13>`__,
   `Reading <https://scicomp.aalto.fi/triton/tut/storage/>`__,
   `Q&A <>`__
   )
+
+  * About storage, different storage locations and properties, quotas,
+    access on other computers, remote access
+
 * Applications on the cluster
   (`Video <https://www.youtube.com/watch?v=t1aViYuUu-Q&list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&index=11>`__,
   `Reading <https://scicomp.aalto.fi/triton/tut/applications/>`__,
   `Q&A <>`__)
+
+  * How to use other software, common applications, singularity containers, requesting new software
+
 * Software modules
   (`Video <https://www.youtube.com/watch?v=1zCRVP7Lzes&list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&index=22>`__,
   `Reading <https://scicomp.aalto.fi/triton/tut/modules/>`__,
   `Q&A <>`__)
+
+  * The ``module`` command, searching for modules, loading modules,
+    module versions, module collections.
+
 
 "How to actually run stuff" track.  This goes into detail about the
 batch system and accessing resources:
@@ -73,26 +88,52 @@ batch system and accessing resources:
   `Reading <https://scicomp.aalto.fi/triton/tut/interactive/>`__,
   `Q&A <>`__
   )
+
+  * Scheduling systems, Slurm, requesting resources, running jobs you
+    can see directly.
+
 * Serial jobs
   (`Video <https://www.youtube.com/watch?v=ln4hjNSdZJE&list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&index=17>`__,
   `Reading <https://scicomp.aalto.fi/triton/tut/serial/>`__,
   `Q&A <>`__)
+
+  * Jobs that run without your interaction, scripting jobs, checking
+    output, viewing history, cancelling jobs.
+
 * Monitoring jobs
   (`Video <https://www.youtube.com/watch?v=Do1BwOL-j8I&list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&index=18>`__,
   `Reading <https://scicomp.aalto.fi/triton/tut/monitoring/>`__,
   `Q&A <>`__)
+
+  * Checking actual resource usage of jobs (CPU/memory/GPU) while
+    running and after finished, adjusting resource requirements,
+    reducing resource wastage.
+
 * Parallel jobs
   (`Video <https://www.youtube.com/watch?v=B_gDDV7VenU&list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&index=19>`__,
   `Reading <https://scicomp.aalto.fi/triton/tut/parallel/>`__,
   `Q&A <>`__)
+
+  * Types of parallelism, shared memory (OpenMP), message passing
+    (MPI), multiprocessing, how to run each of them, monitoring
+    performance (doesn't cover writing new programs that can do
+    this).
+
 * Array jobs
   (`Video <https://www.youtube.com/watch?v=YLOHj-biU10&list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&index=20>`__,
   `Reading <https://scicomp.aalto.fi/triton/tut/array/>`__,
   `Q&A <>`__)
+
+  * What is an array job, doing the same thing many times, serial job
+    → array job, various tips and examples.
+
 * GPU jobs
   (`Video <https://www.youtube.com/watch?v=Ds_WwAJJy3k&list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&index=21>`__,
   `Reading <https://scicomp.aalto.fi/triton/tut/gpu/>`__,
   `Q&A <>`__)
+
+  * GPU programs, machine learning frameworks, compiling CUDA code,
+    requesting a GPU, monitoring efficiency, common efficiency traps.
 
 
 Special topics
