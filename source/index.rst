@@ -1,6 +1,6 @@
-====================================================
-Welcome to the Hands-on Scientific Computing course!
-====================================================
+=============================
+Hands-on Scientific Computing
+=============================
 
 The transition between courses and exercise and computational research
 can be difficult - there are so many important things to know that
