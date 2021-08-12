@@ -271,6 +271,7 @@ be interesting to you.
 
    about
    fitech-info
+   for-teachers
 
 .. toctree::
    :hidden:
