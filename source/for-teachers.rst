@@ -30,7 +30,7 @@ example:
     To succeed in this course, it is best to have some practical
     skills in {Linux and command line work, lightweight software
     development tools, ...}.
-    You can review this at https://handsonscicomp.readthedocs.io/.
+    You can review this at https://hands-on.coderefinery.org/.
     For this course, the {C and D levels are important for success.
     You should especially focus on C10 Basic shell, C23 Text editors
     and IDEs, C20 Shell Scripting, and all D-level modules}.  Quickly

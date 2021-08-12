@@ -125,7 +125,7 @@ what suits you the best.
 .. toctree::
    :hidden:
 
-   Home <https://handsonscicomp.readthedocs.io/en/latest/>
+   Home <https://hands-on.coderefinery.org/>
 
 .. _A:
 
