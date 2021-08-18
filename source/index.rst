@@ -39,22 +39,9 @@ This course is coordinated by `Aalto University Science-IT`_ (See
 Study credits
 -------------
 
-You can earn credits from completing this course by doing exercises
-(if you are in Finland at least).
-One credit comes from completing exercises for levels A, B and C. A second credit can be earned by
-completing exercises for D and E.  To do this:
-
-If you are at Aalto University:
-
-* The course material is on this page, and can be browsed at your own pace.
-* `Log in to the exercise system kept separately
-  <https://plus.cs.aalto.fi/CS-E4004/2020/>`__.  You need to attempt at least 90% of
-  the exercises and pass at least 50%.
-* Request grading and by the `instructions in section 1.1
-  <https://plus.cs.aalto.fi/CS-E4004/2020/01_introduction/01_instructions/>`__.
-
-If you are in Finland but not Aalto, :doc:`you can get credits via the
-free FiTech program <fitech-info>`.
+If you are at Aalto University, you can get :doc:`study credits
+<study-credits>`.  If you are in Finland but not Aalto, :doc:`you can
+get credits via the free FiTech program <fitech-info>`.
 
 
 Course video introduction
@@ -270,6 +257,7 @@ be interesting to you.
    :hidden:
 
    about
+   study-credits
    fitech-info
    for-teachers
 

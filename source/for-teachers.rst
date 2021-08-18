@@ -36,6 +36,17 @@ example:
     and IDEs, C20 Shell Scripting, and all D-level modules}.  Quickly
     browsing and going back when you need more details is fine.
 
+If you emphasize credits (and are in Finland):
+
+    You can earn credits from this as well.  One credit comes from the
+    basics (A), related scientific tools (B), and Linux basics part
+    (C).  One credit comes come from high-performance computing (D)
+    and intermediate programming strategies (E).  If you are a student
+    at Aalto University, the course code is CS-E400401, can be
+    directly added to study plans, and you can begin working at any
+    time.  If you are in Finland but not at Aalto, you may enroll and
+    gain credits through the :doc:`FITech program <fitech-info>`.
+
 
 
 What content should be added here?

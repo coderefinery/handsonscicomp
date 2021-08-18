@@ -1,5 +1,11 @@
-For FITech users
-================
+Study credits (FITech)
+======================
+
+.. seealso::
+
+   If you are already a student ad Aalto University, you can see the
+   simpler procedure at :doc:`study-credits`.
+
 
 How to start
 ------------
