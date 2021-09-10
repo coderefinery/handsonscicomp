@@ -22,7 +22,7 @@ if os.environ.get('READTHEDOCS_PROJECT') == 'handsonscicomp':
 # -- Project information -----------------------------------------------------
 
 project = 'Hands-on Scientific Computing'
-copyright = '2019, The HoSC Team'
+copyright = '2021, The HoSC Team'
 author = 'The HoSC Team'
 
 
@@ -69,7 +69,7 @@ def init_static_path(app):
 
 def setup(app):
     #app.add_javascript("custom.js")
-    app.add_stylesheet("handsonscicomp.css")
+    app.add_css_file("handsonscicomp.css")
     app.connect('builder-inited', init_static_path)
 
 

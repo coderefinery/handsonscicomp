@@ -1,0 +1,26 @@
+name: Sphinx
+on: [push]
+
+jobs:
+  sphinx:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Sphinx build
+        run: |
+          make clean dirhtml SPHINXOPTS= SPHINX_EXT_SUBSTITUTION_PATH=sites/aalto/
+      - name: Deploy GitHub pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/master' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build/dirhtml/
+          cname: hands-on.coderefinery.org
+          force_orphan: true
