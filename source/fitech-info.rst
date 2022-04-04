@@ -3,7 +3,7 @@ Study credits (FITech)
 
 .. seealso::
 
-   If you are already a student ad Aalto University, you can see the
+   If you are already a student at Aalto University, you should use the
    simpler procedure at :doc:`study-credits`.
 
 
@@ -26,24 +26,24 @@ If you wish to acquire credits or a certificate, you should read on.
 Exercises
 ---------
 
-You should have your Aalto account ready (provided by FITech after you
-register there).
-
 Our exercise page can be found here: `A+ Hands-on scientific computing`_.
 
 .. _A+ Hands-on scientific computing: https://plus.cs.aalto.fi/CS-E4004/2020/
 
-Logging in is required to submit the exercises, so you should log in as "Aalto University user" which
-is also for FITech users with an account.
+Logging in is required to submit the exercises, so you should log in
+as "External to Aalto".
 
-Course evaluation is divided into modules A-C and D-E and you can earn 1 credit from each modules (overall 2 credits). 
-Instead of credits users may also request a certificate after approved completion of course. 
+Course evaluation is divided into modules A-C and D-E and you can earn
+1 credit from each modules (overall 2 credits). Instead of credits
+users may also request a certificate after approved completion of
+course.
 
-More information about the grading practicalities and the exercises can be found on the exercise page. 
+More information about the grading practicalities and the exercises can be found on the exercise page.
 
-Although the course is an always open course, notice that the content and exercises might change
-over time and your performance may not be valid anymore. Please make sure to finish your work in six months
-time to secure successful completion of the course.
+Although the course is an always open course, notice that the content
+and exercises might change over time and your performance may not be
+valid anymore. Please make sure to finish your work in six months time
+to secure successful completion of the course.
 
 Applying for credits
 --------------------
