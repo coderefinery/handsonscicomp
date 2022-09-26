@@ -61,4 +61,5 @@ Questions? Please contact fitech-sci@aalto.fi.
 
 After completing the exercises, you should notify **fitech-sci@aalto.fi** that your performance
 is ready for evaluation. If you have successfully met the grading criteria (90% of exercises completed and
-have at least 50% correct), your performance will be accepted and credits registered.
+have at least 50% correct), your performance will be accepted and
+credits registered.  Grading is done about once per month.

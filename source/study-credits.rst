@@ -26,3 +26,4 @@ Instructions if you are at Aalto University:
   course for too long.
 * Request grading and by the `instructions in section 1.1
   <https://plus.cs.aalto.fi/CS-E4004/2020/01_introduction/01_instructions/>`__.
+  Grading is done about once per month.
