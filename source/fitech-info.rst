@@ -55,9 +55,8 @@ b. `Application for FITech adult learners <https://opintopolku.fi/hakemus/haku/1
 
 Make sure you are using the same personal information during the course and in the application. 
 You need to have Finnish personal identity code to apply for the credits and online banking access code for strong authentication to confirm your identity. 
-You will receive automatic messages from the application system. After the application has been handled, you need to confirm your identity. 
-When everything is in order and grade registered, we will send you the electronic transcript of records. 
-Questions? Please contact fitech-sci@aalto.fi.
+You will receive automatic messages from the application system.
+The applications are processed once a month. When your application is accepted you will receive a message from Studyinfo. Please accept the study place so we can register the credits for the right person. When the study credits are registered to Aalto University system you will get an email.
 
 After completing the exercises, you should notify **fitech-sci@aalto.fi** that your performance
 is ready for evaluation. If you have successfully met the grading criteria (90% of exercises completed and
