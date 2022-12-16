@@ -50,8 +50,8 @@ Applying for credits
 
 Please fill in the FITech application at Studyinfo.fi:
 
-a. `Application for degree students from other Finnish Universities <https://opintopolku.fi/hakemus/haku/1.2.246.562.29.67230992629?lang=fi>`__ (Bachelor's or Master's students)
-b. `Application for FITech adult learners <https://opintopolku.fi/hakemus/haku/1.2.246.562.29.78412085207?lang=fi>`__ (PhD students and adult learners)
+a. `Application for degree students from other Finnish Universities <https://opintopolku.fi/hakemus/haku/1.2.246.562.29.00000000000000028018?lang=en>`__ (Bachelor's or Master's students)
+b. `Application for FITech adult learners <https://opintopolku.fi/hakemus/haku/1.2.246.562.29.00000000000000028017?lang=en>`__ (PhD students and adult learners)
 
 Make sure you are using the same personal information during the course and in the application. 
 You need to have Finnish personal identity code to apply for the credits and online banking access code for strong authentication to confirm your identity. 
