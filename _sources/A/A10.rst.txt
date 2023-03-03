@@ -1,0 +1,201 @@
+Title is automatically set
+==========================
+
+.. highlight:: console
+
+.. course::
+
+
+
+About Linux
+-----------
+
+Linux is an operating system known for its flexibility and power.  It
+doesn't hide things from the user, which makes it especially suitable
+for scientific computing, where you need to assemble your own pieces
+together and have full control.  Because of it's open-source spirit,
+many other open-source tools are developed for it
+
+Linux is not just one thing: there are many **distributions** which
+combine software.  Which one to choose is basically user preference
+(ask your friends what they use), but there are two major types:
+**Debian-based** (uses ``apt`` to install programs) and **Red-hat
+based** (uses ``yum`` to install programs).  In practice, Ubuntu is
+a good default these days.  These instructions (so far) are for
+Debian-based distributions like Ubuntu.
+
+On Ubuntu, the standard way to install things is ``sudo apt-get
+install $package_names ...``
+
+
+
+Shell tools
+-----------
+
+The shell provides an interface to efficiently access 
+the true power of a computer. Now we use it to install tools 
+but it can be used for many other tasks too. 
+
+Every Linux distribution comes with a shell already installed.  Start
+the "Terminal" or "Shell" to see it.  To verify, try running this::
+
+  $ echo $SHELL
+  /bin/bash
+
+The convention is the ``$`` represents lines you type (without the
+``$`` - notice most shell prompts have it there already), the other
+lines are what comes out.  ``#`` represents comments.
+
+If you want a crash course on using the shell, see `the Aalto shell
+crash course <https://scicomp.aalto.fi/scicomp/shell/>`_.  You
+don't need this right now.
+
+
+
+Version control (git)
+---------------------
+
+Using version control is like an insurance for your projects.
+It is not only about tracking changes but also to improve your
+project visibility and make it easier to collaborate. 
+
+Git is the most popular system for version control and GitHub is one of
+the services that provide online storing for projects.
+
+This comes included in all operating systems, but needs to be
+installed.  Here, we install git and some other useful frontends for
+it::
+
+  $ sudo apt install git gitk gitg
+
+Verify from the shell (see above to start the shell)::
+
+  $ git --version
+  git version 2.20.1
+
+
+Your organization might provide you access to some other repository manager than GitHub
+but since GitHub is a higher availablity solution, it does not hurt to create an account there.
+You can sign up for Github `here <https://github.com>`_
+
+
+Anaconda (Python)
+-----------------
+
+In software development there are some standard packages that are
+useful to have without the trouble of installing them separately with 
+their dependencies. 
+
+There are very many programming languages, and you probably won't only
+use Python.  But, it is quite common so we mention it here.  We
+install the Anaconda distribution of Python: it gets you all the basic
+things you need, and can also install R and other programming
+languages, too.  Anaconda is large and has all the most common tools
+people need - if you want to save space, install Miniconda instead
+(then you have to decide what extra packages you want).
+
+* `Anaconda <https://docs.continuum.io/anaconda/install>`_
+* `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`_
+
+This will get you Jupyter and many other Python things, too.
+
+Anaconda allows you to manage your development environment which is good
+since you can have different environments dedicated to their designated purposes.
+
+.. todo::
+
+   How to install it in the shell.  How to start/use it.  Easier install
+   instructions.  Link the SWC video.
+
+To verify from the shell (see above to start the shell)::
+
+  $ python3 -V
+  Python 3.6.8 :: Anaconda custom (64-bit)
+
+  $ conda info
+       active environment : None
+  ...
+         base environment : /home/rkdarst/anaconda3  (writable)
+
+
+
+Editor
+------
+
+It's good to have one command-line editor and one graphical Integrated
+Development Environment.
+
+Command line editor
+~~~~~~~~~~~~~~~~~~~
+
+For fast things, you want to be able to edit files quickly from a
+the command line.  ``Nano`` is the simplest to use.  If you want, you can check out `vim
+<https://en.wikipedia.org/wiki/Vim_(text_editor)>`_ or `emacs
+<https://www.gnu.org/software/emacs/>`_,
+but they certainly harder to use so we don't recommend them to start
+off.
+
+To install ``nano``::
+
+  $ sudo apt-get install nano
+
+.. todo::
+
+   Is this the most useful verification?
+
+See `this nano tutorial
+<https://www.tutorialspoint.com/how-to-use-nano-text-editor>`_ to
+learn more. To verify nano from the shell (see above to start the
+shell)::
+
+  $ nano my_file.txt
+
+
+Integrated Development Environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+** You should install one good **Integrated Development Environment
+(IDE)**.  This has coding, version control, and many more things build
+in to one interface.  These days, **VSCode** is the most popular.
+Install from `the vscode website <https://code.visualstudio.com/>`_.
+Out of principle, we recommend you `disable data collection
+<https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting>`_.
+
+Emacs can also serve as an IDE once you learn enough about it.
+
+
+Jupyter
+-------
+
+`Jupyter <https://jupyter.org>`_ is an interactive way to explore data
+and do programming. It can be used to add code, output, titles, text and visualisations into one document. 
+It's already installed along with Anaconda.  To start it in a certain directory, go to that directory in the shell and
+run::
+
+  $ jupyter notebook       # older notebook interface
+  $ jupyter lab            # newer JupyterLab interface
+
+
+Follow `this <https://coderefinery.github.io/installation/jupyter/>`_ to install useful extensions to your
+environment. Especially ipywidgets are needed if you continue to do exercises. 
+
+
+Other programming tools
+-----------------------
+
+Install::
+
+  $ sudo apt install build-essential meld
+
+* ``build-essential`` installs some basic compilers and so on.
+* ``meld``: A graphical diff program
+
+
+If you wish to obtain credits from the course, you might need
+
+* NumPy
+* Matplotlib
+
+to complete exercises. These libraries are pre-installed with Anaconda installation.
+Further information about installations can be found here: `NumPy <https://numpy.org/install/>`_ 
+and `Matplotlib <https://matplotlib.org/3.3.2/users/installing.html>`_

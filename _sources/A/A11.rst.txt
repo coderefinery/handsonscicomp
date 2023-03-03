@@ -1,0 +1,149 @@
+Title is automatically set
+==========================
+
+.. course::
+
+
+MacOS became popular for scientific work when it became based on Unix:
+it provided an easy interface *and* the shell, which is a great
+combination.
+
+This page gets you set up for basic scientific work using Python.
+
+
+Shell tools
+-----------
+
+The shell provides an interface to efficiently access 
+the true power of a computer. Now we use it to install tools 
+but it can be used for many other tasks too. 
+
+Mac comes with the bash (or zsh for 10.15 and later), so you don't
+need to do anything.  Just start it by TODO.  To verify, try running
+this::
+
+  echo $SHELL
+
+
+Version control (git)
+---------------------
+
+Using version control is like an insurance for your projects.
+It is not only about tracking changes but also to improve your
+project visibility and make it easier to collaborate. 
+
+Git is the most popular system for version control and GitHub is one of
+the services that provide online storing for projects.
+
+You install Git for MacOS by downloading the most recent "mavricks"
+installer from
+http://sourceforge.net/projects/git-osx-installer/files/
+
+If you have Homebrew (a package manager) you can do::
+
+  brew install git
+
+Nothing appears in Applications, since it's a command line program.
+From
+
+Verify it from the shell terminal::
+
+  git --version
+
+
+Your organization might provide you access to some other repository manager than GitHub
+but since GitHub is a higher availablity solution, it does not hurt to create an account there.
+You can sign up for Github `here <https://github.com>`_
+
+
+Anaconda (Python)
+-----------------
+
+In software development there are some standard packages that are
+useful to have without the trouble of installing them separately with 
+their dependencies. 
+
+There are very many programming languages, and you probably won't only
+use Python.  But, it is quite common so we mention it here.  We
+install the Anaconda distribution of Python: it gets you all the basic
+things you need, and can also install R and other programming
+languages, too.  Anaconda is large and has all the most common things
+people need - if you want to save space, install Miniconda instead
+(then you have to decide what extra packages you want).
+
+* `Anaconda <https://docs.continuum.io/anaconda/install>`_
+* `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`_
+
+This will get you Jupyter and many other Python things, too.
+
+Anaconda allows you to manage your development environment which is good
+since you can have different environments dedicated to their designated purposes.
+
+.. todo::
+
+   Same stuff from Linux page.  How to use it.
+   
+
+To verify from the shell (see above to start the shell)::
+
+  $ python3 -V
+  Python 3.6.8 :: Anaconda custom (64-bit)
+
+  $ conda info
+       active environment : None
+  ...
+         base environment : /home/rkdarst/anaconda3  (writable)
+
+
+
+Homebrew
+--------
+
+Homebrew is a package manager for MacOS, which lets you install lots
+of packages easily.  Many of these are essential to having a good
+environment for programming, and taking full advantage of MacOS.
+
+To install, go to `brew.sh and follow instructions
+<https://brew.sh/>`_.  You can then, for example, use ``brew install``
+to install many things you may need.
+
+After installing, you can run ``brew doctor`` to ensure everything was installed correctly.
+
+
+Editor
+------
+
+FOR IDE (Integrated development environment):
+Visual Studio Code is a free editor available for Windows, macOS and Linux. It is a good alternative for both a beginner and
+a more advanced user as it is simple to use but highly customizable.
+Install and learn more `here <https://code.visualstudio.com/Download>`_.
+Out of principle, we recommend you `disable data collection <https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting>`_.
+
+For command line: You should make sure ``nano`` is installed by typing in the shell for instance, ``nano my_file.txt``. You can also use vi/vim or emacs but
+as those are harder to use, we do not recommend them for your first command line editor.
+Nano is used through keyboard shortcuts and some of them are shown in the editor. See `this <https://www.tutorialspoint.com/how-to-use-nano-text-editor>`_
+tutorial to start editing with nano.
+
+
+Jupyter
+-------
+
+`Jupyter <https://jupyter.org>`_ is an interactive way to explore
+data. It can be used to add code, output, titles, text and visualisations into one document.   
+It's already installed along with Anaconda.
+
+Follow `this <https://coderefinery.github.io/installation/jupyter/>`_ to install useful extensions to your
+environment. Especially ipywidgets are needed if you continue to do exercises. 
+
+
+Other programming tools
+-----------------------
+
+If you wish to obtain credits from the course, you might need
+
+* NumPy
+* Matplotlib
+
+to complete exercises. These libraries are pre-installed with Anaconda installation.
+Further information about installations can be found here: `NumPy <https://numpy.org/install/>`_ 
+and `Matplotlib <https://matplotlib.org/3.3.2/users/installing.html>`_
