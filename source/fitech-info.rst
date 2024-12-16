@@ -1,6 +1,14 @@
 Study credits (FITech)
 ======================
 
+.. important::
+
+   This course will be shut down on 31 March 2025.  To get credits,
+   please submite your request before that date.  All material will
+   continue to remain available indefinitely.  Some of the material is
+   part of other open online courses which may interest you, see
+   https://coderefinery.org and https://scicomp.aalto.fi/training/
+
 .. seealso::
 
    If you are already a student at Aalto University, you should use the
