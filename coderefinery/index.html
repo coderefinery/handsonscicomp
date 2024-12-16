@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeRefinery &mdash; Hands-on Scientific Computing  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_ext_substitution.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/handsonscicomp.css" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="author" title="About these documents" href="../about/" />
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="HPC Kickstart" href="../hpc-kickstart/" />
+    <link rel="prev" title="For teachers" href="../for-teachers/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Hands-on Scientific Computing
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference external" href="https://hands-on.coderefinery.org/">Home</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">The material</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../A/">A: Basics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../B/">B: Related science skills</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../C/">C: Linux and shell</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../D/">D: Clusters and High Performance Computing</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../E/">E: Scientific coding</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../F/">F: Advanced high performance computing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">About</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../about/">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../study-credits/">Study credits (Aalto)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fitech-info/">Study credits (FITech)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-teachers/">For teachers</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Other virtual courses</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">CodeRefinery</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-use-this-material">How to use this material</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#git-introduction">Git introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#git-collaborative">Git collaborative</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#reproducible-research-and-fair-data">Reproducible research and FAIR data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#social-coding-and-open-software">Social coding and open software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#jupyter">Jupyter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#documentation">Documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#software-testing">Software testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#modular-code-development">Modular code development</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#concluding-remarks-and-where-to-go-from-here">Concluding remarks and where to go from here</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#other">Other</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#source-material">Source material</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#see-also">See also</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../hpc-kickstart/">HPC Kickstart</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">See also</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../similar/">Similar resources</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Hands-on Scientific Computing</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">CodeRefinery</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/coderefinery.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="coderefinery">
+<h1>CodeRefinery<a class="headerlink" href="#coderefinery" title="Permalink to this heading"></a></h1>
+<p><a class="reference external" href="https://coderefinery.org">CodeRefinery</a> is a course on tools
+needed to do efficient research software development.
+In-person and online courses are occasionally
+offered, however, all material + videos are available online.  This
+page collects this material so that you can study on your own.</p>
+<p>This page contains an index to all material in one place, in the order
+it is actually presented, and updated with the current “best” material
+as we produce new versions of videos / material.</p>
+<div class="section" id="how-to-use-this-material">
+<h2>How to use this material<a class="headerlink" href="#how-to-use-this-material" title="Permalink to this heading"></a></h2>
+<p>You may go through this at your own page: written and video material
+are roughly the same and compliment each other; use one or the other
+or both in whatever order suits your styles.</p>
+<ul class="simple">
+<li><p><strong>Written lesson material</strong> could be used without the videos.</p></li>
+<li><p><strong>Videos</strong> are self-sufficient for an overview but to do examples you
+also want to open the written material.  They are portrait-mode so
+that you can adjust your screen to have half of it for you.</p></li>
+<li><p><strong>Q&amp;A</strong> are the live Q&amp;A/notes asked by workshop attendees and
+answered during the workshop, and are optional (could be used for
+advanced study).</p></li>
+</ul>
+<p>In the Hands-on Scientific Computing scheme, most of this material is
+the E-level, with the git-intro being C-level.  This page is outside
+of the main Hands-on SciComp flow and there are no credits directly
+offered for this page.</p>
+</div>
+<div class="section" id="git-introduction">
+<h2>Git introduction<a class="headerlink" href="#git-introduction" title="Permalink to this heading"></a></h2>
+<p>The git version control system, from the very basics.  How to use it
+well for your own projects.  Topics include: why version control, git,
+terminology, branches, merging, conflict resolution, inspecting
+history, undoing things, staging area, practical advice.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=q_DFH1SgTvc&amp;list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&amp;index=1">Overall workshop intro</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/git-intro/">Lesson</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=QcwQ8jeaHmc&amp;list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&amp;index=2">Video day 1</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=MeHB_Fjssjw&amp;list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&amp;index=4">Video day 2</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/2021-05-10-workshop/questions/day1/">Day 1 Q&amp;A</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/2021-05-10-workshop/questions/day2/">Day 2 Q&amp;A</a></p></li>
+</ul>
+</div>
+<div class="section" id="git-collaborative">
+<h2>Git collaborative<a class="headerlink" href="#git-collaborative" title="Permalink to this heading"></a></h2>
+<p>How to use Git with multiple people. Topics include: collaboration
+workflows (centralized and distributed), remotes, pushing/pulling,
+pull requests (merge requests), Github, more on branching and merging,
+conventions when contributing to other projects.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://coderefinery.github.io/git-collaborative/">Lesson</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=BS7tlcEKrYA&amp;list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&amp;index=6">Video</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/2021-05-10-workshop/questions/day3/">Q&amp;A</a></p></li>
+</ul>
+</div>
+<div class="section" id="reproducible-research-and-fair-data">
+<h2>Reproducible research and FAIR data<a class="headerlink" href="#reproducible-research-and-fair-data" title="Permalink to this heading"></a></h2>
+<p>It is easy to do things once, but it’s important to be able to do
+them many times, or for others to be able to do them.  Topics include:
+motivation, organization of files in projects, environments
+(virtualenv, conda) and recording dependencies, automating
+computational steps, sharing code and data.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://coderefinery.github.io/reproducible-research/">Lesson</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=MxZF1gEJoWw&amp;list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&amp;index=8">Video</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/2021-05-10-workshop/questions/day4/#reproducible-research-motivation">Q&amp;A</a></p></li>
+</ul>
+</div>
+<div class="section" id="social-coding-and-open-software">
+<h2>Social coding and open software<a class="headerlink" href="#social-coding-and-open-software" title="Permalink to this heading"></a></h2>
+<p>Eventually, you need to use the code or results that someone else has
+made - or need for others to be able to use your creations!  Topics
+include: why we share, benefits to you, barriers to sharing,
+encouraging reuse, licenses, citation of software.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://coderefinery.github.io/social-coding/">Lesson</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=XkT8wMRcJok&amp;list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&amp;index=9">Video</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/2021-05-10-workshop/questions/day4/#social-coding">Q&amp;A</a></p></li>
+</ul>
+</div>
+<div class="section" id="jupyter">
+<h2>Jupyter<a class="headerlink" href="#jupyter" title="Permalink to this heading"></a></h2>
+<p>Jupyter is a system for interactive computing.  Topics include: why
+notebooks, best practices, tips and tricks, the Jupyter ecosystem,
+basics of Jupyter, notebooks and version control, sharing notebooks.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://coderefinery.github.io/jupyter/">Lesson</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=Vv2eGDiE3IU&amp;list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&amp;index=11">Video</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/2021-05-10-workshop/questions/day5/#jupyter-notebooks">Q&amp;A</a></p></li>
+</ul>
+</div>
+<div class="section" id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this heading"></a></h2>
+<p>Documentation is often the difference between reusable (or usable by
+yourself in six months) and not.  We go over various ways to make
+documentation much more enjoyable.  Topics include: types of
+documentation, popular tools, in-code documentation, readme files, the
+Sphinx documentation generator, hosting docs on ReadTheDocs or Github
+Pages.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://coderefinery.github.io/documentation/">Lesson</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=0IZeQlXmtd4&amp;list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&amp;index=12">Video</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/2021-05-10-workshop/questions/day5/#documentation">Q&amp;A</a></p></li>
+</ul>
+</div>
+<div class="section" id="software-testing">
+<h2>Software testing<a class="headerlink" href="#software-testing" title="Permalink to this heading"></a></h2>
+<p>Automatic testing is one of the cornerstones of modern software
+development and without it, you often end up sending more and more
+time fixing old bugs rather than doing new things.  Here, we the
+concepts and simple strategies for getting started.  Topics include:
+motivation, relevance to scientific accuracy, pytest, local testing,
+automated testing (Github Actions), test design.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://coderefinery.github.io/testing/">Lesson</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=s72AqTTi_Y8&amp;list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&amp;index=14">Video</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/2021-05-10-workshop/questions/day6/#software-testing">Q&amp;A</a></p></li>
+</ul>
+</div>
+<div class="section" id="modular-code-development">
+<h2>Modular code development<a class="headerlink" href="#modular-code-development" title="Permalink to this heading"></a></h2>
+<p>When you can mix-and-match and reuse code, your productivity goes way
+up, and that is enabled by modularity.  Here, we give a basic intro to
+the concept and how to do so.  Topics include: what is modularity,
+why, functions, modules, state and pure functions, unit test, command
+line interface.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://coderefinery.github.io/modular-type-along/">Lesson</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=BlomsX5Xm-Q&amp;list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&amp;index=15">Video</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/2021-05-10-workshop/questions/day6/#modular-code-development">Q&amp;A</a></p></li>
+</ul>
+</div>
+<div class="section" id="concluding-remarks-and-where-to-go-from-here">
+<h2>Concluding remarks and where to go from here<a class="headerlink" href="#concluding-remarks-and-where-to-go-from-here" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/coderefinery/workshop-outro/blob/master/README.md">Lesson</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=aJoq7dLnWf4&amp;list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&amp;index=16">Video</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/2021-05-10-workshop/questions/day6/#concluding-remarks">Q&amp;A</a></p></li>
+</ul>
+</div>
+<div class="section" id="other">
+<h2>Other<a class="headerlink" href="#other" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=p03ebpjuRgA&amp;list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ&amp;index=17">Expanded video Q&amp;A from the May 2021 workshop</a></p></li>
+</ul>
+</div>
+<div class="section" id="source-material">
+<h2>Source material<a class="headerlink" href="#source-material" title="Permalink to this heading"></a></h2>
+<p>Source material from past workshops (in general newer is probably
+better):</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://coderefinery.org/lessons/">All CodeRefinery lessons</a>
+(includes a few minor ones not in the main workshop flow).</p></li>
+<li><p>May 2021</p>
+<ul>
+<li><p><a class="reference external" href="https://coderefinery.github.io/2021-05-10-workshop/">Workshop page</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/playlist?list=PLpLblYHCzJACm0Nz8ZxmdC6F8UuSYwWGQ">YouTube playlist</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/2021-05-10-workshop/questions/">Q&amp;A</a></p></li>
+</ul>
+</li>
+<li><p>May 2020</p>
+<ul>
+<li><p><a class="reference external" href="https://coderefinery.github.io/2020-05-25-online/">Workshop page</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/playlist?list=PLpLblYHCzJAAfke64bWU0mTPQE5kVZs_p">YouTube playlist</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="see-also">
+<h2>See also<a class="headerlink" href="#see-also" title="Permalink to this heading"></a></h2>
+<p>Subscribe to the <a class="reference external" href="https://coderefinery.org">CodeRefinery newsletter</a> to be updated of when workshops are
+opened.</p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../for-teachers/" class="btn btn-neutral float-left" title="For teachers" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../hpc-kickstart/" class="btn btn-neutral float-right" title="HPC Kickstart" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, The HoSC Team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

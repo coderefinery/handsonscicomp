@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hands-on Scientific Computing &mdash; Hands-on Scientific Computing  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx_ext_substitution.css" />
+      <link rel="stylesheet" type="text/css" href="_static/handsonscicomp.css" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="#" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="author" title="About these documents" href="about/" />
+    <link rel="index" title="Index" href="genindex/" />
+    <link rel="search" title="Search" href="search/" />
+    <link rel="next" title="A: Basics" href="A/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            Hands-on Scientific Computing
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference external" href="https://hands-on.coderefinery.org/">Home</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">The material</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="A/">A: Basics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="B/">B: Related science skills</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="C/">C: Linux and shell</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="D/">D: Clusters and High Performance Computing</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="E/">E: Scientific coding</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="F/">F: Advanced high performance computing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">About</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="about/">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="study-credits/">Study credits (Aalto)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fitech-info/">Study credits (FITech)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="for-teachers/">For teachers</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Other virtual courses</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="coderefinery/">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hpc-kickstart/">HPC Kickstart</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">See also</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="similar/">Similar resources</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Hands-on Scientific Computing</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Hands-on Scientific Computing</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="hands-on-scientific-computing">
+<h1>Hands-on Scientific Computing<a class="headerlink" href="#hands-on-scientific-computing" title="Permalink to this heading"></a></h1>
+<p>The transition between courses and exercise and computational research
+can be difficult - there are so many important things to know that
+aren’t academic, thus they aren’t taught in courses.  This guide is
+your starting point - we guide you through the practical tools and
+tricks that you would otherwise have to figure out on your own or
+learn from friends.</p>
+<p>Hands-on SciComp is a “map” of diverse skills that you need for
+scientific computing, which are often not directly taught in classes
+these days.  It is the practice</p>
+<div class="section" id="using-the-material">
+<h2>Using the material<a class="headerlink" href="#using-the-material" title="Permalink to this heading"></a></h2>
+<p>This is primarily a self-study course and reference material, which
+you can browse at your own pace as it becomes relevant to you.  A
+coordinated set of levels (~1 day) and modules (~ 1 hour) splits
+skills into levels depending on your needs.  A course instructor or
+research supervisor might point you at what is most important for your
+current work.  Then, focus on those levels at your own pace.</p>
+<a class="reference internal image-reference" href="_images/levels.svg"><img alt="Level dependencies" class="align-center" height="284" src="_images/levels.svg" width="371" /></a>
+<p>This course is coordinated by <a class="reference external" href="https://scicomp.aalto.fi/about/">Aalto University Science-IT</a> (See
+<a class="reference internal" href="about/"><span class="doc">About</span></a> for contact info)</p>
+</div>
+<div class="section" id="study-credits">
+<h2>Study credits<a class="headerlink" href="#study-credits" title="Permalink to this heading"></a></h2>
+<p>If you are at Aalto University, you can get <a class="reference internal" href="study-credits/"><span class="doc">study credits</span></a>.  If you are in Finland but not Aalto, <a class="reference internal" href="fitech-info/"><span class="doc">you can
+get credits via the free FiTech program</span></a>.</p>
+</div>
+<div class="section" id="course-video-introduction">
+<h2>Course video introduction<a class="headerlink" href="#course-video-introduction" title="Permalink to this heading"></a></h2>
+<p>See course video introduction series <a class="reference external" href="https://www.youtube.com/playlist?list=PLZLVmS9rf3nOkAFz63oKNSOKk7N47PoSJ">here</a></p>
+</div>
+<div class="section" id="outline">
+<h2>Outline<a class="headerlink" href="#outline" title="Permalink to this heading"></a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>For who?</p></th>
+<th class="head"><p>Covers what?</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>A:</strong> Basics: What computing and how?</p></td>
+<td><p>Mini-level for everyone who’s doing science with your computer
+or may need to rely on computing resources later.</p></td>
+<td><p>What types of resources are available, when you’d use them, and
+how to get help.  How to set up your computer to do scientific
+work.  What comes next.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>B:</strong> Related science skills</p></td>
+<td><p>Everyone publishing in a somewhat computational field.</p></td>
+<td><p>Making figures, papers, posters, and so on they way it’s done
+in computational fields.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>C:</strong> Scientific computing (Linux and shell)</p></td>
+<td><p>Everyone who’s doing more than pointing and clicking single
+applications on your own computer or needs more computing power.</p></td>
+<td><p>In this level, you learn how to extend your power beyond your
+own computer or existing applications.
+Includes data management, scripting, Linux, and servers.  Linux
+and the shell are a major point here: this is the defacto (and
+only) good way to increase power.  Equal to the B level.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>D:</strong> Clusters and high-performance computing</p></td>
+<td><p>Those who need more power than their own computer and need to
+move to a cluster, whether or not it’s highly parallelized.</p></td>
+<td><p>Computing on clusters and remote servers, more advanced Linux,
+more scripting, batch systems, HPC data management.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>E:</strong> Scientific coding</p></td>
+<td><p>When you start writing your own software to do your research.</p></td>
+<td><p>Version control, how to manage code, software, and data even
+more.  We don’t cover programming itself, just the untaught
+parts about how to use it as a researcher.  Equal to the D level.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>F:</strong> Advanced high performance computing</p></td>
+<td><p>Those who are programming the most demanding parallel
+scientific applications.</p></td>
+<td><p>MPI (message passing interface, a parallel programming
+framework), OpenMP (another one), GPU programming, etc.  And
+anything more advanced.</p></td>
+</tr>
+</tbody>
+</table>
+<p>We have material for different learning styles: you might prefer to
+watch a video to see quick live examples, or read something for more
+detail.  All of these aspects compliment each other, and you can do
+what suits you the best.</p>
+<div class="toctree-wrapper compound" id="course">
+</div>
+<div class="section" id="a-basics">
+<span id="a"></span><h3>A: Basics<a class="headerlink" href="#a-basics" title="Permalink to this heading"></a></h3>
+<p>What’s available?  How can it be found?  What basic things do you need
+to install?</p>
+<div class="toctree-wrapper compound">
+</div>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"></th>
+<th class="head"><p>About</p></th>
+<th class="head"><p>Questions</p></th>
+<th class="head"><p>Video Intro</p></th>
+<th class="head"><p>Reading</p></th>
+<th class="head"><p>Aalto</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="row-name"><p><a class="reference internal" href="A/A01/"><span class="doc">A01 Introduction to scientific computing</span></a></p></td>
+<td class="row-desc"><p>Get started with common scientific computing guidelines.</p></td>
+<td class="row-video"><p>&gt;What kind of a workflow to follow?
+&gt;Where to get help?</p></td>
+<td class="row-reading"><p></p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="https://doi.org/10.1371/journal.pcbi.1005510">Good computing practices</a> for everyone regardless of skills</p></td>
+<td><p>&gt; <a class="reference external" href="https://scicomp.aalto.fi/aalto/welcomeresearchers.html">Welcome, Researchers</a>
+&gt; <a class="reference external" href="https://scicomp.aalto.fi/help/">Getting help</a></p></td>
+</tr>
+<tr class="row-odd"><td class="row-name"><p><a class="reference internal" href="A/A10/"><span class="doc">A10 Configuring Linux for scientific work</span></a></p></td>
+<td class="row-desc"><p>Linux is great for scientific work.  This goes over some key things to install to get going.</p></td>
+<td class="row-video"><p>&gt;What kind of tools do I need?</p></td>
+<td class="row-reading"><p></p></td>
+<td class="row-questions row-local"><p>&gt;Software Carpentry set up <a class="reference external" href="https://carpentries.github.io/workshop-template/#git">material</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td class="row-name"><p><a class="reference internal" href="A/A11/"><span class="doc">A11 Configuring Mac for scientific work</span></a></p></td>
+<td class="row-desc"><p>Get your Mac computer set up for scientific computing tasks.</p></td>
+<td class="row-video"><p></p></td>
+<td class="row-reading"><p>&gt;Software Carpentry <a class="reference external" href="https://www.youtube.com/watch?v=9LQhwETCdwY">tutorial</a> for Shell, Git and Nano installations on a Mac.</p></td>
+<td class="row-questions row-local"><p>&gt;Software Carpentry set up <a class="reference external" href="https://carpentries.github.io/workshop-template/#git">material</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td class="row-name"><p><a class="reference internal" href="A/A12/"><span class="doc">A12 Configuring Windows for scientific work</span></a></p></td>
+<td class="row-desc"><p>Get your Windows computer set up for scientific computing tasks.</p></td>
+<td class="row-video"><p></p></td>
+<td class="row-reading"><p>&gt;Software Carpentry Git Bash <a class="reference external" href="https://www.youtube.com/watch?v=339AEqk9c-8">tutorial</a> for Windows.</p></td>
+<td class="row-questions row-local"><p>&gt;Software Carpentry set up <a class="reference external" href="https://carpentries.github.io/workshop-template/#git">material</a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="b-related-science-skills">
+<h3>B: Related science skills<a class="headerlink" href="#b-related-science-skills" title="Permalink to this heading"></a></h3>
+<p>Assorted things that help you with your work, but not directly related
+to doing computations.</p>
+<div class="toctree-wrapper compound">
+</div>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"></th>
+<th class="head"><p>About</p></th>
+<th class="head"><p>Questions</p></th>
+<th class="head"><p>Video Intro</p></th>
+<th class="head"><p>Reading</p></th>
+<th class="head"><p>Aalto</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="row-name"><p>B20 Data Management</p></td>
+<td class="row-desc"><p>Data needs to be organized and handled well, or else it quickly becomes unusable.  There are good and bad ways to do this.</p></td>
+<td class="row-video"><p>&gt;How to use version control in data management?
+&gt;What kind of ordering makes the best structure?</p></td>
+<td class="row-reading"><p>&gt;<a class="reference external" href="https://www.youtube.com/watch?v=N2zK3sAtr-4">What is not data management, in 5 minutes</a> and
+&gt;<a class="reference external" href="https://www.youtube.com/watch?v=3MEJ38BO6Mo&amp;t=">Data structuring</a></p></td>
+<td class="row-questions row-local"><p>&gt;The Turing Way <a class="reference external" href="https://the-turing-way.netlify.app/reproducible-research/rdm.html">data management chapter</a>
+&gt;Information for research at <a class="reference external" href="https://www.fsd.tuni.fi/aineistonhallinta/en/">FSD</a></p></td>
+<td><p>Research data management <a class="reference external" href="https://www.aalto.fi/en/services/research-data-management-rdm-and-open-science">at Aalto</a>, <a class="reference external" href="https://scicomp.aalto.fi/data/">at scicomp.aalto.fi</a></p></td>
+</tr>
+<tr class="row-odd"><td class="row-name"><p><a class="reference internal" href="B/B21/"><span class="doc">B21 Jupyter Notebooks</span></a></p></td>
+<td class="row-desc"><p>Notebooks are an efficient way to make self-documenting code and scripts and make data science a bit easier.</p></td>
+<td class="row-video"><p>&gt;For what kind of work Jupyter suits the best?
+&gt;How is a Jupyter kernel launched?</p></td>
+<td class="row-reading"><p>&gt;Data analysis with <a class="reference external" href="https://www.youtube.com/playlist?list=PLYCpMb24GpOC704uO9svUrihl-HY1tTJJ">Jupyter</a>
+video series.</p></td>
+<td class="row-questions row-local"><p>&gt;CodeRefinery <a class="reference external" href="https://coderefinery.github.io/jupyter/">Jupyter course</a></p></td>
+<td><p><a class="reference external" href="https://scicomp.aalto.fi/aalto/jupyterhub/">JupyterHub for students/misc work</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/triton/apps/jupyter/">JupyterHub for HPC</a></p></td>
+</tr>
+<tr class="row-even"><td class="row-name"><p>B30 Making figures</p></td>
+<td class="row-desc"><p>How to make publication-quality figures for your work.</p></td>
+<td class="row-video"><p>&gt;What kinds of tools exist for making figures and plots?
+&gt;What are some dos and don’ts for plots and figures?</p></td>
+<td class="row-reading"><p>&gt;<a class="reference external" href="https://inkscape.org/learn/tutorials/">Inkscape tutorials</a> covering Inkscape basics for making figures, flowcharts, etc.
+&gt;A series of <a class="reference external" href="https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_">Matplotlib tutorials</a> for plotting in
+Python.
+&gt;<a class="reference external" href="https://www.youtube.com/playlist?list=PLjgj6kdf_snaBCTJEi53DvRVgOuVbzyku">ggplot2 tutorials</a> in R.</p></td>
+<td class="row-questions row-local"><p>&gt;PLOS <a class="reference external" href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833">guidelines for better figures</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td class="row-name"><p>B31 LaTeX for scientific publications</p></td>
+<td class="row-desc"><p>LaTeX is the standard method for making publications in the computational and physical sciences.</p></td>
+<td class="row-video"><p>&gt;How to build a LaTeX document?</p></td>
+<td class="row-reading"><p>&gt;<a class="reference external" href="https://www.youtube.com/playlist?list=PLNnwglGGYoTtW7o4PHFOSWGevcdFa3v3D">LaTeX tutorial series</a> covering LaTeX formatting and constructing a report</p></td>
+<td class="row-questions row-local"><p>&gt;Introduction to <a class="reference external" href="https://tobi.oetiker.ch/lshort/lshort.pdf">LaTeX</a> (online book)
+&gt;Short summary of <a class="reference external" href="https://www.latex-tutorial.com/quick-start/">LaTex features</a></p></td>
+<td><p>&gt; <a class="reference external" href="https://www.cs.helsinki.fi/u/jhasa/latexkurssi/">Guide to LaTeX</a> (FI)</p></td>
+</tr>
+<tr class="row-even"><td class="row-name"><p>B32 Scientific posters</p></td>
+<td class="row-desc"><p>Making a scientific poster is a common task, but not often taught.  There are better tools than PowerPoint.</p></td>
+<td class="row-video"><p>&gt;What makes a clear and concise poster?</p></td>
+<td class="row-reading"><p>&gt;<a class="reference external" href="https://www.youtube.com/watch?v=agtgnJP3KoQ">The dos and don’ts of making a scientific poster</a></p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="https://guides.nyu.edu/posters">Basics of creating a Research Poster</a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="c-linux-and-shell">
+<h3>C: Linux and shell<a class="headerlink" href="#c-linux-and-shell" title="Permalink to this heading"></a></h3>
+<p>The basics which everything else is built on.</p>
+<div class="toctree-wrapper compound">
+</div>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"></th>
+<th class="head"><p>About</p></th>
+<th class="head"><p>Questions</p></th>
+<th class="head"><p>Video Intro</p></th>
+<th class="head"><p>Reading</p></th>
+<th class="head"><p>Aalto</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="row-name"><p>C10 Basic shell</p></td>
+<td class="row-desc"><p>Let’s face it: the command line is the basis of most data
+science and programming.</p></td>
+<td class="row-video"><p>&gt;How does the shell work?
+&gt;When to use a CLI instead of a GUI?</p></td>
+<td class="row-reading"><p>&gt;<a class="reference external" href="https://youtu.be/56p6xX0aToI">Shell crash course</a></p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="https://scicomp.aalto.fi/scicomp/shell/">Shell crash course</a>
+&gt;Software carpentry <a class="reference external" href="http://swcarpentry.github.io/shell-novice/">Shell-novice</a> 
+&gt;The first part of our <a class="reference external" href="https://scicomp.aalto.fi/training/linux-shell-tutorial.html">shell course</a> is
+good too.</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td class="row-name"><p>C23 Text editors and IDEs</p></td>
+<td class="row-desc"><p>Your best friend is a good text editor - sometimes you just
+need to edit things quickly on some remote system.</p></td>
+<td class="row-video"><p>&gt;Which tools to use for code development and editing?</p></td>
+<td class="row-reading"><p>&gt;Get to know VS Code <a class="reference external" href="https://www.youtube.com/playlist?list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T">tutorial series</a></p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="http://swcarpentry.github.io/shell-novice/">Software Carpentry
+shell-novice, “Create a text file” part of section 3</a>
+&gt;Tutorial on <a class="reference external" href="https://coderefinery.github.io/IDEs/">IDEs</a>
+by CodeRefinery.</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td class="row-name"><p>C20 Shell scripting</p></td>
+<td class="row-desc"><p>If you can do it on the Linux shell, you can automate it.</p></td>
+<td class="row-video"><p>&gt;How to make use of shell scripting tools in repetitive task automation?</p></td>
+<td class="row-reading"><p>&gt;<a class="reference external" href="https://www.youtube.com/playlist?list=PLUQy4zfrctjH-FsjpIZDZ0NBznvF4FdNP">Shell scripting</a> tutorials.</p></td>
+<td class="row-questions row-local"><p>&gt;Continue with the <a class="reference external" href="https://aaltoscicomp.github.io/linux-shell/the-shell/">Science-IT Linux shell tutorial</a> part 2.</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td class="row-name"><p>C21 Version control for you</p></td>
+<td class="row-desc"><p>Version control lets you track changes, go back in time, and
+collaborate on code and papers: an absolute requirement for
+scientific computing.</p></td>
+<td class="row-video"><p>&gt;What is Git?
+&gt;How to initialize a Git repository?</p></td>
+<td class="row-reading"><p>&gt;Why use <a class="reference external" href="https://www.youtube.com/watch?v=zbKdDsNNOhg">version control</a>
+&gt;<a class="reference external" href="https://www.youtube.com/watch?v=PWqS4NBhEY8">Git for beginners</a></p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="https://coderefinery.github.io/git-intro/">Introduction to version
+control</a> by CodeRefinery</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td class="row-name"><p>C22 SSH and remote access</p></td>
+<td class="row-desc"><p>A short but important course: how to do work remotely.
+Different expert tips for making ssh better, too.</p></td>
+<td class="row-video"><p>&gt;What does SSH mean and when to use it?</p></td>
+<td class="row-reading"><p>&gt;<a class="reference external" href="https://www.youtube.com/watch?v=UHWR3Nj3bhE&amp;list=PLA86D04D6E0BFD2E0&amp;index=9">Introduction to secure shell</a> by Software Carpentry</p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="https://www.mn.uio.no/geo/english/services/it/help/using-linux/ssh-tips-and-tricks.html">SSH</a> for working on a remote machine.</p></td>
+<td><p>How to make ssh work better by <a class="reference external" href="https://scicomp.aalto.fi/scicomp/ssh.html">Aalto Scicomp</a></p></td>
+</tr>
+<tr class="row-odd"><td class="row-name"><p>C23 Make</p></td>
+<td class="row-desc"><p>Automate the repetitive stuff with Make.</p></td>
+<td class="row-video"><p>&gt;How can a Makefile be useful in your large project?</p></td>
+<td class="row-reading"><p>&gt;<a class="reference external" href="https://www.youtube.com/playlist?list=PLF47AC7312BE0799A">Episodes</a> on Make by Software Carpentry</p></td>
+<td class="row-questions row-local"><p>&gt;Short <a class="reference external" href="https://opensource.com/article/18/8/what-how-makefile">introduction</a> on what is a Makefile and basic operations.
+&gt;For more information on Makefiles see <a class="reference external" href="https://www.gnu.org/software/make/manual/make.html">GNU Make Manual</a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="d-clusters-and-high-performance-computing">
+<h3>D: Clusters and High Performance Computing<a class="headerlink" href="#d-clusters-and-high-performance-computing" title="Permalink to this heading"></a></h3>
+<p>Using advanced computational resources.  This will be highly
+site-specific.  We include some basic information here, but you will
+always have to refer to specific site’s instructions.</p>
+<div class="toctree-wrapper compound">
+</div>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"></th>
+<th class="head"><p>About</p></th>
+<th class="head"><p>Questions</p></th>
+<th class="head"><p>Video Intro</p></th>
+<th class="head"><p>Reading</p></th>
+<th class="head"><p>Aalto</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="row-name"><p>D01 What is HPC?</p></td>
+<td class="row-desc"><p>Before you can use larger resources, you need to understand the
+difference from your own computers</p></td>
+<td class="row-video"><p>&gt;What are the scales of computing?</p></td>
+<td class="row-reading"><p></p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/intro.html">HPC Intro</a></p></td>
+<td><p><a class="reference external" href="https://scicomp.aalto.fi/triton/tut/intro.html">Triton cluster intro</a></p></td>
+</tr>
+<tr class="row-odd"><td class="row-name"><p>D20 Modules and software</p></td>
+<td class="row-desc"><p>Using and installing software on a cluster is different from
+your own computer, because hundreds of people are sharing it.
+Modules are the solution.</p></td>
+<td class="row-video"><p>&gt;How do you use <code class="docutils literal notranslate"><span class="pre">module</span></code>?
+&gt;How do you find software?</p></td>
+<td class="row-reading"><p>&gt;<a class="reference external" href="https://youtu.be/Et5bXBOKHoc">Lmod introduction</a></p></td>
+<td class="row-questions row-local"><p>&gt;Triton tutorials for intro:
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/modules.html">modules</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/applications.html">applications</a>,
+&gt;<a class="reference external" href="https://lmod.readthedocs.io/en/latest/010_user.html">Lmod user guide</a></p></td>
+<td><p>&gt; <a class="reference external" href="https://scicomp.aalto.fi/triton/tut/applications.html">Software and applications</a>,
+&gt; <a class="reference external" href="https://scicomp.aalto.fi/triton/tut/modules.html">modules</a></p></td>
+</tr>
+<tr class="row-even"><td class="row-name"><p>D21 Batch systems</p></td>
+<td class="row-desc"><p>On a cluster, you have to share resources with others.  Slurm
+is one batch queuing system that makes it possible.</p></td>
+<td class="row-video"><p>&gt;What role does the batch system fill?
+&gt;How does one submit to the batch system?</p></td>
+<td class="row-reading"><p>&gt;<a class="reference external" href="https://youtu.be/49DzPT9HFJM">Slurm basics</a>
+&gt;<a class="reference external" href="https://youtu.be/U2Bpg4sZ8Xg">interactive jobs</a>
+&gt;<a class="reference external" href="https://youtu.be/U2Bpg4sZ8Xg">batch jobs</a></p></td>
+<td class="row-questions row-local"><p>Triton tutorials:
+&gt;<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/interactive.html">interactive</a>,
+&gt;<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/serial.html">serial</a>,
+&gt;<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/array.html">array</a></p></td>
+<td><p>Triton tutorials:
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/interactive.html">interactive</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/serial.html">serial</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/array.html">array</a></p></td>
+</tr>
+<tr class="row-odd"><td class="row-name"><p>D22 HPC Storage</p></td>
+<td class="row-desc"><p>Storage turns out to be just as important as computing power.
+There are different places available, each with different
+advantages.</p></td>
+<td class="row-video"><p>&gt;Why is storage so important?
+&gt;How can you monitor input/output (I/O) performance?
+&gt;How to best handle your data?</p></td>
+<td class="row-reading"><p>&gt;<a class="reference external" href="https://youtu.be/V_vWh0kWPBs">HPC I/O principles</a></p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/storage.html">Storage basics</a>.</p></td>
+<td><p>Triton tutorials:
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/storage.html">storage basics</a>.  More advanced:
+<a class="reference external" href="https://scicomp.aalto.fi/triton/usage/lustre.html">lustre</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/triton/usage/localstorage.html">local storage</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/triton/usage/smallfiles.html">small files</a></p></td>
+</tr>
+<tr class="row-even"><td class="row-name"><p>D23 Parallel computing</p></td>
+<td class="row-desc"><p>The point of a cluster is to run things in parallel.  Shared
+memory (OpenMP) and message passing (MPI) are the most common models.
+Learn how to run them, not write them.</p></td>
+<td class="row-video"><p>&gt;What are the main models of parallel code?
+&gt;How are they run on clusters?
+&gt;How do you figure out what your code uses?</p></td>
+<td class="row-reading"><p></p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/parallel.html">Parallel jobs</a>.</p></td>
+<td><p>Triton tutorials:
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/parallel.html">parallel</a>.</p></td>
+</tr>
+<tr class="row-odd"><td class="row-name"><p>D24 Advanced shell scripting and automation</p></td>
+<td class="row-desc"><p>Hands-on shell scripting, putting everything together to
+automate large computations on the cluster.</p></td>
+<td class="row-video"><p></p></td>
+<td class="row-reading"><p></p></td>
+<td class="row-questions row-local"><p>Various courses,
+finishing the <a class="reference external" href="https://scicomp.aalto.fi/training/linux-shell-tutorial/">linux shell tutorial</a>
+is a good start.  The <a class="reference external" href="https://linux.die.net/abs-guide/">Advanced bash scripting guide</a> is a classic.</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="e-scientific-coding">
+<h3>E: Scientific coding<a class="headerlink" href="#e-scientific-coding" title="Permalink to this heading"></a></h3>
+<p>This isn’t about doing the programming itself, but managing it in
+research projects.  A prerequisite is knowing some programming
+language already.</p>
+<div class="toctree-wrapper compound">
+</div>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"></th>
+<th class="head"><p>About</p></th>
+<th class="head"><p>Questions</p></th>
+<th class="head"><p>Video Intro</p></th>
+<th class="head"><p>Reading</p></th>
+<th class="head"><p>Aalto</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="row-name"><p>E60 Modular code development</p></td>
+<td class="row-desc"><p>Break your large programs into small problems by separating aspects of desired functionality to different sub-modules.</p></td>
+<td class="row-video"><p>&gt;How to divide code into independent modules?
+&gt;What are pure functions like?</p></td>
+<td class="row-reading"><p>&gt;<a class="reference external" href="https://www.youtube.com/watch?v=mz_T554Qe6A">Python example</a> of breaking code into small components</p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1">Lesson</a> on Modular code development by CodeRefinery</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td class="row-name"><p>E61 Software testing</p></td>
+<td class="row-desc"><p>It is important to ensure that your program performs effectively and without failures.
+Adding tests for your software can save a lot of your time later.</p></td>
+<td class="row-video"><p>&gt;How to test code on different levels?
+&gt;What kind of testing tools are there?</p></td>
+<td class="row-reading"><p>&gt;Software testing <a class="reference external" href="https://www.youtube.com/playlist?list=PLB384772FCCE1414E">fundamentals</a> by Software Carpentry</p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="https://coderefinery.github.io/testing/">Lesson</a> on testing by CodeRefinery</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td class="row-name"><p>E62 Profiling</p></td>
+<td class="row-desc"><p>Code efficiency is critical especially in HPC. Learn to measure the performance of your programs.</p></td>
+<td class="row-video"><p>&gt;What is profiling used for?</p></td>
+<td class="row-reading"><p>&gt;<a class="reference external" href="https://www.youtube.com/watch?v=8qEnExGLZfY">Profiling Python code</a> with cProfile</p></td>
+<td class="row-questions row-local"><p>&gt;Profiling tools for <a class="reference external" href="http://www.brendangregg.com/linuxperf.html">Linux</a>
+&gt;Profiling for <a class="reference external" href="http://rkd.zgib.net/scicomp/profiling/profiling.html">C and Python</a>
+&gt;An intro article on <a class="reference external" href="https://jvns.ca/blog/2017/12/17/how-do-ruby---python-profilers-work-/">Ruby and Python’s profilers</a></p></td>
+<td><p>Triton profiling <a class="reference external" href="https://scicomp.aalto.fi/triton/usage/profiling.html">guide</a></p></td>
+</tr>
+<tr class="row-odd"><td class="row-name"><p>E63 Debugging</p></td>
+<td class="row-desc"><p>Detect, investigate and resolve bugs.</p></td>
+<td class="row-video"><p>&gt;How to debug different types of errors?</p></td>
+<td class="row-reading"><p>&gt;<a class="reference external" href="https://www.youtube.com/watch?v=jlBgMf_atSo">Debugging</a> strategies</p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="http://rkd.zgib.net/scicomp/debugging/debugging.html">Debugging</a> in a nutshell.
+&gt;See <a class="reference external" href="https://scicomp.aalto.fi/triton/usage/debugging.html">Triton’s debugging guide</a>
+&gt;A hands-on tutorial on <a class="reference external" href="https://github.com/spiside/pdb-tutorial">pdb debugger</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td class="row-name"><p>E02 Software Licensing</p></td>
+<td class="row-desc"><p>Sharing your work can be very beneficial. Take a look at social coding and software licensing.</p></td>
+<td class="row-video"><p>&gt;What is free software?
+&gt;Why should you share your code?</p></td>
+<td class="row-reading"><p>&gt;Brief <a class="reference external" href="https://www.youtube.com/watch?v=f2NkKTn-mw8">introduction</a> to differences between open and closed source software</p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="https://coderefinery.github.io/social-coding/">Lesson</a> on social coding by CodeRefinery
+&gt;<a class="reference external" href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002598">Brief guide</a> to licensing</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td class="row-name"><p>E04 Documentation</p></td>
+<td class="row-desc"><p>Document your project so other people can easily use the code and even contribute to it.</p></td>
+<td class="row-video"><p>&gt;What should be included in a documentation?</p></td>
+<td class="row-reading"><p>&gt;Documentation with <a class="reference external" href="https://www.youtube.com/watch?v=b4iFyrLQQh4">Sphinx</a></p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="https://guides.lib.berkeley.edu/how-to-write-good-documentation">Tools</a> for documentation
+&gt;CodeRefinery lesson on <a class="reference external" href="https://coderefinery.github.io/documentation/">documentation</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td class="row-name"><p>E03 Reproducible research</p></td>
+<td class="row-desc"><p>How different tools can improve reproducibility.</p></td>
+<td class="row-video"><p>&gt;Which tools can help with reproducibility?</p></td>
+<td class="row-reading"><p>&gt;What is <a class="reference external" href="https://www.youtube.com/watch?v=4rBX6r5emgQ">reproducible research</a></p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="https://coderefinery.github.io/reproducible-research/">Lesson</a> by CodeRefinery</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="f-advanced-high-performance-computing">
+<h3>F: Advanced high performance computing<a class="headerlink" href="#f-advanced-high-performance-computing" title="Permalink to this heading"></a></h3>
+<p>Assorted advanced topics which we can’t go into details of, but might
+be interesting to you.</p>
+<div class="toctree-wrapper compound">
+</div>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"></th>
+<th class="head"><p>About</p></th>
+<th class="head"><p>Questions</p></th>
+<th class="head"><p>Video Intro</p></th>
+<th class="head"><p>Reading</p></th>
+<th class="head"><p>Aalto</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="row-name"><p>Fxx Parallel programming computers</p></td>
+<td class="row-desc"><p>This is an academic course taught in the CS department.  It
+mainly covers OpenMP and CUDA.  Usually taught in 5th period
+(Apr-May), <a class="reference external" href="https://oodi.aalto.fi/a/opintjakstied.jsp?html=1&amp;Kieli=6&amp;Tunniste=CS-E4580">search MyCourses/Oodi for CS-E4580</a>.</p></td>
+<td class="row-video"><p></p></td>
+<td class="row-reading"><p></p></td>
+<td class="row-questions row-local"><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td class="row-name"><p>Fxx GPU Programming</p></td>
+<td class="row-desc"><p>This was an advanced guest course, useful if you want to know how to program GPU applications.</p></td>
+<td class="row-video"><p></p></td>
+<td class="row-reading"><p></p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="http://science-it.aalto.fi/scip/gpu-computing-fall-2017/">Materials here</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td class="row-name"><p>Fxx MPI Programming</p></td>
+<td class="row-desc"><p>This was an advanced guest course, useful if you want to know internals of MPI or program MPI applications.</p></td>
+<td class="row-video"><p></p></td>
+<td class="row-reading"><p></p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="http://science-it.aalto.fi/scip/mpi-intro-spring-2018/">Materials here</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td class="row-name"><p>Fxx HTCondor</p></td>
+<td class="row-desc"><p>Condor allows you to use many workstations as a high throughput cluster, ideal for mid-range embarrassingly parallel problems.</p></td>
+<td class="row-video"><p></p></td>
+<td class="row-reading"><p></p></td>
+<td class="row-questions row-local"><p>&gt;<a class="reference external" href="http://science-it.aalto.fi/scip/condor2017/">Materials here</a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="A/" class="btn btn-neutral float-right" title="A: Basics" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, The HoSC Team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

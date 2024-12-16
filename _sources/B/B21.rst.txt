@@ -1,0 +1,23 @@
+Title is automatically set
+==========================
+
+.. course::
+
+Jupyter Notebook is part of the Project Jupyter together with JupyterHub and JupyterLab. It provides
+an online environment for creating documents which can contain executable code, explanatory text and other
+resources (e.g. graphs). 
+
+Jupyter Notebook is good for teaching, demonstrating and sharing ideas and testing out examples in browser.
+With a large codebase and more advanced projects it is better to seek out other options as version control and
+automated testing become harder. 
+
+
+Installation
+------------
+
+If you have installed Anaconda, Jupyter should already be installed on your machine. 
+See that your Jupyter installation is working by typing ``jupyter-notebook`` in the shell. JupyterLab can be launched by typing ``jupyter-lab``. 
+
+See `here <https://coderefinery.github.io/installation/jupyter/#how-to-verify-the-installation>`_ for optional
+extensions you can install in the notebooks.
+

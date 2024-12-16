@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A10 Configuring Linux for scientific work &mdash; Hands-on Scientific Computing  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx_ext_substitution.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/handsonscicomp.css" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="author" title="About these documents" href="../../about/" />
+    <link rel="index" title="Index" href="../../genindex/" />
+    <link rel="search" title="Search" href="../../search/" />
+    <link rel="next" title="A11 Configuring Mac for scientific work" href="../A11/" />
+    <link rel="prev" title="A01 Introduction to scientific computing" href="../A01/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../" class="icon icon-home">
+            Hands-on Scientific Computing
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference external" href="https://hands-on.coderefinery.org/">Home</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">The material</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../">A: Basics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../A01/">A01 Introduction to scientific computing</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">A10 Configuring Linux for scientific work</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#about-linux">About Linux</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#shell-tools">Shell tools</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-control-git">Version control (git)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#anaconda-python">Anaconda (Python)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#editor">Editor</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#command-line-editor">Command line editor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#integrated-development-environment">Integrated Development Environment</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#jupyter">Jupyter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#other-programming-tools">Other programming tools</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../A11/">A11 Configuring Mac for scientific work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../A12/">A12 Configuring Windows for scientific work</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../B/">B: Related science skills</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../C/">C: Linux and shell</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../D/">D: Clusters and High Performance Computing</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../E/">E: Scientific coding</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../F/">F: Advanced high performance computing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">About</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../about/">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../study-credits/">Study credits (Aalto)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../fitech-info/">Study credits (FITech)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../for-teachers/">For teachers</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Other virtual courses</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../coderefinery/">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../hpc-kickstart/">HPC Kickstart</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">See also</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../similar/">Similar resources</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../">Hands-on Scientific Computing</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../">A: Basics</a></li>
+      <li class="breadcrumb-item active">A10 Configuring Linux for scientific work</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/A/A10.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="title-is-automatically-set">
+<h1>A10 Configuring Linux for scientific work<a class="headerlink" href="#title-is-automatically-set" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Description</p></td>
+<td><p>Linux is great for scientific work.  This goes over some key things to install to get going.</p></td>
+</tr>
+<tr class="row-even"><td><p>Video intro</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Reading</p></td>
+<td><p>&gt;Software Carpentry set up <a class="reference external" href="https://carpentries.github.io/workshop-template/#git">material</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Questions</p></td>
+<td><p>&gt;What kind of tools do I need?</p></td>
+</tr>
+<tr class="row-odd"><td><p>Aalto</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="about-linux">
+<h2>About Linux<a class="headerlink" href="#about-linux" title="Permalink to this heading"></a></h2>
+<p>Linux is an operating system known for its flexibility and power.  It
+doesn’t hide things from the user, which makes it especially suitable
+for scientific computing, where you need to assemble your own pieces
+together and have full control.  Because of it’s open-source spirit,
+many other open-source tools are developed for it</p>
+<p>Linux is not just one thing: there are many <strong>distributions</strong> which
+combine software.  Which one to choose is basically user preference
+(ask your friends what they use), but there are two major types:
+<strong>Debian-based</strong> (uses <code class="docutils literal notranslate"><span class="pre">apt</span></code> to install programs) and <strong>Red-hat
+based</strong> (uses <code class="docutils literal notranslate"><span class="pre">yum</span></code> to install programs).  In practice, Ubuntu is
+a good default these days.  These instructions (so far) are for
+Debian-based distributions like Ubuntu.</p>
+<p>On Ubuntu, the standard way to install things is <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt-get</span>
+<span class="pre">install</span> <span class="pre">$package_names</span> <span class="pre">...</span></code></p>
+</div>
+<div class="section" id="shell-tools">
+<h2>Shell tools<a class="headerlink" href="#shell-tools" title="Permalink to this heading"></a></h2>
+<p>The shell provides an interface to efficiently access
+the true power of a computer. Now we use it to install tools
+but it can be used for many other tasks too.</p>
+<p>Every Linux distribution comes with a shell already installed.  Start
+the “Terminal” or “Shell” to see it.  To verify, try running this:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span><span class="nb">echo</span><span class="w"> </span><span class="nv">$SHELL</span>
+<span class="go">/bin/bash</span>
+</pre></div>
+</div>
+<p>The convention is the <code class="docutils literal notranslate"><span class="pre">$</span></code> represents lines you type (without the
+<code class="docutils literal notranslate"><span class="pre">$</span></code> - notice most shell prompts have it there already), the other
+lines are what comes out.  <code class="docutils literal notranslate"><span class="pre">#</span></code> represents comments.</p>
+<p>If you want a crash course on using the shell, see <a class="reference external" href="https://scicomp.aalto.fi/scicomp/shell/">the Aalto shell
+crash course</a>.  You
+don’t need this right now.</p>
+</div>
+<div class="section" id="version-control-git">
+<h2>Version control (git)<a class="headerlink" href="#version-control-git" title="Permalink to this heading"></a></h2>
+<p>Using version control is like an insurance for your projects.
+It is not only about tracking changes but also to improve your
+project visibility and make it easier to collaborate.</p>
+<p>Git is the most popular system for version control and GitHub is one of
+the services that provide online storing for projects.</p>
+<p>This comes included in all operating systems, but needs to be
+installed.  Here, we install git and some other useful frontends for
+it:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>git<span class="w"> </span>gitk<span class="w"> </span>gitg
+</pre></div>
+</div>
+<p>Verify from the shell (see above to start the shell):</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>git<span class="w"> </span>--version
+<span class="go">git version 2.20.1</span>
+</pre></div>
+</div>
+<p>Your organization might provide you access to some other repository manager than GitHub
+but since GitHub is a higher availablity solution, it does not hurt to create an account there.
+You can sign up for Github <a class="reference external" href="https://github.com">here</a></p>
+</div>
+<div class="section" id="anaconda-python">
+<h2>Anaconda (Python)<a class="headerlink" href="#anaconda-python" title="Permalink to this heading"></a></h2>
+<p>In software development there are some standard packages that are
+useful to have without the trouble of installing them separately with
+their dependencies.</p>
+<p>There are very many programming languages, and you probably won’t only
+use Python.  But, it is quite common so we mention it here.  We
+install the Anaconda distribution of Python: it gets you all the basic
+things you need, and can also install R and other programming
+languages, too.  Anaconda is large and has all the most common tools
+people need - if you want to save space, install Miniconda instead
+(then you have to decide what extra packages you want).</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.continuum.io/anaconda/install">Anaconda</a></p></li>
+<li><p><a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">Miniconda</a></p></li>
+</ul>
+<p>This will get you Jupyter and many other Python things, too.</p>
+<p>Anaconda allows you to manage your development environment which is good
+since you can have different environments dedicated to their designated purposes.</p>
+<div class="admonition-todo admonition" id="id1">
+<p class="admonition-title">Todo</p>
+<p>How to install it in the shell.  How to start/use it.  Easier install
+instructions.  Link the SWC video.</p>
+</div>
+<p>To verify from the shell (see above to start the shell):</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>python3<span class="w"> </span>-V
+<span class="go">Python 3.6.8 :: Anaconda custom (64-bit)</span>
+
+<span class="gp">$ </span>conda<span class="w"> </span>info
+<span class="go">     active environment : None</span>
+<span class="go">...</span>
+<span class="go">       base environment : /home/rkdarst/anaconda3  (writable)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="editor">
+<h2>Editor<a class="headerlink" href="#editor" title="Permalink to this heading"></a></h2>
+<p>It’s good to have one command-line editor and one graphical Integrated
+Development Environment.</p>
+<div class="section" id="command-line-editor">
+<h3>Command line editor<a class="headerlink" href="#command-line-editor" title="Permalink to this heading"></a></h3>
+<p>For fast things, you want to be able to edit files quickly from a
+the command line.  <code class="docutils literal notranslate"><span class="pre">Nano</span></code> is the simplest to use.  If you want, you can check out <a class="reference external" href="https://en.wikipedia.org/wiki/Vim_(text_editor)">vim</a> or <a class="reference external" href="https://www.gnu.org/software/emacs/">emacs</a>,
+but they certainly harder to use so we don’t recommend them to start
+off.</p>
+<p>To install <code class="docutils literal notranslate"><span class="pre">nano</span></code>:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>nano
+</pre></div>
+</div>
+<div class="admonition-todo admonition" id="id2">
+<p class="admonition-title">Todo</p>
+<p>Is this the most useful verification?</p>
+</div>
+<p>See <a class="reference external" href="https://www.tutorialspoint.com/how-to-use-nano-text-editor">this nano tutorial</a> to
+learn more. To verify nano from the shell (see above to start the
+shell):</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>nano<span class="w"> </span>my_file.txt
+</pre></div>
+</div>
+</div>
+<div class="section" id="integrated-development-environment">
+<h3>Integrated Development Environment<a class="headerlink" href="#integrated-development-environment" title="Permalink to this heading"></a></h3>
+<p>** You should install one good <strong>Integrated Development Environment
+(IDE)</strong>.  This has coding, version control, and many more things build
+in to one interface.  These days, <strong>VSCode</strong> is the most popular.
+Install from <a class="reference external" href="https://code.visualstudio.com/">the vscode website</a>.
+Out of principle, we recommend you <a class="reference external" href="https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting">disable data collection</a>.</p>
+<p>Emacs can also serve as an IDE once you learn enough about it.</p>
+</div>
+</div>
+<div class="section" id="jupyter">
+<h2>Jupyter<a class="headerlink" href="#jupyter" title="Permalink to this heading"></a></h2>
+<p><a class="reference external" href="https://jupyter.org">Jupyter</a> is an interactive way to explore data
+and do programming. It can be used to add code, output, titles, text and visualisations into one document.
+It’s already installed along with Anaconda.  To start it in a certain directory, go to that directory in the shell and
+run:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>jupyter<span class="w"> </span>notebook<span class="w">       </span><span class="c1"># older notebook interface</span>
+<span class="gp">$ </span>jupyter<span class="w"> </span>lab<span class="w">            </span><span class="c1"># newer JupyterLab interface</span>
+</pre></div>
+</div>
+<p>Follow <a class="reference external" href="https://coderefinery.github.io/installation/jupyter/">this</a> to install useful extensions to your
+environment. Especially ipywidgets are needed if you continue to do exercises.</p>
+</div>
+<div class="section" id="other-programming-tools">
+<h2>Other programming tools<a class="headerlink" href="#other-programming-tools" title="Permalink to this heading"></a></h2>
+<p>Install:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>build-essential<span class="w"> </span>meld
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">build-essential</span></code> installs some basic compilers and so on.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">meld</span></code>: A graphical diff program</p></li>
+</ul>
+<p>If you wish to obtain credits from the course, you might need</p>
+<ul class="simple">
+<li><p>NumPy</p></li>
+<li><p>Matplotlib</p></li>
+</ul>
+<p>to complete exercises. These libraries are pre-installed with Anaconda installation.
+Further information about installations can be found here: <a class="reference external" href="https://numpy.org/install/">NumPy</a>
+and <a class="reference external" href="https://matplotlib.org/3.3.2/users/installing.html">Matplotlib</a></p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../A01/" class="btn btn-neutral float-left" title="A01 Introduction to scientific computing" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../A11/" class="btn btn-neutral float-right" title="A11 Configuring Mac for scientific work" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, The HoSC Team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

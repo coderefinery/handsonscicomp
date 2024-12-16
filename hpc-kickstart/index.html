@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HPC Kickstart &mdash; Hands-on Scientific Computing  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_ext_substitution.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/handsonscicomp.css" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="author" title="About these documents" href="../about/" />
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Similar resources" href="../similar/" />
+    <link rel="prev" title="CodeRefinery" href="../coderefinery/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Hands-on Scientific Computing
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference external" href="https://hands-on.coderefinery.org/">Home</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">The material</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../A/">A: Basics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../B/">B: Related science skills</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../C/">C: Linux and shell</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../D/">D: Clusters and High Performance Computing</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../E/">E: Scientific coding</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../F/">F: Advanced high performance computing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">About</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../about/">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../study-credits/">Study credits (Aalto)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fitech-info/">Study credits (FITech)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-teachers/">For teachers</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Other virtual courses</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../coderefinery/">CodeRefinery</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">HPC Kickstart</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introductory-material">Introductory material</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#main-tutorials">Main tutorials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#special-topics">Special topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#see-also">See also</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">See also</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../similar/">Similar resources</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Hands-on Scientific Computing</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">HPC Kickstart</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/hpc-kickstart.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="hpc-kickstart">
+<h1>HPC Kickstart<a class="headerlink" href="#hpc-kickstart" title="Permalink to this heading"></a></h1>
+<p>This page contains a virtual high performance computing (HPC, or more
+precisely, cluster computing) kickstart course.  It is not part of the
+main Hands-on Scientific Computing flow, but is an expanded version of
+the “D” level material.</p>
+<p>This page currently contains an online course from Aalto University
+(Aalto Scientific Computing), so the exact examples may not work on
+other clusters, but the theory and concepts <em>will</em> - you need to
+combine this outline with documentation from your own site.</p>
+<p>In the future, this page will be adjusted to the best topics in the
+best order from all courses combined, which means various material may
+be mixed-and-matched so that the transitions are not perfect, but it
+will still have the best effect overall.</p>
+<div class="section" id="introductory-material">
+<h2>Introductory material<a class="headerlink" href="#introductory-material" title="Permalink to this heading"></a></h2>
+<p>These can be used in whatever order suits you, or you can watch the
+intro and then go on.</p>
+<ul class="simple">
+<li><p>Day 1 introduction (<a class="reference external" href="https://www.youtube.com/watch?v=N3UcSgS-SAw&amp;list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&amp;index=2">Video</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/training/scip/summer-kickstart/intro">Lecture</a>)</p></li>
+<li><p>HPC theory crash course: some background about high-performance and
+cluster computing, not strictly necessary to move on to the other
+material (and could even be watched at the end) (<a class="reference external" href="https://www.youtube.com/watch?v=Az9AVl1zatk&amp;list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&amp;index=3">Video</a>,
+<a class="reference external" href="https://users.aalto.fi/degtyai1/SCiP2021_kick.HPC_crash_course.2021-06-04.pdf">Slides</a>)</p></li>
+<li><p>How to ask for help with supercomputers
+(<a class="reference external" href="https://www.youtube.com/watch?v=ZUVdGmSuE0g&amp;list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&amp;index=12">Video</a>,
+<a class="reference external" href="https://cicero.xyz/v3/remark/0.14.0/github.com/bast/help-with-supercomputers/main/talk.md/">Slides</a>
+)</p></li>
+<li><p>Your future in scientific computing. (<a class="reference external" href="https://www.youtube.com/watch?v=AJnuOYJIBVo&amp;list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&amp;index=7">Video</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/training/scip/summer-kickstart/future/">Outline</a>)</p></li>
+</ul>
+</div>
+<div class="section" id="main-tutorials">
+<h2>Main tutorials<a class="headerlink" href="#main-tutorials" title="Permalink to this heading"></a></h2>
+<p>“How to connect and use software/data” track:</p>
+<ul class="simple">
+<li><p>Connecting to the cluster
+( <a class="reference external" href="https://www.youtube.com/watch?v=A3LafWWxaj4&amp;list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&amp;index=10">Video</a>
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/connecting/">Reading</a>
+<a href="#id1"><span class="problematic" id="id2">`Q&amp;A &lt;&gt;`__</span></a>
+)</p>
+<ul>
+<li><p>Accounts, ssh, ssh keys, different operating systems, Jupyter,
+remote desktop environments</p></li>
+</ul>
+</li>
+<li><p>Data storage
+* <a class="reference external" href="https://www.youtube.com/watch?v=qcaPA44gXM0&amp;list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&amp;index=13">Video</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/storage/">Reading</a>,
+<a href="#id1"><span class="problematic" id="id3">`Q&amp;A &lt;&gt;`__</span></a>
+)</p>
+<ul>
+<li><p>About storage, different storage locations and properties, quotas,
+access on other computers, remote access</p></li>
+</ul>
+</li>
+<li><p>Applications on the cluster
+(<a class="reference external" href="https://www.youtube.com/watch?v=t1aViYuUu-Q&amp;list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&amp;index=11">Video</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/applications/">Reading</a>,
+<a href="#id1"><span class="problematic" id="id4">`Q&amp;A &lt;&gt;`__</span></a>)</p>
+<ul>
+<li><p>How to use other software, common applications, singularity containers, requesting new software</p></li>
+</ul>
+</li>
+<li><p>Software modules
+(<a class="reference external" href="https://www.youtube.com/watch?v=1zCRVP7Lzes&amp;list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&amp;index=22">Video</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/modules/">Reading</a>,
+<a href="#id1"><span class="problematic" id="id5">`Q&amp;A &lt;&gt;`__</span></a>)</p>
+<ul>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">module</span></code> command, searching for modules, loading modules,
+module versions, module collections.</p></li>
+</ul>
+</li>
+</ul>
+<p>“How to actually run stuff” track.  This goes into detail about the
+batch system and accessing resources:</p>
+<ul class="simple">
+<li><p>Interactive jobs
+(<a class="reference external" href="https://www.youtube.com/watch?v=9fh5Gh-fkJI&amp;list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&amp;index=14">Video</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/interactive/">Reading</a>,
+<a href="#id1"><span class="problematic" id="id6">`Q&amp;A &lt;&gt;`__</span></a>
+)</p>
+<ul>
+<li><p>Scheduling systems, Slurm, requesting resources, running jobs you
+can see directly.</p></li>
+</ul>
+</li>
+<li><p>Serial jobs
+(<a class="reference external" href="https://www.youtube.com/watch?v=ln4hjNSdZJE&amp;list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&amp;index=17">Video</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/serial/">Reading</a>,
+<a href="#id1"><span class="problematic" id="id7">`Q&amp;A &lt;&gt;`__</span></a>)</p>
+<ul>
+<li><p>Jobs that run without your interaction, scripting jobs, checking
+output, viewing history, cancelling jobs.</p></li>
+</ul>
+</li>
+<li><p>Monitoring jobs
+(<a class="reference external" href="https://www.youtube.com/watch?v=Do1BwOL-j8I&amp;list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&amp;index=18">Video</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/monitoring/">Reading</a>,
+<a href="#id1"><span class="problematic" id="id8">`Q&amp;A &lt;&gt;`__</span></a>)</p>
+<ul>
+<li><p>Checking actual resource usage of jobs (CPU/memory/GPU) while
+running and after finished, adjusting resource requirements,
+reducing resource wastage.</p></li>
+</ul>
+</li>
+<li><p>Parallel jobs
+(<a class="reference external" href="https://www.youtube.com/watch?v=B_gDDV7VenU&amp;list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&amp;index=19">Video</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/parallel/">Reading</a>,
+<a href="#id1"><span class="problematic" id="id9">`Q&amp;A &lt;&gt;`__</span></a>)</p>
+<ul>
+<li><p>Types of parallelism, shared memory (OpenMP), message passing
+(MPI), multiprocessing, how to run each of them, monitoring
+performance (doesn’t cover writing new programs that can do
+this).</p></li>
+</ul>
+</li>
+<li><p>Array jobs
+(<a class="reference external" href="https://www.youtube.com/watch?v=YLOHj-biU10&amp;list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&amp;index=20">Video</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/array/">Reading</a>,
+<a href="#id1"><span class="problematic" id="id10">`Q&amp;A &lt;&gt;`__</span></a>)</p>
+<ul>
+<li><p>What is an array job, doing the same thing many times, serial job
+→ array job, various tips and examples.</p></li>
+</ul>
+</li>
+<li><p>GPU jobs
+(<a class="reference external" href="https://www.youtube.com/watch?v=Ds_WwAJJy3k&amp;list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&amp;index=21">Video</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/triton/tut/gpu/">Reading</a>,
+<a href="#id1"><span class="problematic" id="id11">`Q&amp;A &lt;&gt;`__</span></a>)</p>
+<ul>
+<li><p>GPU programs, machine learning frameworks, compiling CUDA code,
+requesting a GPU, monitoring efficiency, common efficiency traps.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="special-topics">
+<h2>Special topics<a class="headerlink" href="#special-topics" title="Permalink to this heading"></a></h2>
+<p>These special topics can be used in whatever order suits you, if they
+are relevant to your interests.</p>
+<ul class="simple">
+<li><p>Scientific computing workflows: different ways of actually using
+computing resources.  Recommended to put the cluster into
+perspective with other types of needs.
+(<a class="reference external" href="https://www.youtube.com/watch?v=ExFbc5EikU0">Video</a>,
+<a class="reference external" href="https://scicomp.aalto.fi/training/scip/intro-linux-aalto-computing/">Reading</a>,
+<a href="#id1"><span class="problematic" id="id12">`Q&amp;A &lt;&gt;`__</span></a>)</p></li>
+<li><p>Currently available resources at CSC, Finland: The above material is
+mostly abut what you can find at one university on a cluster (though
+even bigger clusters use the same interface).  This talks about
+other resources available at a national computing center (other
+countries will be somewhat similar).
+(<a class="reference external" href="https://www.youtube.com/watch?v=BGcKD3oEoyw&amp;list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S&amp;index=5">Video</a>,
+<a class="reference external" href="https://kannu.csc.fi/s/3K8q93XSwtSgHEa">Reading</a>,
+<a href="#id1"><span class="problematic" id="id13">`Q&amp;A &lt;&gt;`__</span></a>)</p></li>
+<li><p>Cluster etiquette: We learned what you can do, but what <em>should</em> you
+do to not annoy others on the cluster?  See more in Research
+Software Hour
+(<a class="reference external" href="https://www.youtube.com/watch?v=NIW9mqDwnJE&amp;list=PLpLblYHCzJAB6blBBa0O2BEYadVZV3JYf">Video</a>)</p></li>
+<li><p>“How to tame the cluster”, mostly the same material as this whole
+course, compressed into one hour, with a complete example worked
+out.
+(<a class="reference external" href="https://www.youtube.com/watch?v=5HN9-MW7Tw8&amp;list=PLpLblYHCzJAB6blBBa0O2BEYadVZV3JYf">Video</a>)</p></li>
+</ul>
+</div>
+<div class="section" id="see-also">
+<h2>See also<a class="headerlink" href="#see-also" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.youtube.com/playlist?list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S">Full playlist of June 2021 Aalto kickstart course</a>
+and <a class="reference external" href="https://scicomp.aalto.fi/training/scip/summer-kickstart/">the course page</a>.</p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../coderefinery/" class="btn btn-neutral float-left" title="CodeRefinery" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../similar/" class="btn btn-neutral float-right" title="Similar resources" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, The HoSC Team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
